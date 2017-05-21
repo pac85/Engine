@@ -1,0 +1,13 @@
+﻿Compilazione avviata 15/04/2017 21.05.43.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\gtest.vcxproj" sul nodo 9 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"..\..\test\gtest-1.7.0" /I"..\..\test\gtest-1.7.0\include" /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _VARIADIC_MAX=10 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\gtest\\" /Fd"..\..\bin\gtest_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 "..\..\test\gtest-1.7.0\src\gtest-all.cc"
+         gtest-all.cc
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\gtest_vs2010_debug.lib" /NOLOGO /MACHINE:X86 "obj\x32\Debug\gtest\gtest-all.obj"
+         gtest.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\gtest_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\gtest.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:03.73

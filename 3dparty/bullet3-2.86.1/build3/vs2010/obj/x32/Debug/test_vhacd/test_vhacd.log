@@ -1,0 +1,13 @@
+﻿Compilazione avviata 15/04/2017 21.07.02.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\test_vhacd.vcxproj" sul nodo 3 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\Extras\VHACD\public /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\test_vhacd\\" /Fd"..\..\bin\test_vhacd_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\Extras\VHACD\test\src\main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\test_vhacd_vs2010_debug.exe" /INCREMENTAL /NOLOGO ..\..\bin\vhacd_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\test_vhacd_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\test_vhacd_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\test_vhacd\main.obj
+         test_vhacd.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\test_vhacd_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\test_vhacd.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:07.36

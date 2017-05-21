@@ -1,0 +1,196 @@
+﻿Compilazione avviata 15/04/2017 21.06.08.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\App_SharedMemoryPhysics_VR.vcxproj" sul nodo 9 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\examples\SharedMemory /I..\..\src /I..\..\examples\ThirdPartyLibs /I..\..\examples\ThirdPartyLibs\openvr\headers /I..\..\examples\ThirdPartyLibs\openvr\samples\shared /I..\..\examples\ThirdPartyLibs\Glew /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_STANDALONE_EXAMPLE /D BT_ENABLE_VR /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\App_SharedMemoryPhysics_VR\\" /Fd"..\..\bin\App_SharedMemoryPhysics_VR_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\ThirdPartyLibs\Glew\glew.c
+         glew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\examples\SharedMemory /I..\..\src /I..\..\examples\ThirdPartyLibs /I..\..\examples\ThirdPartyLibs\openvr\headers /I..\..\examples\ThirdPartyLibs\openvr\samples\shared /I..\..\examples\ThirdPartyLibs\Glew /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_STANDALONE_EXAMPLE /D BT_ENABLE_VR /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\App_SharedMemoryPhysics_VR\\" /Fd"..\..\bin\App_SharedMemoryPhysics_VR_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\SharedMemory\IKTrajectoryHelper.cpp ..\..\examples\SharedMemory\PhysicsClient.cpp ..\..\examples\SharedMemory\PhysicsClientSharedMemory.cpp ..\..\examples\SharedMemory\PhysicsClientExample.cpp ..\..\examples\SharedMemory\PhysicsServerExample.cpp ..\..\examples\SharedMemory\PhysicsServerSharedMemory.cpp ..\..\examples\SharedMemory\PhysicsServer.cpp ..\..\examples\SharedMemory\PhysicsClientC_API.cpp ..\..\examples\SharedMemory\PosixSharedMemory.cpp ..\..\examples\SharedMemory\Win32SharedMemory.cpp ..\..\examples\SharedMemory\InProcessMemory.cpp ..\..\examples\SharedMemory\PhysicsDirect.cpp ..\..\examples\SharedMemory\PhysicsDirectC_API.cpp ..\..\examples\SharedMemory\PhysicsLoopBack.cpp ..\..\examples\SharedMemory\PhysicsLoopBackC_API.cpp ..\..\examples\SharedMemory\PhysicsClientSharedMemory_C_API.cpp ..\..\examples\SharedMemory\PhysicsClientSharedMemory2_C_API.cpp ..\..\examples\SharedMemory\PhysicsClientSharedMemory2.cpp ..\..\examples\SharedMemory\SharedMemoryCommandProcessor.cpp ..\..\examples\SharedMemory\PhysicsServerCommandProcessor.cpp ..\..\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp ..\..\examples\TinyRenderer\geometry.cpp ..\..\examples\TinyRenderer\model.cpp ..\..\examples\TinyRenderer\tgaimage.cpp ..\..\examples\TinyRenderer\our_gl.cpp ..\..\examples\TinyRenderer\TinyRenderer.cpp ..\..\examples\OpenGLWindow\SimpleCamera.cpp ..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp ..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp ..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp ..\..\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp ..\..\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp ..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp ..\..\examples\Utils\b3ResourcePath.cpp ..\..\examples\Utils\b3Clock.cpp ..\..\examples\Utils\RobotLoggingUtil.cpp ..\..\examples\Utils\ChromeTraceUtil.cpp ..\..\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp ..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp ..\..\Extras\Serialize\BulletFileLoader\bChunk.cpp ..\..\Extras\Serialize\BulletFileLoader\bDNA.cpp ..\..\Extras\Serialize\BulletFileLoader\bFile.cpp ..\..\Extras\Serialize\BulletFileLoader\btBulletFile.cpp ..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp ..\..\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp ..\..\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp ..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinystr.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp ..\..\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp ..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp ..\..\examples\StandaloneMain\hellovr_opengl_main.cpp ..\..\examples\ExampleBrowser\OpenGLGuiHelper.cpp ..\..\examples\ExampleBrowser\GL_ShapeDrawer.cpp ..\..\examples\ExampleBrowser\CollisionShape2TriangleMesh.cpp ..\..\examples\RenderingExamples\TinyVRGui.cpp ..\..\examples\RenderingExamples\TimeSeriesCanvas.cpp ..\..\examples\RenderingExamples\TimeSeriesFontData.cpp ..\..\examples\ThirdPartyLibs\openvr\samples\shared\lodepng.cpp ..\..\examples\ThirdPartyLibs\openvr\samples\shared\Matrices.cpp ..\..\examples\ThirdPartyLibs\openvr\samples\shared\pathtools.cpp ..\..\examples\MultiThreading\b3ThreadSupportInterface.cpp ..\..\examples\MultiThreading\b3Win32ThreadSupport.cpp
+         IKTrajectoryHelper.cpp
+         PhysicsClient.cpp
+         PhysicsClientSharedMemory.cpp
+         PhysicsClientExample.cpp
+         PhysicsServerExample.cpp
+         PhysicsServerSharedMemory.cpp
+         PhysicsServer.cpp
+         PhysicsClientC_API.cpp
+         PosixSharedMemory.cpp
+         Win32SharedMemory.cpp
+     1>..\..\examples\SharedMemory\PhysicsClientC_API.cpp(554): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+         InProcessMemory.cpp
+         PhysicsDirect.cpp
+         PhysicsDirectC_API.cpp
+         PhysicsLoopBack.cpp
+         PhysicsLoopBackC_API.cpp
+         PhysicsClientSharedMemory_C_API.cpp
+         PhysicsClientSharedMemory2_C_API.cpp
+         PhysicsClientSharedMemory2.cpp
+         SharedMemoryCommandProcessor.cpp
+         PhysicsServerCommandProcessor.cpp
+         TinyRendererVisualShapeConverter.cpp
+         geometry.cpp
+         model.cpp
+         tgaimage.cpp
+         our_gl.cpp
+     1>..\..\examples\SharedMemory\PhysicsServerExample.cpp(1949): warning C4316: 'MultiThreadedOpenGLGuiHelper': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\SharedMemory\PhysicsServerExample.cpp(1953): warning C4316: 'PhysicsServerExample': l'oggetto allocato nell'heap può non essere allineato 16
+         TinyRenderer.cpp
+         SimpleCamera.cpp
+         MyMultiBodyCreator.cpp
+     1>..\..\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp(122): warning C4316: 'TinyRendererVisualShapeConverterInternalData': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp(613): warning C4316: 'TinyRenderObjectData': l'oggetto allocato nell'heap può non essere allineato 16
+         BulletUrdfImporter.cpp
+         UrdfParser.cpp
+     1>..\..\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(882): warning C4316: 'PhysicsServerCommandProcessorInternalData': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(2440): warning C4316: 'btMultiBodyJointFeedback': l'oggetto allocato nell'heap può non essere allineato 16
+         urdfStringSplit.cpp
+         URDF2Bullet.cpp
+         BulletMJCFImporter.cpp
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(65): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(148): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(172): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(578): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(612): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1361): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1384): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1432): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1520): warning C4316: 'UrdfModel': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1556): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1579): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1627): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+         b3ResourcePath.cpp
+         b3Clock.cpp
+         RobotLoggingUtil.cpp
+         ChromeTraceUtil.cpp
+         btBulletWorldImporter.cpp
+         btWorldImporter.cpp
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(270): warning C4316: 'UrdfModel': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(280): warning C4316: 'UrdfModel': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(283): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(438): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(793): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(975): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+         bChunk.cpp
+         bDNA.cpp
+         bFile.cpp
+         btBulletFile.cpp
+         Wavefront2GLInstanceGraphicsShape.cpp
+         LoadMeshFromObj.cpp
+         LoadMeshFromCollada.cpp
+     1>..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1004): warning C4800: 'char': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1324): warning C4800: 'char': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+         tiny_obj_loader.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         b3ImportMeshUtility.cpp
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(214): warning C4018: '<': errata corrispondenza tra signed e unsigned
+         stb_image.cpp
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(228): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(290): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(328): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+         hellovr_opengl_main.cpp
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(4220): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+         OpenGLGuiHelper.cpp
+         GL_ShapeDrawer.cpp
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(391): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(627): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(643): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(699): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+         CollisionShape2TriangleMesh.cpp
+     1>..\..\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp(35): warning C4018: '<': errata corrispondenza tra signed e unsigned
+         TinyVRGui.cpp
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(52): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(79): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(104): warning C4018: '<': errata corrispondenza tra signed e unsigned
+         TimeSeriesCanvas.cpp
+         TimeSeriesFontData.cpp
+         lodepng.cpp
+         Matrices.cpp
+         pathtools.cpp
+         b3ThreadSupportInterface.cpp
+         b3Win32ThreadSupport.cpp
+     1>..\..\examples\ThirdPartyLibs\openvr\samples\shared\pathtools.cpp(427): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(568): note: vedere la dichiarazione di 'stricmp'
+     1>..\..\examples\ThirdPartyLibs\openvr\samples\shared\pathtools.cpp(435): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(568): note: vedere la dichiarazione di 'stricmp'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\App_SharedMemoryPhysics_VR_vs2010_debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\examples\ThirdPartyLibs\openvr\lib\win32 ..\..\bin\BulletInverseDynamicsUtils_vs2010_debug.lib ..\..\bin\BulletInverseDynamics_vs2010_debug.lib ..\..\bin\Bullet3Common_vs2010_debug.lib ..\..\bin\BulletDynamics_vs2010_debug.lib ..\..\bin\BulletCollision_vs2010_debug.lib ..\..\bin\LinearMath_vs2010_debug.lib ..\..\bin\OpenGL_Window_vs2010_debug.lib openvr_api.lib ..\..\bin\BussIK_vs2010_debug.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\App_SharedMemoryPhysics_VR_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\App_SharedMemoryPhysics_VR_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\App_SharedMemoryPhysics_VR\glew.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\IKTrajectoryHelper.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsClient.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsClientSharedMemory.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsClientExample.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsServerExample.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsServerSharedMemory.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsServer.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsClientC_API.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PosixSharedMemory.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\Win32SharedMemory.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\InProcessMemory.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsDirect.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsDirectC_API.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsLoopBack.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsLoopBackC_API.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsClientSharedMemory_C_API.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsClientSharedMemory2_C_API.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsClientSharedMemory2.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\SharedMemoryCommandProcessor.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\PhysicsServerCommandProcessor.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\TinyRendererVisualShapeConverter.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\geometry.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\model.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\tgaimage.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\our_gl.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\TinyRenderer.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\SimpleCamera.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\MyMultiBodyCreator.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\BulletUrdfImporter.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\UrdfParser.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\urdfStringSplit.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\URDF2Bullet.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\BulletMJCFImporter.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\b3ResourcePath.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\b3Clock.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\RobotLoggingUtil.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\ChromeTraceUtil.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\btBulletWorldImporter.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\btWorldImporter.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\bChunk.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\bDNA.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\bFile.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\btBulletFile.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\Wavefront2GLInstanceGraphicsShape.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\LoadMeshFromObj.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\LoadMeshFromCollada.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\tiny_obj_loader.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\tinystr.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\tinyxml.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\tinyxmlerror.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\tinyxmlparser.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\b3ImportMeshUtility.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\stb_image.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\hellovr_opengl_main.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\OpenGLGuiHelper.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\GL_ShapeDrawer.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\CollisionShape2TriangleMesh.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\TinyVRGui.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\TimeSeriesCanvas.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\TimeSeriesFontData.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\lodepng.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\Matrices.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\pathtools.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\b3ThreadSupportInterface.obj
+         obj\x32\Debug\App_SharedMemoryPhysics_VR\b3Win32ThreadSupport.obj
+         App_SharedMemoryPhysics_VR.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\App_SharedMemoryPhysics_VR_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\App_SharedMemoryPhysics_VR.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:53.37

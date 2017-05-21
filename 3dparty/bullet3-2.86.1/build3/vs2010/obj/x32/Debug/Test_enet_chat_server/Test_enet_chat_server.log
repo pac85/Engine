@@ -1,0 +1,15 @@
+﻿Compilazione avviata 15/04/2017 21.06.03.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_enet_chat_server.vcxproj" sul nodo 3 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\examples\ThirdPartyLibs\enet\include /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D WIN32 /D BT_ENABLE_ENET /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Test_enet_chat_server\\" /Fd"..\..\bin\Test_enet_chat_server_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\test\enet\chat\server\main.cpp
+         main.cpp
+     1>..\..\test\enet\chat\server\main.cpp(72): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+     1>..\..\test\enet\chat\server\main.cpp(80): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'void *'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Test_enet_chat_server_vs2010_debug.exe" /INCREMENTAL /NOLOGO Ws2_32.lib Winmm.lib ..\..\bin\enet_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\Test_enet_chat_server_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Test_enet_chat_server_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\Test_enet_chat_server\main.obj
+         Test_enet_chat_server.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\Test_enet_chat_server_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_enet_chat_server.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:09.19

@@ -1,0 +1,29 @@
+﻿Compilazione avviata 15/04/2017 21.05.28.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\BussIK.vcxproj" sul nodo 7 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\examples\ThirdPartyLibs\BussIK /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\BussIK\\" /Fd"..\..\bin\BussIK_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\ThirdPartyLibs\BussIK\Jacobian.cpp ..\..\examples\ThirdPartyLibs\BussIK\LinearR2.cpp ..\..\examples\ThirdPartyLibs\BussIK\LinearR3.cpp ..\..\examples\ThirdPartyLibs\BussIK\LinearR4.cpp ..\..\examples\ThirdPartyLibs\BussIK\MatrixRmn.cpp ..\..\examples\ThirdPartyLibs\BussIK\Misc.cpp ..\..\examples\ThirdPartyLibs\BussIK\Node.cpp ..\..\examples\ThirdPartyLibs\BussIK\Tree.cpp ..\..\examples\ThirdPartyLibs\BussIK\VectorRn.cpp
+         Jacobian.cpp
+         LinearR2.cpp
+         LinearR3.cpp
+         LinearR4.cpp
+         MatrixRmn.cpp
+         Misc.cpp
+         Node.cpp
+         Tree.cpp
+         VectorRn.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\BussIK_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\BussIK\Jacobian.obj
+         obj\x32\Debug\BussIK\LinearR2.obj
+         obj\x32\Debug\BussIK\LinearR3.obj
+         obj\x32\Debug\BussIK\LinearR4.obj
+         obj\x32\Debug\BussIK\MatrixRmn.obj
+         obj\x32\Debug\BussIK\Misc.obj
+         obj\x32\Debug\BussIK\Node.obj
+         obj\x32\Debug\BussIK\Tree.obj
+         obj\x32\Debug\BussIK\VectorRn.obj
+         BussIK.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\BussIK_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\BussIK.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:11.51

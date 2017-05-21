@@ -1,0 +1,35 @@
+﻿Compilazione avviata 15/04/2017 21.05.38.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\BulletInverseDynamicsUtils.vcxproj" sul nodo 5 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\BulletInverseDynamicsUtils\\" /Fd"..\..\bin\BulletInverseDynamicsUtils_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\Extras\InverseDynamics\btMultiBodyTreeCreator.cpp ..\..\Extras\InverseDynamics\CloneTreeCreator.cpp ..\..\Extras\InverseDynamics\CoilCreator.cpp ..\..\Extras\InverseDynamics\DillCreator.cpp ..\..\Extras\InverseDynamics\IDRandomUtil.cpp ..\..\Extras\InverseDynamics\invdyn_bullet_comparison.cpp ..\..\Extras\InverseDynamics\MultiBodyNameMap.cpp ..\..\Extras\InverseDynamics\MultiBodyTreeCreator.cpp ..\..\Extras\InverseDynamics\MultiBodyTreeDebugGraph.cpp ..\..\Extras\InverseDynamics\RandomTreeCreator.cpp ..\..\Extras\InverseDynamics\SimpleTreeCreator.cpp ..\..\Extras\InverseDynamics\User2InternalIndex.cpp
+         btMultiBodyTreeCreator.cpp
+         CloneTreeCreator.cpp
+         CoilCreator.cpp
+         DillCreator.cpp
+         IDRandomUtil.cpp
+         invdyn_bullet_comparison.cpp
+         MultiBodyNameMap.cpp
+         MultiBodyTreeCreator.cpp
+         MultiBodyTreeDebugGraph.cpp
+         RandomTreeCreator.cpp
+         SimpleTreeCreator.cpp
+         User2InternalIndex.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\BulletInverseDynamicsUtils_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\BulletInverseDynamicsUtils\btMultiBodyTreeCreator.obj
+         obj\x32\Debug\BulletInverseDynamicsUtils\CloneTreeCreator.obj
+         obj\x32\Debug\BulletInverseDynamicsUtils\CoilCreator.obj
+         obj\x32\Debug\BulletInverseDynamicsUtils\DillCreator.obj
+         obj\x32\Debug\BulletInverseDynamicsUtils\IDRandomUtil.obj
+         obj\x32\Debug\BulletInverseDynamicsUtils\invdyn_bullet_comparison.obj
+         obj\x32\Debug\BulletInverseDynamicsUtils\MultiBodyNameMap.obj
+         obj\x32\Debug\BulletInverseDynamicsUtils\MultiBodyTreeCreator.obj
+         obj\x32\Debug\BulletInverseDynamicsUtils\MultiBodyTreeDebugGraph.obj
+         obj\x32\Debug\BulletInverseDynamicsUtils\RandomTreeCreator.obj
+         obj\x32\Debug\BulletInverseDynamicsUtils\SimpleTreeCreator.obj
+         obj\x32\Debug\BulletInverseDynamicsUtils\User2InternalIndex.obj
+         BulletInverseDynamicsUtils.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\BulletInverseDynamicsUtils_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\BulletInverseDynamicsUtils.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:21.19

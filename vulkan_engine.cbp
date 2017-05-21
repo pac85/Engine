@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="vulkan_engine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/vulkan_engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DDEBUG" />
+					<Add directory="include" />
+					<Add directory="src" />
+					<Add directory="src/ioSYS" />
+					<Add directory="src/game" />
+					<Add directory="src/render" />
+					<Add directory="src/vk" />
+					<Add directory="src/ActorSYS" />
+				</Compiler>
+				<Linker>
+					<Add option="-gdi32 -user32 -kernel32 -glfw3" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/vulkan_engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="src" />
+					<Add directory="src/ioSYS" />
+					<Add directory="src/game" />
+					<Add directory="src/render" />
+					<Add directory="src/vk" />
+					<Add directory="src/ActorSYS" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fpermissive" />
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-I$(VULKAN_SDK_PATH)/include" />
+			<Add directory="3dparty/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-L$(VULKAN_SDK_PATH)/lib `pkg-config --static --libs glfw3` -lvulkan" />
+		</Linker>
+		<Unit filename="src/ActorSYS/Actor.cpp" />
+		<Unit filename="src/ActorSYS/Actor.h" />
+		<Unit filename="src/ActorSYS/Component.cpp" />
+		<Unit filename="src/ActorSYS/Component.h" />
+		<Unit filename="src/ActorSYS/World.cpp" />
+		<Unit filename="src/ActorSYS/World.h" />
+		<Unit filename="src/Base.cpp" />
+		<Unit filename="src/Base.h" />
+		<Unit filename="src/EngineMain.cpp" />
+		<Unit filename="src/EngineMain.h" />
+		<Unit filename="src/Function.h" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Game.h" />
+		<Unit filename="src/InputSYS/engineIn.cpp" />
+		<Unit filename="src/InputSYS/engineIn.h" />
+		<Unit filename="src/Loop.cpp" />
+		<Unit filename="src/Loop.h" />
+		<Unit filename="src/Profiler.cpp" />
+		<Unit filename="src/Profiler.h" />
+		<Unit filename="src/Ptr.cpp" />
+		<Unit filename="src/Ptr.h" />
+		<Unit filename="src/Singleton.h" />
+		<Unit filename="src/Task.h" />
+		<Unit filename="src/common.h" />
+		<Unit filename="src/dummy.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/engine_settings.cpp" />
+		<Unit filename="src/engine_settings.h" />
+		<Unit filename="src/game/GameMain.cpp" />
+		<Unit filename="src/game/GameMain.h" />
+		<Unit filename="src/logger.cpp" />
+		<Unit filename="src/logger.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/render/Camera.cpp" />
+		<Unit filename="src/render/Camera.h" />
+		<Unit filename="src/render/Material.cpp" />
+		<Unit filename="src/render/Material.h" />
+		<Unit filename="src/render/StaticMesh.cpp" />
+		<Unit filename="src/render/StaticMesh.h" />
+		<Unit filename="src/render/scene.cpp" />
+		<Unit filename="src/render/scene.h" />
+		<Unit filename="src/settings.cpp" />
+		<Unit filename="src/settings.h" />
+		<Unit filename="src/vk/VkSurface.cpp" />
+		<Unit filename="src/vk/vkDeleter.hpp" />
+		<Unit filename="src/vk/vkDevice.cpp" />
+		<Unit filename="src/vk/vkDevice.h" />
+		<Unit filename="src/vk/vkExceptions.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/vk/vkGraphicsQueue.cpp" />
+		<Unit filename="src/vk/vkGraphicsQueue.h" />
+		<Unit filename="src/vk/vkInit.hpp" />
+		<Unit filename="src/vk/vkInstance.cpp" />
+		<Unit filename="src/vk/vkInstance.h" />
+		<Unit filename="src/vk/vkMain.cpp" />
+		<Unit filename="src/vk/vkMain.h" />
+		<Unit filename="src/vk/vkPhysicalDevice.cpp" />
+		<Unit filename="src/vk/vkPhysicalDevice.h" />
+		<Unit filename="src/vk/vkPresentQueue.cpp" />
+		<Unit filename="src/vk/vkPresentQueue.h" />
+		<Unit filename="src/vk/vkQueue.cpp" />
+		<Unit filename="src/vk/vkQueue.h" />
+		<Unit filename="src/vk/vkQueueFamilies.cpp" />
+		<Unit filename="src/vk/vkQueueFamilies.h" />
+		<Unit filename="src/vk/vkQueues.cpp" />
+		<Unit filename="src/vk/vkQueues.h" />
+		<Unit filename="src/vk/vkShaderModule.cpp" />
+		<Unit filename="src/vk/vkShaderModule.h" />
+		<Unit filename="src/vk/vkSurface.h" />
+		<Unit filename="src/vk/vkSurfaceInfo" />
+		<Unit filename="src/vk/vkSurfaceInfo.h" />
+		<Unit filename="src/vk/vkSwapChain.cpp" />
+		<Unit filename="src/vk/vkSwapChain.h" />
+		<Unit filename="src/vk/vkTransferQueue.cpp" />
+		<Unit filename="src/vk/vkTransferQueue.h" />
+		<Unit filename="src/vk/vkUtils.cpp" />
+		<Unit filename="src/vk/vkUtils.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

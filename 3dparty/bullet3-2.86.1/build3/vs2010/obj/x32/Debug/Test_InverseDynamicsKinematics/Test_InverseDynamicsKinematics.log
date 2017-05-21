@@ -1,0 +1,23 @@
+﻿Compilazione avviata 15/04/2017 21.07.28.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_InverseDynamicsKinematics.vcxproj" sul nodo 8 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\test\InverseDynamics /I..\..\src /I..\..\examples\InverseDynamics /I..\..\Extras\InverseDynamics /I"..\..\test\gtest-1.7.0\include" /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _VARIADIC_MAX=10 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Test_InverseDynamicsKinematics\\" /Fd"..\..\bin\Test_InverseDynamicsKinematics_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\test\InverseDynamics\test_invdyn_kinematics.cpp
+         test_invdyn_kinematics.cpp
+     1>..\..\test\InverseDynamics\test_invdyn_kinematics.cpp(156): warning C4018: '<': errata corrispondenza tra signed e unsigned
+         ..\..\test\InverseDynamics\test_invdyn_kinematics.cpp(154): note: durante la compilazione della funzione membro '<Sconosciuto>' della classe <Sconosciuto>
+         ..\..\test\InverseDynamics\test_invdyn_kinematics.cpp(255): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+         ..\..\test\InverseDynamics\test_invdyn_kinematics.cpp(209): note: vedere il riferimento all'istanza '<Sconosciuto>' della classe <Sconosciuto> di cui è in corso la compilazione
+     1>..\..\test\InverseDynamics\test_invdyn_kinematics.cpp(146): warning C4018: '<': errata corrispondenza tra signed e unsigned
+         ..\..\test\InverseDynamics\test_invdyn_kinematics.cpp(144): note: durante la compilazione della funzione membro '<Sconosciuto>' della classe <Sconosciuto>
+         ..\..\test\InverseDynamics\test_invdyn_kinematics.cpp(255): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+     1>..\..\test\InverseDynamics\test_invdyn_kinematics.cpp(137): warning C4018: '<': errata corrispondenza tra signed e unsigned
+         ..\..\test\InverseDynamics\test_invdyn_kinematics.cpp(136): note: durante la compilazione della funzione membro '<Sconosciuto>' della classe <Sconosciuto>
+         ..\..\test\InverseDynamics\test_invdyn_kinematics.cpp(209): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Test_InverseDynamicsKinematics_vs2010_debug.exe" /INCREMENTAL /NOLOGO ..\..\bin\BulletInverseDynamicsUtils_vs2010_debug.lib ..\..\bin\BulletInverseDynamics_vs2010_debug.lib ..\..\bin\Bullet3Common_vs2010_debug.lib ..\..\bin\LinearMath_vs2010_debug.lib ..\..\bin\gtest_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\Test_InverseDynamicsKinematics_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Test_InverseDynamicsKinematics_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\Test_InverseDynamicsKinematics\test_invdyn_kinematics.obj
+         Test_InverseDynamicsKinematics.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\Test_InverseDynamicsKinematics_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_InverseDynamicsKinematics.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:13.05

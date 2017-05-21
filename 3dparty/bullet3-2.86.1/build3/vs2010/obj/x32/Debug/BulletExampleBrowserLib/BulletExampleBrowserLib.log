@@ -1,0 +1,45 @@
+﻿Compilazione avviata 15/04/2017 21.05.28.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\BulletExampleBrowserLib.vcxproj" sul nodo 3 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\examples\ExampleBrowser /I..\..\src /I..\..\examples\ThirdPartyLibs /I..\..\examples\ThirdPartyLibs\Glew /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_CLEW /D GLEW_STATIC /D INCLUDE_CLOTH_DEMOS /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\BulletExampleBrowserLib\\" /Fd"..\..\bin\BulletExampleBrowserLib_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\src\clew\clew.c ..\..\examples\ThirdPartyLibs\Glew\glew.c
+         clew.c
+         glew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\examples\ExampleBrowser /I..\..\src /I..\..\examples\ThirdPartyLibs /I..\..\examples\ThirdPartyLibs\Glew /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_CLEW /D GLEW_STATIC /D INCLUDE_CLOTH_DEMOS /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\BulletExampleBrowserLib\\" /Fd"..\..\bin\BulletExampleBrowserLib_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\ExampleBrowser\OpenGLExampleBrowser.cpp ..\..\examples\ExampleBrowser\OpenGLGuiHelper.cpp ..\..\examples\Utils\b3Clock.cpp ..\..\examples\Utils\ChromeTraceUtil.cpp ..\..\examples\ExampleBrowser\GwenGUISupport\GraphingTexture.cpp ..\..\examples\ExampleBrowser\GwenGUISupport\GwenParameterInterface.cpp ..\..\examples\ExampleBrowser\GwenGUISupport\GwenProfileWindow.cpp ..\..\examples\ExampleBrowser\GwenGUISupport\GwenTextureWindow.cpp ..\..\examples\ExampleBrowser\GwenGUISupport\gwenUserInterface.cpp ..\..\examples\ExampleBrowser\CollisionShape2TriangleMesh.cpp ..\..\examples\Utils\b3ResourcePath.cpp ..\..\examples\ExampleBrowser\GL_ShapeDrawer.cpp ..\..\examples\ExampleBrowser\InProcessExampleBrowser.cpp
+         OpenGLExampleBrowser.cpp
+         OpenGLGuiHelper.cpp
+         b3Clock.cpp
+         ChromeTraceUtil.cpp
+         GraphingTexture.cpp
+         GwenParameterInterface.cpp
+         GwenProfileWindow.cpp
+         GwenTextureWindow.cpp
+         gwenUserInterface.cpp
+         CollisionShape2TriangleMesh.cpp
+         b3ResourcePath.cpp
+     1>..\..\examples\ExampleBrowser\GwenGUISupport\gwenUserInterface.cpp(652): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+         GL_ShapeDrawer.cpp
+         InProcessExampleBrowser.cpp
+     1>C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\src\Bullet3Common/b3CommandLineArgs.h(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\examples\ExampleBrowser\InProcessExampleBrowser.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: vedere la dichiarazione di 'strcpy' (compilazione del file di origine ..\..\examples\ExampleBrowser\InProcessExampleBrowser.cpp)
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\BulletExampleBrowserLib_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\BulletExampleBrowserLib\clew.obj
+         obj\x32\Debug\BulletExampleBrowserLib\glew.obj
+         obj\x32\Debug\BulletExampleBrowserLib\OpenGLExampleBrowser.obj
+         obj\x32\Debug\BulletExampleBrowserLib\OpenGLGuiHelper.obj
+         obj\x32\Debug\BulletExampleBrowserLib\b3Clock.obj
+         obj\x32\Debug\BulletExampleBrowserLib\ChromeTraceUtil.obj
+         obj\x32\Debug\BulletExampleBrowserLib\GraphingTexture.obj
+         obj\x32\Debug\BulletExampleBrowserLib\GwenParameterInterface.obj
+         obj\x32\Debug\BulletExampleBrowserLib\GwenProfileWindow.obj
+         obj\x32\Debug\BulletExampleBrowserLib\GwenTextureWindow.obj
+         obj\x32\Debug\BulletExampleBrowserLib\gwenUserInterface.obj
+         obj\x32\Debug\BulletExampleBrowserLib\CollisionShape2TriangleMesh.obj
+         obj\x32\Debug\BulletExampleBrowserLib\b3ResourcePath.obj
+         obj\x32\Debug\BulletExampleBrowserLib\GL_ShapeDrawer.obj
+         obj\x32\Debug\BulletExampleBrowserLib\InProcessExampleBrowser.obj
+         BulletExampleBrowserLib.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\BulletExampleBrowserLib_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\BulletExampleBrowserLib.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:35.32

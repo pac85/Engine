@@ -1,0 +1,109 @@
+﻿Compilazione avviata 15/04/2017 21.07.43.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer.vcxproj" sul nodo 7 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src /I..\..\examples\ThirdPartyLibs\Glew /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_STANDALONE_EXAMPLE /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\\" /Fd"..\..\bin\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\ThirdPartyLibs\Glew\glew.c
+         glew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src /I..\..\examples\ThirdPartyLibs\Glew /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_STANDALONE_EXAMPLE /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\\" /Fd"..\..\bin\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\ExtendedTutorials\RigidBodyFromObj.cpp ..\..\examples\StandaloneMain\main_sw_tinyrenderer_single_example.cpp ..\..\examples\ExampleBrowser\OpenGLGuiHelper.cpp ..\..\examples\ExampleBrowser\GL_ShapeDrawer.cpp ..\..\examples\ExampleBrowser\CollisionShape2TriangleMesh.cpp ..\..\examples\TinyRenderer\geometry.cpp ..\..\examples\TinyRenderer\model.cpp ..\..\examples\TinyRenderer\tgaimage.cpp ..\..\examples\TinyRenderer\our_gl.cpp ..\..\examples\TinyRenderer\TinyRenderer.cpp ..\..\examples\Utils\b3ResourcePath.cpp ..\..\examples\RenderingExamples\TimeSeriesCanvas.cpp ..\..\examples\RenderingExamples\TimeSeriesFontData.cpp ..\..\examples\MultiBody\InvertedPendulumPDControl.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinystr.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp ..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp ..\..\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp ..\..\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp ..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp ..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp ..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp ..\..\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp ..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp ..\..\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp ..\..\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp ..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp
+         RigidBodyFromObj.cpp
+         main_sw_tinyrenderer_single_example.cpp
+         OpenGLGuiHelper.cpp
+         GL_ShapeDrawer.cpp
+         CollisionShape2TriangleMesh.cpp
+         geometry.cpp
+         model.cpp
+         tgaimage.cpp
+         our_gl.cpp
+     1>..\..\examples\StandaloneMain\main_sw_tinyrenderer_single_example.cpp(119): warning C4316: 'TinyRenderObjectData': l'oggetto allocato nell'heap può non essere allineato 16
+         TinyRenderer.cpp
+         b3ResourcePath.cpp
+         TimeSeriesCanvas.cpp
+         TimeSeriesFontData.cpp
+         InvertedPendulumPDControl.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         tiny_obj_loader.cpp
+         LoadMeshFromCollada.cpp
+     1>..\..\examples\ExtendedTutorials\RigidBodyFromObj.cpp(161): warning C4316: 'RigidBodyFromObjExample': l'oggetto allocato nell'heap può non essere allineato 16
+         LoadMeshFromObj.cpp
+         Wavefront2GLInstanceGraphicsShape.cpp
+         BulletUrdfImporter.cpp
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(214): warning C4018: '<': errata corrispondenza tra signed e unsigned
+         MyMultiBodyCreator.cpp
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(391): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(627): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(643): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(699): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+         URDF2Bullet.cpp
+         UrdfParser.cpp
+     1>..\..\examples\MultiBody\InvertedPendulumPDControl.cpp(363): warning C4316: 'btMultiBodyJointFeedback': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\MultiBody\InvertedPendulumPDControl.cpp(464): warning C4316: 'InvertedPendulumPDControl': l'oggetto allocato nell'heap può non essere allineato 16
+         urdfStringSplit.cpp
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(52): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(79): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(104): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(65): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(148): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(172): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+         b3ImportMeshUtility.cpp
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(578): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(612): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1361): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1384): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1432): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1520): warning C4316: 'UrdfModel': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1556): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1579): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1627): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+         stb_image.cpp
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(228): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(290): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(328): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(4220): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+     1>..\..\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp(35): warning C4018: '<': errata corrispondenza tra signed e unsigned
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer_vs2010_debug.exe" /INCREMENTAL /NOLOGO ..\..\bin\BulletInverseDynamicsUtils_vs2010_debug.lib ..\..\bin\BulletInverseDynamics_vs2010_debug.lib ..\..\bin\BulletDynamics_vs2010_debug.lib ..\..\bin\BulletCollision_vs2010_debug.lib ..\..\bin\LinearMath_vs2010_debug.lib ..\..\bin\OpenGL_Window_vs2010_debug.lib ..\..\bin\Bullet3Common_vs2010_debug.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\glew.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\RigidBodyFromObj.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\main_sw_tinyrenderer_single_example.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\OpenGLGuiHelper.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\GL_ShapeDrawer.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\CollisionShape2TriangleMesh.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\geometry.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\model.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\tgaimage.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\our_gl.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\TinyRenderer.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\b3ResourcePath.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\TimeSeriesCanvas.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\TimeSeriesFontData.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\InvertedPendulumPDControl.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\tinystr.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\tinyxml.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\tinyxmlerror.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\tinyxmlparser.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\tiny_obj_loader.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\LoadMeshFromCollada.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\LoadMeshFromObj.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\Wavefront2GLInstanceGraphicsShape.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\BulletUrdfImporter.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\MyMultiBodyCreator.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\URDF2Bullet.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\UrdfParser.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\urdfStringSplit.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\b3ImportMeshUtility.obj
+         obj\x32\Debug\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer\stb_image.obj
+         App_RigidBodyFromObjExampleGuiWithSoftwareRenderer.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\App_RigidBodyFromObjExampleGuiWithSoftwareRenderer.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:29.82

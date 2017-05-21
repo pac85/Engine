@@ -1,0 +1,29 @@
+﻿Compilazione avviata 15/04/2017 21.07.18.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_BulletCollision.vcxproj" sul nodo 4 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\test\collision /I..\..\src /I"..\..\test\gtest-1.7.0\include" /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _VARIADIC_MAX=10 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Test_BulletCollision\\" /Fd"..\..\bin\Test_BulletCollision_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\test\collision\main.cpp ..\..\src\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp ..\..\src\BulletCollision\CollisionShapes\btSphereShape.cpp ..\..\src\BulletCollision\CollisionShapes\btMultiSphereShape.cpp ..\..\src\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp ..\..\src\BulletCollision\CollisionShapes\btConvexShape.cpp ..\..\src\BulletCollision\CollisionShapes\btConvexInternalShape.cpp ..\..\src\BulletCollision\CollisionShapes\btCollisionShape.cpp ..\..\src\BulletCollision\CollisionShapes\btConvexPolyhedron.cpp
+         main.cpp
+         btVoronoiSimplexSolver.cpp
+         btSphereShape.cpp
+         btMultiSphereShape.cpp
+         btPolyhedralConvexShape.cpp
+         btConvexShape.cpp
+         btConvexInternalShape.cpp
+         btCollisionShape.cpp
+         btConvexPolyhedron.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Test_BulletCollision_vs2010_debug.exe" /INCREMENTAL /NOLOGO ..\..\bin\LinearMath_vs2010_debug.lib ..\..\bin\gtest_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\Test_BulletCollision_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Test_BulletCollision_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\Test_BulletCollision\main.obj
+         obj\x32\Debug\Test_BulletCollision\btVoronoiSimplexSolver.obj
+         obj\x32\Debug\Test_BulletCollision\btSphereShape.obj
+         obj\x32\Debug\Test_BulletCollision\btMultiSphereShape.obj
+         obj\x32\Debug\Test_BulletCollision\btPolyhedralConvexShape.obj
+         obj\x32\Debug\Test_BulletCollision\btConvexShape.obj
+         obj\x32\Debug\Test_BulletCollision\btConvexInternalShape.obj
+         obj\x32\Debug\Test_BulletCollision\btCollisionShape.obj
+         obj\x32\Debug\Test_BulletCollision\btConvexPolyhedron.obj
+         Test_BulletCollision.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\Test_BulletCollision_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_BulletCollision.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:22.09

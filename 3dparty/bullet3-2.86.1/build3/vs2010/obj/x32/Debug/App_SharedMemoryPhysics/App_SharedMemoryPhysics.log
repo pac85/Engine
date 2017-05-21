@@ -1,0 +1,173 @@
+﻿Compilazione avviata 15/04/2017 21.06.06.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\App_SharedMemoryPhysics.vcxproj" sul nodo 6 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\examples\SharedMemory /I..\..\src /I..\..\examples\ThirdPartyLibs /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\App_SharedMemoryPhysics\\" /Fd"..\..\bin\App_SharedMemoryPhysics_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\SharedMemory\IKTrajectoryHelper.cpp ..\..\examples\SharedMemory\PhysicsClient.cpp ..\..\examples\SharedMemory\PhysicsClientSharedMemory.cpp ..\..\examples\SharedMemory\PhysicsClientExample.cpp ..\..\examples\SharedMemory\PhysicsServerExample.cpp ..\..\examples\SharedMemory\PhysicsServerSharedMemory.cpp ..\..\examples\SharedMemory\PhysicsServer.cpp ..\..\examples\SharedMemory\PhysicsClientC_API.cpp ..\..\examples\SharedMemory\PosixSharedMemory.cpp ..\..\examples\SharedMemory\Win32SharedMemory.cpp ..\..\examples\SharedMemory\InProcessMemory.cpp ..\..\examples\SharedMemory\PhysicsDirect.cpp ..\..\examples\SharedMemory\PhysicsDirectC_API.cpp ..\..\examples\SharedMemory\PhysicsLoopBack.cpp ..\..\examples\SharedMemory\PhysicsLoopBackC_API.cpp ..\..\examples\SharedMemory\PhysicsClientSharedMemory_C_API.cpp ..\..\examples\SharedMemory\PhysicsClientSharedMemory2_C_API.cpp ..\..\examples\SharedMemory\PhysicsClientSharedMemory2.cpp ..\..\examples\SharedMemory\SharedMemoryCommandProcessor.cpp ..\..\examples\SharedMemory\PhysicsServerCommandProcessor.cpp ..\..\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp ..\..\examples\TinyRenderer\geometry.cpp ..\..\examples\TinyRenderer\model.cpp ..\..\examples\TinyRenderer\tgaimage.cpp ..\..\examples\TinyRenderer\our_gl.cpp ..\..\examples\TinyRenderer\TinyRenderer.cpp ..\..\examples\OpenGLWindow\SimpleCamera.cpp ..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp ..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp ..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp ..\..\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp ..\..\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp ..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp ..\..\examples\Utils\b3ResourcePath.cpp ..\..\examples\Utils\b3Clock.cpp ..\..\examples\Utils\RobotLoggingUtil.cpp ..\..\examples\Utils\ChromeTraceUtil.cpp ..\..\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp ..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp ..\..\Extras\Serialize\BulletFileLoader\bChunk.cpp ..\..\Extras\Serialize\BulletFileLoader\bDNA.cpp ..\..\Extras\Serialize\BulletFileLoader\bFile.cpp ..\..\Extras\Serialize\BulletFileLoader\btBulletFile.cpp ..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp ..\..\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp ..\..\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp ..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinystr.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp ..\..\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp ..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp ..\..\examples\SharedMemory\main.cpp ..\..\examples\MultiThreading\b3ThreadSupportInterface.cpp ..\..\examples\MultiThreading\b3Win32ThreadSupport.cpp
+         IKTrajectoryHelper.cpp
+         PhysicsClient.cpp
+         PhysicsClientSharedMemory.cpp
+         PhysicsClientExample.cpp
+         PhysicsServerExample.cpp
+         PhysicsServerSharedMemory.cpp
+         PhysicsServer.cpp
+         PhysicsClientC_API.cpp
+         PosixSharedMemory.cpp
+         Win32SharedMemory.cpp
+     1>..\..\examples\SharedMemory\PhysicsClientC_API.cpp(554): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+         InProcessMemory.cpp
+         PhysicsDirect.cpp
+         PhysicsDirectC_API.cpp
+         PhysicsLoopBack.cpp
+         PhysicsLoopBackC_API.cpp
+         PhysicsClientSharedMemory_C_API.cpp
+         PhysicsClientSharedMemory2_C_API.cpp
+         PhysicsClientSharedMemory2.cpp
+         SharedMemoryCommandProcessor.cpp
+         PhysicsServerCommandProcessor.cpp
+         TinyRendererVisualShapeConverter.cpp
+         geometry.cpp
+         model.cpp
+         tgaimage.cpp
+         our_gl.cpp
+         TinyRenderer.cpp
+         SimpleCamera.cpp
+     1>..\..\examples\SharedMemory\PhysicsServerExample.cpp(1949): warning C4316: 'MultiThreadedOpenGLGuiHelper': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\SharedMemory\PhysicsServerExample.cpp(1953): warning C4316: 'PhysicsServerExample': l'oggetto allocato nell'heap può non essere allineato 16
+         MyMultiBodyCreator.cpp
+         BulletUrdfImporter.cpp
+         UrdfParser.cpp
+         urdfStringSplit.cpp
+     1>..\..\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp(122): warning C4316: 'TinyRendererVisualShapeConverterInternalData': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp(613): warning C4316: 'TinyRenderObjectData': l'oggetto allocato nell'heap può non essere allineato 16
+         URDF2Bullet.cpp
+     1>..\..\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(882): warning C4316: 'PhysicsServerCommandProcessorInternalData': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(2440): warning C4316: 'btMultiBodyJointFeedback': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(578): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(612): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1361): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1384): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1432): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1520): warning C4316: 'UrdfModel': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1556): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1579): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1627): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(65): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(148): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(172): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+         BulletMJCFImporter.cpp
+         b3ResourcePath.cpp
+         b3Clock.cpp
+         RobotLoggingUtil.cpp
+         ChromeTraceUtil.cpp
+         btBulletWorldImporter.cpp
+         btWorldImporter.cpp
+         bChunk.cpp
+         bDNA.cpp
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(270): warning C4316: 'UrdfModel': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(280): warning C4316: 'UrdfModel': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(283): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(438): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(793): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(975): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+         bFile.cpp
+         btBulletFile.cpp
+         Wavefront2GLInstanceGraphicsShape.cpp
+         LoadMeshFromObj.cpp
+         LoadMeshFromCollada.cpp
+     1>..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1004): warning C4800: 'char': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1324): warning C4800: 'char': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+         tiny_obj_loader.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         b3ImportMeshUtility.cpp
+         stb_image.cpp
+         main.cpp
+         b3ThreadSupportInterface.cpp
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(228): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(290): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(328): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+         b3Win32ThreadSupport.cpp
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(4220): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(214): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp(35): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(52): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(79): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(104): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(391): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(627): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(643): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(699): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\src\Bullet3Common/b3CommandLineArgs.h(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\examples\SharedMemory\main.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: vedere la dichiarazione di 'strcpy' (compilazione del file di origine ..\..\examples\SharedMemory\main.cpp)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\App_SharedMemoryPhysics_vs2010_debug.exe" /INCREMENTAL /NOLOGO ..\..\bin\Bullet3Common_vs2010_debug.lib ..\..\bin\BulletInverseDynamicsUtils_vs2010_debug.lib ..\..\bin\BulletInverseDynamics_vs2010_debug.lib ..\..\bin\BulletDynamics_vs2010_debug.lib ..\..\bin\BulletCollision_vs2010_debug.lib ..\..\bin\LinearMath_vs2010_debug.lib ..\..\bin\BussIK_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\App_SharedMemoryPhysics_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\App_SharedMemoryPhysics_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\App_SharedMemoryPhysics\IKTrajectoryHelper.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsClient.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsClientSharedMemory.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsClientExample.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsServerExample.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsServerSharedMemory.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsServer.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsClientC_API.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PosixSharedMemory.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\Win32SharedMemory.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\InProcessMemory.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsDirect.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsDirectC_API.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsLoopBack.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsLoopBackC_API.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsClientSharedMemory_C_API.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsClientSharedMemory2_C_API.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsClientSharedMemory2.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\SharedMemoryCommandProcessor.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\PhysicsServerCommandProcessor.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\TinyRendererVisualShapeConverter.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\geometry.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\model.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\tgaimage.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\our_gl.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\TinyRenderer.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\SimpleCamera.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\MyMultiBodyCreator.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\BulletUrdfImporter.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\UrdfParser.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\urdfStringSplit.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\URDF2Bullet.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\BulletMJCFImporter.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\b3ResourcePath.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\b3Clock.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\RobotLoggingUtil.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\ChromeTraceUtil.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\btBulletWorldImporter.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\btWorldImporter.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\bChunk.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\bDNA.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\bFile.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\btBulletFile.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\Wavefront2GLInstanceGraphicsShape.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\LoadMeshFromObj.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\LoadMeshFromCollada.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\tiny_obj_loader.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\tinystr.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\tinyxml.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\tinyxmlerror.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\tinyxmlparser.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\b3ImportMeshUtility.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\stb_image.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\main.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\b3ThreadSupportInterface.obj
+         obj\x32\Debug\App_SharedMemoryPhysics\b3Win32ThreadSupport.obj
+         App_SharedMemoryPhysics.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\App_SharedMemoryPhysics_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\App_SharedMemoryPhysics.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:01:01.70

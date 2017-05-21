@@ -1,0 +1,23 @@
+﻿Compilazione avviata 15/04/2017 21.07.33.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\BulletXmlWorldImporter.vcxproj" sul nodo 2 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\Extras\Serialize\BulletWorldImporter /I..\..\Extras\Serialize\BulletFileLoader /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\BulletXmlWorldImporter\\" /Fd"..\..\Extras\lib\BulletXmlWorldImporter_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\Extras\Serialize\BulletXmlWorldImporter\btBulletXmlWorldImporter.cpp ..\..\Extras\Serialize\BulletXmlWorldImporter\string_split.cpp ..\..\Extras\Serialize\BulletXmlWorldImporter\tinystr.cpp ..\..\Extras\Serialize\BulletXmlWorldImporter\tinyxml.cpp ..\..\Extras\Serialize\BulletXmlWorldImporter\tinyxmlerror.cpp ..\..\Extras\Serialize\BulletXmlWorldImporter\tinyxmlparser.cpp
+         btBulletXmlWorldImporter.cpp
+         string_split.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\Extras\lib\BulletXmlWorldImporter_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\BulletXmlWorldImporter\btBulletXmlWorldImporter.obj
+         obj\x32\Debug\BulletXmlWorldImporter\string_split.obj
+         obj\x32\Debug\BulletXmlWorldImporter\tinystr.obj
+         obj\x32\Debug\BulletXmlWorldImporter\tinyxml.obj
+         obj\x32\Debug\BulletXmlWorldImporter\tinyxmlerror.obj
+         obj\x32\Debug\BulletXmlWorldImporter\tinyxmlparser.obj
+         BulletXmlWorldImporter.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\Extras\lib\BulletXmlWorldImporter_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\BulletXmlWorldImporter.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:05.10

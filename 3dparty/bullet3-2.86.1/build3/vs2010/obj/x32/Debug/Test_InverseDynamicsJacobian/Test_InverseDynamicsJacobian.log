@@ -1,0 +1,13 @@
+﻿Compilazione avviata 15/04/2017 21.07.28.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_InverseDynamicsJacobian.vcxproj" sul nodo 9 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\test\InverseDynamics /I..\..\src /I..\..\examples\InverseDynamics /I..\..\Extras\InverseDynamics /I"..\..\test\gtest-1.7.0\include" /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _VARIADIC_MAX=10 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Test_InverseDynamicsJacobian\\" /Fd"..\..\bin\Test_InverseDynamicsJacobian_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\test\InverseDynamics\test_invdyn_jacobian.cpp
+         test_invdyn_jacobian.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Test_InverseDynamicsJacobian_vs2010_debug.exe" /INCREMENTAL /NOLOGO ..\..\bin\BulletInverseDynamicsUtils_vs2010_debug.lib ..\..\bin\BulletInverseDynamics_vs2010_debug.lib ..\..\bin\Bullet3Common_vs2010_debug.lib ..\..\bin\LinearMath_vs2010_debug.lib ..\..\bin\gtest_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\Test_InverseDynamicsJacobian_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Test_InverseDynamicsJacobian_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\Test_InverseDynamicsJacobian\test_invdyn_jacobian.obj
+         Test_InverseDynamicsJacobian.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\Test_InverseDynamicsJacobian_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_InverseDynamicsJacobian.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:11.34

@@ -1,0 +1,78 @@
+﻿Compilazione avviata 15/04/2017 21.05.33.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Bullet3OpenCL_clew.vcxproj" sul nodo 3 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\src\Bullet3OpenCL /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_CLEW /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Bullet3OpenCL_clew\\" /Fd"..\..\bin\Bullet3OpenCL_clew_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\src\clew\clew.c
+         clew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\src\Bullet3OpenCL /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_CLEW /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Bullet3OpenCL_clew\\" /Fd"..\..\bin\Bullet3OpenCL_clew_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\src\Bullet3OpenCL\BroadphaseCollision\b3GpuGridBroadphase.cpp ..\..\src\Bullet3OpenCL\BroadphaseCollision\b3GpuParallelLinearBvh.cpp ..\..\src\Bullet3OpenCL\BroadphaseCollision\b3GpuParallelLinearBvhBroadphase.cpp ..\..\src\Bullet3OpenCL\BroadphaseCollision\b3GpuSapBroadphase.cpp ..\..\src\Bullet3OpenCL\Initialize\b3OpenCLUtils.cpp ..\..\src\Bullet3OpenCL\NarrowphaseCollision\b3ContactCache.cpp ..\..\src\Bullet3OpenCL\NarrowphaseCollision\b3ConvexHullContact.cpp ..\..\src\Bullet3OpenCL\NarrowphaseCollision\b3GjkEpa.cpp ..\..\src\Bullet3OpenCL\NarrowphaseCollision\b3GjkPairDetector.cpp ..\..\src\Bullet3OpenCL\NarrowphaseCollision\b3OptimizedBvh.cpp ..\..\src\Bullet3OpenCL\NarrowphaseCollision\b3QuantizedBvh.cpp ..\..\src\Bullet3OpenCL\NarrowphaseCollision\b3StridingMeshInterface.cpp ..\..\src\Bullet3OpenCL\NarrowphaseCollision\b3TriangleCallback.cpp ..\..\src\Bullet3OpenCL\NarrowphaseCollision\b3TriangleIndexVertexArray.cpp ..\..\src\Bullet3OpenCL\NarrowphaseCollision\b3VoronoiSimplexSolver.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3BoundSearchCL.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3FillCL.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3LauncherCL.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3PrefixScanCL.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3PrefixScanFloat4CL.cpp ..\..\src\Bullet3OpenCL\ParallelPrimitives\b3RadixSort32CL.cpp ..\..\src\Bullet3OpenCL\Raycast\b3GpuRaycast.cpp ..\..\src\Bullet3OpenCL\RigidBody\b3GpuGenericConstraint.cpp ..\..\src\Bullet3OpenCL\RigidBody\b3GpuJacobiContactSolver.cpp ..\..\src\Bullet3OpenCL\RigidBody\b3GpuNarrowPhase.cpp ..\..\src\Bullet3OpenCL\RigidBody\b3GpuPgsConstraintSolver.cpp ..\..\src\Bullet3OpenCL\RigidBody\b3GpuPgsContactSolver.cpp ..\..\src\Bullet3OpenCL\RigidBody\b3GpuRigidBodyPipeline.cpp ..\..\src\Bullet3OpenCL\RigidBody\b3Solver.cpp
+         b3GpuGridBroadphase.cpp
+         b3GpuParallelLinearBvh.cpp
+         b3GpuParallelLinearBvhBroadphase.cpp
+         b3GpuSapBroadphase.cpp
+         b3OpenCLUtils.cpp
+         b3ContactCache.cpp
+         b3ConvexHullContact.cpp
+         b3GjkEpa.cpp
+         b3GjkPairDetector.cpp
+     1>..\..\src\Bullet3OpenCL\BroadphaseCollision\b3GpuGridBroadphase.cpp(283): warning C4018: '<': errata corrispondenza tra signed e unsigned
+         b3OptimizedBvh.cpp
+         b3QuantizedBvh.cpp
+         b3StridingMeshInterface.cpp
+         b3TriangleCallback.cpp
+         b3TriangleIndexVertexArray.cpp
+         b3VoronoiSimplexSolver.cpp
+         b3BoundSearchCL.cpp
+         b3FillCL.cpp
+         b3LauncherCL.cpp
+     1>..\..\src\Bullet3OpenCL\ParallelPrimitives\b3BoundSearchCL.cpp(112): warning C4018: '<=': errata corrispondenza tra signed e unsigned
+     1>..\..\src\Bullet3OpenCL\ParallelPrimitives\b3BoundSearchCL.cpp(113): warning C4018: '<=': errata corrispondenza tra signed e unsigned
+         b3PrefixScanCL.cpp
+         b3PrefixScanFloat4CL.cpp
+         b3RadixSort32CL.cpp
+         b3GpuRaycast.cpp
+         b3GpuGenericConstraint.cpp
+         b3GpuJacobiContactSolver.cpp
+         b3GpuNarrowPhase.cpp
+         b3GpuPgsConstraintSolver.cpp
+         b3GpuPgsContactSolver.cpp
+         b3GpuRigidBodyPipeline.cpp
+         b3Solver.cpp
+     1>..\..\src\Bullet3OpenCL\Raycast\b3GpuRaycast.cpp(314): warning C4018: '>': errata corrispondenza tra signed e unsigned
+     1>..\..\src\Bullet3OpenCL\RigidBody\b3GpuJacobiContactSolver.cpp(565): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\src\Bullet3OpenCL\RigidBody\b3GpuRigidBodyPipeline.cpp(68): warning C4316: 'b3GpuRigidBodyPipelineInternalData': l'oggetto allocato nell'heap può non essere allineato 16
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\Bullet3OpenCL_clew_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\Bullet3OpenCL_clew\clew.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3GpuGridBroadphase.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3GpuParallelLinearBvh.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3GpuParallelLinearBvhBroadphase.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3GpuSapBroadphase.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3OpenCLUtils.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3ContactCache.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3ConvexHullContact.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3GjkEpa.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3GjkPairDetector.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3OptimizedBvh.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3QuantizedBvh.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3StridingMeshInterface.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3TriangleCallback.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3TriangleIndexVertexArray.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3VoronoiSimplexSolver.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3BoundSearchCL.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3FillCL.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3LauncherCL.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3PrefixScanCL.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3PrefixScanFloat4CL.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3RadixSort32CL.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3GpuRaycast.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3GpuGenericConstraint.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3GpuJacobiContactSolver.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3GpuNarrowPhase.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3GpuPgsConstraintSolver.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3GpuPgsContactSolver.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3GpuRigidBodyPipeline.obj
+         obj\x32\Debug\Bullet3OpenCL_clew\b3Solver.obj
+         Bullet3OpenCL_clew.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\Bullet3OpenCL_clew_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Bullet3OpenCL_clew.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:29.39

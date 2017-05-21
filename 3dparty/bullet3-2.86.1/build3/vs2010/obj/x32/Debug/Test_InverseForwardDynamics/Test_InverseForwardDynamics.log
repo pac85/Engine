@@ -1,0 +1,95 @@
+﻿Compilazione avviata 15/04/2017 21.07.52.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_InverseForwardDynamics.vcxproj" sul nodo 6 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\test\InverseDynamics /I..\..\src /I..\..\examples\InverseDynamics /I..\..\examples\ThirdPartyLibs /I..\..\Extras\InverseDynamics /I"..\..\test\gtest-1.7.0\include" /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _VARIADIC_MAX=10 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Test_InverseForwardDynamics\\" /Fd"..\..\bin\Test_InverseForwardDynamics_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\test\InverseDynamics\test_invdyn_bullet.cpp ..\..\examples\Utils\b3ResourcePath.cpp ..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp ..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp ..\..\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp ..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp ..\..\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp ..\..\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp ..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp ..\..\examples\Utils\b3Clock.cpp ..\..\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp ..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp ..\..\Extras\Serialize\BulletFileLoader\bChunk.cpp ..\..\Extras\Serialize\BulletFileLoader\bDNA.cpp ..\..\Extras\Serialize\BulletFileLoader\bFile.cpp ..\..\Extras\Serialize\BulletFileLoader\btBulletFile.cpp ..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp ..\..\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp ..\..\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp ..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinystr.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp
+         test_invdyn_bullet.cpp
+         b3ResourcePath.cpp
+         MyMultiBodyCreator.cpp
+         BulletUrdfImporter.cpp
+         urdfStringSplit.cpp
+         UrdfParser.cpp
+         URDF2Bullet.cpp
+         b3ImportMeshUtility.cpp
+     1>..\..\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp(35): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(578): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(612): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1361): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1384): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1432): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1520): warning C4316: 'UrdfModel': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1556): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1579): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1627): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+         stb_image.cpp
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(228): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(290): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(328): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(4220): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+         b3Clock.cpp
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(65): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(148): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(172): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+         btBulletWorldImporter.cpp
+         btWorldImporter.cpp
+         bChunk.cpp
+         bDNA.cpp
+         bFile.cpp
+         btBulletFile.cpp
+         Wavefront2GLInstanceGraphicsShape.cpp
+         LoadMeshFromObj.cpp
+     1>..\..\test\InverseDynamics\test_invdyn_bullet.cpp(49): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+         LoadMeshFromCollada.cpp
+         tiny_obj_loader.cpp
+     1>..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1004): warning C4800: 'char': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1324): warning C4800: 'char': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(214): warning C4018: '<': errata corrispondenza tra signed e unsigned
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(391): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(627): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(643): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(699): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+         tinyxmlparser.cpp
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(52): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(79): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(104): warning C4018: '<': errata corrispondenza tra signed e unsigned
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Test_InverseForwardDynamics_vs2010_debug.exe" /INCREMENTAL /NOLOGO ..\..\bin\BulletDynamics_vs2010_debug.lib ..\..\bin\BulletCollision_vs2010_debug.lib ..\..\bin\BulletInverseDynamicsUtils_vs2010_debug.lib ..\..\bin\BulletInverseDynamics_vs2010_debug.lib ..\..\bin\Bullet3Common_vs2010_debug.lib ..\..\bin\LinearMath_vs2010_debug.lib ..\..\bin\gtest_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\Test_InverseForwardDynamics_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Test_InverseForwardDynamics_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\Test_InverseForwardDynamics\test_invdyn_bullet.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\b3ResourcePath.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\MyMultiBodyCreator.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\BulletUrdfImporter.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\urdfStringSplit.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\UrdfParser.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\URDF2Bullet.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\b3ImportMeshUtility.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\stb_image.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\b3Clock.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\btBulletWorldImporter.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\btWorldImporter.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\bChunk.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\bDNA.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\bFile.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\btBulletFile.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\Wavefront2GLInstanceGraphicsShape.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\LoadMeshFromObj.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\LoadMeshFromCollada.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\tiny_obj_loader.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\tinystr.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\tinyxml.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\tinyxmlerror.obj
+         obj\x32\Debug\Test_InverseForwardDynamics\tinyxmlparser.obj
+         Test_InverseForwardDynamics.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\Test_InverseForwardDynamics_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_InverseForwardDynamics.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:21.07

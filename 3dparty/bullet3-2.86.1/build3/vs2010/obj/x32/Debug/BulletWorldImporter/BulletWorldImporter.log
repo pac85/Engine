@@ -1,0 +1,17 @@
+﻿Compilazione avviata 15/04/2017 21.05.40.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\BulletWorldImporter.vcxproj" sul nodo 7 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\Extras\Serialize\BulletFileLoader /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\BulletWorldImporter\\" /Fd"..\..\bin\BulletWorldImporter_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp ..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp
+         btBulletWorldImporter.cpp
+         btWorldImporter.cpp
+     1>..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1004): warning C4800: 'char': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1324): warning C4800: 'char': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\BulletWorldImporter_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\BulletWorldImporter\btBulletWorldImporter.obj
+         obj\x32\Debug\BulletWorldImporter\btWorldImporter.obj
+         BulletWorldImporter.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\BulletWorldImporter_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\BulletWorldImporter.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:12.64

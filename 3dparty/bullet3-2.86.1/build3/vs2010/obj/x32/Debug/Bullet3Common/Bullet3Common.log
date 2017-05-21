@@ -1,0 +1,17 @@
+﻿Compilazione avviata 15/04/2017 21.05.28.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Bullet3Common.vcxproj" sul nodo 8 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Bullet3Common\\" /Fd"..\..\bin\Bullet3Common_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\src\Bullet3Common\b3AlignedAllocator.cpp ..\..\src\Bullet3Common\b3Logging.cpp ..\..\src\Bullet3Common\b3Vector3.cpp
+         b3AlignedAllocator.cpp
+         b3Logging.cpp
+         b3Vector3.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\Bullet3Common_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\Bullet3Common\b3AlignedAllocator.obj
+         obj\x32\Debug\Bullet3Common\b3Logging.obj
+         obj\x32\Debug\Bullet3Common\b3Vector3.obj
+         Bullet3Common.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\Bullet3Common_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Bullet3Common.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:04.51

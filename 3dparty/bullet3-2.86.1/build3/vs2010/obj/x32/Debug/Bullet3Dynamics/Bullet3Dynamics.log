@@ -1,0 +1,23 @@
+﻿Compilazione avviata 15/04/2017 21.05.28.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Bullet3Dynamics.vcxproj" sul nodo 6 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Bullet3Dynamics\\" /Fd"..\..\bin\Bullet3Dynamics_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\src\Bullet3Dynamics\b3CpuRigidBodyPipeline.cpp ..\..\src\Bullet3Dynamics\ConstraintSolver\b3FixedConstraint.cpp ..\..\src\Bullet3Dynamics\ConstraintSolver\b3Generic6DofConstraint.cpp ..\..\src\Bullet3Dynamics\ConstraintSolver\b3PgsJacobiSolver.cpp ..\..\src\Bullet3Dynamics\ConstraintSolver\b3Point2PointConstraint.cpp ..\..\src\Bullet3Dynamics\ConstraintSolver\b3TypedConstraint.cpp
+         b3CpuRigidBodyPipeline.cpp
+         b3FixedConstraint.cpp
+         b3Generic6DofConstraint.cpp
+         b3PgsJacobiSolver.cpp
+         b3Point2PointConstraint.cpp
+         b3TypedConstraint.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\Bullet3Dynamics_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\Bullet3Dynamics\b3CpuRigidBodyPipeline.obj
+         obj\x32\Debug\Bullet3Dynamics\b3FixedConstraint.obj
+         obj\x32\Debug\Bullet3Dynamics\b3Generic6DofConstraint.obj
+         obj\x32\Debug\Bullet3Dynamics\b3PgsJacobiSolver.obj
+         obj\x32\Debug\Bullet3Dynamics\b3Point2PointConstraint.obj
+         obj\x32\Debug\Bullet3Dynamics\b3TypedConstraint.obj
+         Bullet3Dynamics.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\Bullet3Dynamics_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Bullet3Dynamics.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:08.95

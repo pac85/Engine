@@ -1,0 +1,92 @@
+﻿Compilazione avviata 15/04/2017 21.07.38.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_Gwen_OpenGL.vcxproj" sul nodo 3 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\examples\ThirdPartyLibs /I..\..\examples /I..\..\test\GwenOpenGLTest /I..\..\examples\ThirdPartyLibs\Glew /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D GWEN_COMPILE_STATIC /D _HAS_EXCEPTIONS=0 /D _STATIC_CPPLIB /D DONT_USE_GLUT /D GLEW_STATIC /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Test_Gwen_OpenGL\\" /Fd"..\..\bin\Test_Gwen_OpenGL_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\ThirdPartyLibs\Glew\glew.c
+         glew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\examples\ThirdPartyLibs /I..\..\examples /I..\..\test\GwenOpenGLTest /I..\..\examples\ThirdPartyLibs\Glew /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D GWEN_COMPILE_STATIC /D _HAS_EXCEPTIONS=0 /D _STATIC_CPPLIB /D DONT_USE_GLUT /D GLEW_STATIC /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Test_Gwen_OpenGL\\" /Fd"..\..\bin\Test_Gwen_OpenGL_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\OpenGLWindow\OpenSans.cpp ..\..\examples\OpenGLWindow\TwFonts.cpp ..\..\examples\OpenGLWindow\LoadShader.cpp ..\..\examples\OpenGLWindow\GLPrimitiveRenderer.cpp ..\..\examples\OpenGLWindow\fontstash.cpp ..\..\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp ..\..\examples\Utils\b3Clock.cpp ..\..\test\GwenOpenGLTest\Button.cpp ..\..\test\GwenOpenGLTest\Checkbox.cpp ..\..\test\GwenOpenGLTest\ComboBox.cpp ..\..\test\GwenOpenGLTest\CrossSplitter.cpp ..\..\test\GwenOpenGLTest\GroupBox.cpp ..\..\test\GwenOpenGLTest\ImagePanel.cpp ..\..\test\GwenOpenGLTest\Label.cpp ..\..\test\GwenOpenGLTest\ListBox.cpp ..\..\test\GwenOpenGLTest\MenuStrip.cpp ..\..\test\GwenOpenGLTest\Numeric.cpp ..\..\test\GwenOpenGLTest\OpenGLSample.cpp ..\..\test\GwenOpenGLTest\PanelListPanel.cpp ..\..\test\GwenOpenGLTest\ProgressBar.cpp ..\..\test\GwenOpenGLTest\Properties.cpp ..\..\test\GwenOpenGLTest\RadioButton.cpp ..\..\test\GwenOpenGLTest\ScrollControl.cpp ..\..\test\GwenOpenGLTest\Slider.cpp ..\..\test\GwenOpenGLTest\StatusBar.cpp ..\..\test\GwenOpenGLTest\TabControl.cpp ..\..\test\GwenOpenGLTest\TextBox.cpp ..\..\test\GwenOpenGLTest\TreeControl.cpp ..\..\test\GwenOpenGLTest\UnitTest.cpp ..\..\examples\OpenGLWindow\Win32OpenGLWindow.cpp ..\..\examples\OpenGLWindow\Win32Window.cpp
+         OpenSans.cpp
+         TwFonts.cpp
+         LoadShader.cpp
+         GLPrimitiveRenderer.cpp
+         fontstash.cpp
+         opengl_fontstashcallbacks.cpp
+         b3Clock.cpp
+         Button.cpp
+     1>..\..\examples\OpenGLWindow\GLPrimitiveRenderer.cpp(505): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>..\..\examples\OpenGLWindow\GLPrimitiveRenderer.cpp(525): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+         Checkbox.cpp
+     1>c:\users\antonino\desktop\vulkan_engine\bullet3-2.86.1\examples\openglwindow\stb_image_write.h(156): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen' (compilazione del file di origine ..\..\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp)
+     1>c:\users\antonino\desktop\vulkan_engine\bullet3-2.86.1\examples\openglwindow\stb_image_write.h(495): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen' (compilazione del file di origine ..\..\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp)
+         ComboBox.cpp
+         CrossSplitter.cpp
+         GroupBox.cpp
+         ImagePanel.cpp
+     1>..\..\examples\OpenGLWindow\fontstash.cpp(225): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+         Label.cpp
+         ListBox.cpp
+         MenuStrip.cpp
+         Numeric.cpp
+         OpenGLSample.cpp
+         PanelListPanel.cpp
+         ProgressBar.cpp
+         Properties.cpp
+         RadioButton.cpp
+     1>..\..\test\GwenOpenGLTest\OpenGLSample.cpp(63): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>..\..\test\GwenOpenGLTest\OpenGLSample.cpp(330): warning C4806: '==': operazione non affidabile: nessun valore di tipo 'bool' promosso al tipo 'int' può eguagliare la costante data
+     1>..\..\test\GwenOpenGLTest\OpenGLSample.cpp(330): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\test\GwenOpenGLTest\OpenGLSample.cpp(338): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: vedere la dichiarazione di 'sprintf'
+     1>..\..\test\GwenOpenGLTest\OpenGLSample.cpp(341): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: vedere la dichiarazione di 'sprintf'
+         ScrollControl.cpp
+         Slider.cpp
+         StatusBar.cpp
+         TabControl.cpp
+         TextBox.cpp
+         TreeControl.cpp
+         UnitTest.cpp
+         Win32OpenGLWindow.cpp
+         Win32Window.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Test_Gwen_OpenGL_vs2010_debug.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib ..\..\bin\gwen_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\Test_Gwen_OpenGL_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Test_Gwen_OpenGL_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\Test_Gwen_OpenGL\glew.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\OpenSans.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\TwFonts.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\LoadShader.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\GLPrimitiveRenderer.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\fontstash.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\opengl_fontstashcallbacks.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\b3Clock.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Button.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Checkbox.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\ComboBox.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\CrossSplitter.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\GroupBox.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\ImagePanel.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Label.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\ListBox.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\MenuStrip.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Numeric.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\OpenGLSample.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\PanelListPanel.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\ProgressBar.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Properties.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\RadioButton.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\ScrollControl.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Slider.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\StatusBar.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\TabControl.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\TextBox.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\TreeControl.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\UnitTest.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Win32OpenGLWindow.obj
+         obj\x32\Debug\Test_Gwen_OpenGL\Win32Window.obj
+         Test_Gwen_OpenGL.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\Test_Gwen_OpenGL_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_Gwen_OpenGL.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:34.20

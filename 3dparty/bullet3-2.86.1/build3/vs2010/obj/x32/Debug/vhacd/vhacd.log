@@ -1,0 +1,27 @@
+﻿Compilazione avviata 15/04/2017 21.05.34.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\vhacd.vcxproj" sul nodo 4 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\Extras\VHACD\inc /I..\..\Extras\VHACD\public /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\vhacd\\" /Fd"..\..\bin\vhacd_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\Extras\VHACD\src\btAlignedAllocator.cpp ..\..\Extras\VHACD\src\btConvexHullComputer.cpp ..\..\Extras\VHACD\src\VHACD.cpp ..\..\Extras\VHACD\src\vhacdICHull.cpp ..\..\Extras\VHACD\src\vhacdManifoldMesh.cpp ..\..\Extras\VHACD\src\vhacdMesh.cpp ..\..\Extras\VHACD\src\vhacdVolume.cpp
+         btAlignedAllocator.cpp
+         btConvexHullComputer.cpp
+         VHACD.cpp
+         vhacdICHull.cpp
+         vhacdManifoldMesh.cpp
+         vhacdMesh.cpp
+         vhacdVolume.cpp
+     1>..\..\Extras\VHACD\src\vhacdMesh.cpp(50): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\Extras\VHACD\src\vhacdMesh.cpp(118): warning C4018: '<': errata corrispondenza tra signed e unsigned
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\vhacd_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\vhacd\btAlignedAllocator.obj
+         obj\x32\Debug\vhacd\btConvexHullComputer.obj
+         obj\x32\Debug\vhacd\VHACD.obj
+         obj\x32\Debug\vhacd\vhacdICHull.obj
+         obj\x32\Debug\vhacd\vhacdManifoldMesh.obj
+         obj\x32\Debug\vhacd\vhacdMesh.obj
+         obj\x32\Debug\vhacd\vhacdVolume.obj
+         vhacd.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\vhacd_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\vhacd.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:08.36

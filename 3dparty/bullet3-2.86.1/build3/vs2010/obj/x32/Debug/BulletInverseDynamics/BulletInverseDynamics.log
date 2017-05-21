@@ -1,0 +1,19 @@
+﻿Compilazione avviata 15/04/2017 21.05.43.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\BulletInverseDynamics.vcxproj" sul nodo 2 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\BulletInverseDynamics\\" /Fd"..\..\bin\BulletInverseDynamics_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\src\BulletInverseDynamics\IDMath.cpp ..\..\src\BulletInverseDynamics\MultiBodyTree.cpp ..\..\src\BulletInverseDynamics\details\MultiBodyTreeInitCache.cpp ..\..\src\BulletInverseDynamics\details\MultiBodyTreeImpl.cpp
+         IDMath.cpp
+         MultiBodyTree.cpp
+         MultiBodyTreeInitCache.cpp
+         MultiBodyTreeImpl.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\BulletInverseDynamics_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\BulletInverseDynamics\IDMath.obj
+         obj\x32\Debug\BulletInverseDynamics\MultiBodyTree.obj
+         obj\x32\Debug\BulletInverseDynamics\MultiBodyTreeInitCache.obj
+         obj\x32\Debug\BulletInverseDynamics\MultiBodyTreeImpl.obj
+         BulletInverseDynamics.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\BulletInverseDynamics_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\BulletInverseDynamics.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:02.95

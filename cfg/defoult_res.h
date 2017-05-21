@@ -1,0 +1,2 @@
+#define FULL_HD_VRES 1920
+#define FULL_HD_HRES 1080

@@ -1,0 +1,15 @@
+﻿Compilazione avviata 15/04/2017 21.07.27.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_BulletDynamics.vcxproj" sul nodo 7 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\test\BulletDynamics\pendulum /I..\..\src /I"..\..\test\gtest-1.7.0\include" /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D USE_GTEST /D _VARIADIC_MAX=10 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Test_BulletDynamics\\" /Fd"..\..\bin\Test_BulletDynamics_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\MultiBody\Pendulum.cpp
+         Pendulum.cpp
+     1>..\..\examples\MultiBody\Pendulum.cpp(195): warning C4316: 'Pendulum': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\MultiBody\Pendulum.cpp(225): warning C4316: 'Pendulum': l'oggetto allocato nell'heap può non essere allineato 16
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Test_BulletDynamics_vs2010_debug.exe" /INCREMENTAL /NOLOGO ..\..\bin\BulletDynamics_vs2010_debug.lib ..\..\bin\BulletCollision_vs2010_debug.lib ..\..\bin\LinearMath_vs2010_debug.lib ..\..\bin\gtest_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\Test_BulletDynamics_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Test_BulletDynamics_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\Test_BulletDynamics\Pendulum.obj
+         Test_BulletDynamics.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\Test_BulletDynamics_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_BulletDynamics.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:15.20

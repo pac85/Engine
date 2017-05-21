@@ -1,0 +1,19 @@
+﻿Compilazione avviata 15/04/2017 21.06.57.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_enet_nat_punchthrough_client.vcxproj" sul nodo 2 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\examples\ThirdPartyLibs\enet\include /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D WIN32 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Test_enet_nat_punchthrough_client\\" /Fd"..\..\bin\Test_enet_nat_punchthrough_client_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\test\enet\nat_punchthrough\client\main.cpp
+         main.cpp
+     1>..\..\test\enet\nat_punchthrough\client\main.cpp(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: vedere la dichiarazione di 'sprintf'
+     1>..\..\test\enet\nat_punchthrough\client\main.cpp(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: vedere la dichiarazione di 'strcpy'
+     1>..\..\test\enet\nat_punchthrough\client\main.cpp(110): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+     1>..\..\test\enet\nat_punchthrough\client\main.cpp(142): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'void *'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Test_enet_nat_punchthrough_client_vs2010_debug.exe" /INCREMENTAL /NOLOGO Ws2_32.lib Winmm.lib ..\..\bin\enet_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\Test_enet_nat_punchthrough_client_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Test_enet_nat_punchthrough_client_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\Test_enet_nat_punchthrough_client\main.obj
+         Test_enet_nat_punchthrough_client.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\Test_enet_nat_punchthrough_client_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_enet_nat_punchthrough_client.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:02.86

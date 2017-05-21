@@ -1,0 +1,34 @@
+﻿Compilazione avviata 15/04/2017 21.05.28.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\enet.vcxproj" sul nodo 2 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\examples\ThirdPartyLibs\enet /I..\..\examples\ThirdPartyLibs\enet\include /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D WIN32 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\enet\\" /Fd"..\..\bin\enet_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\ThirdPartyLibs\enet\win32.c ..\..\examples\ThirdPartyLibs\enet\callbacks.c ..\..\examples\ThirdPartyLibs\enet\compress.c ..\..\examples\ThirdPartyLibs\enet\host.c ..\..\examples\ThirdPartyLibs\enet\list.c ..\..\examples\ThirdPartyLibs\enet\packet.c ..\..\examples\ThirdPartyLibs\enet\peer.c ..\..\examples\ThirdPartyLibs\enet\protocol.c
+         win32.c
+         callbacks.c
+         compress.c
+         host.c
+         list.c
+         packet.c
+         peer.c
+         protocol.c
+     1>..\..\examples\ThirdPartyLibs\enet\compress.c(303): warning C4146: l'operatore 'meno' unario è stato applicato al tipo unsigned. Il risultato resta unsigned
+     1>..\..\examples\ThirdPartyLibs\enet\compress.c(308): warning C4146: l'operatore 'meno' unario è stato applicato al tipo unsigned. Il risultato resta unsigned
+     1>..\..\examples\ThirdPartyLibs\enet\compress.c(326): warning C4146: l'operatore 'meno' unario è stato applicato al tipo unsigned. Il risultato resta unsigned
+     1>..\..\examples\ThirdPartyLibs\enet\compress.c(548): warning C4146: l'operatore 'meno' unario è stato applicato al tipo unsigned. Il risultato resta unsigned
+     1>..\..\examples\ThirdPartyLibs\enet\compress.c(563): warning C4146: l'operatore 'meno' unario è stato applicato al tipo unsigned. Il risultato resta unsigned
+     1>..\..\examples\ThirdPartyLibs\enet\compress.c(578): warning C4146: l'operatore 'meno' unario è stato applicato al tipo unsigned. Il risultato resta unsigned
+     1>..\..\examples\ThirdPartyLibs\enet\compress.c(593): warning C4146: l'operatore 'meno' unario è stato applicato al tipo unsigned. Il risultato resta unsigned
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\enet_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\enet\win32.obj
+         obj\x32\Debug\enet\callbacks.obj
+         obj\x32\Debug\enet\compress.obj
+         obj\x32\Debug\enet\host.obj
+         obj\x32\Debug\enet\list.obj
+         obj\x32\Debug\enet\packet.obj
+         obj\x32\Debug\enet\peer.obj
+         obj\x32\Debug\enet\protocol.obj
+         enet.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\enet_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\enet.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:04.26

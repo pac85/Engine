@@ -1,0 +1,19 @@
+﻿Compilazione avviata 15/04/2017 21.07.02.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\HACD.vcxproj" sul nodo 9 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\Extras\HACD /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\HACD\\" /Fd"..\..\bin\HACD_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\Extras\HACD\hacdGraph.cpp ..\..\Extras\HACD\hacdHACD.cpp ..\..\Extras\HACD\hacdICHull.cpp ..\..\Extras\HACD\hacdManifoldMesh.cpp
+         hacdGraph.cpp
+         hacdHACD.cpp
+         hacdICHull.cpp
+         hacdManifoldMesh.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\HACD_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\HACD\hacdGraph.obj
+         obj\x32\Debug\HACD\hacdHACD.obj
+         obj\x32\Debug\HACD\hacdICHull.obj
+         obj\x32\Debug\HACD\hacdManifoldMesh.obj
+         HACD.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\HACD_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\HACD.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:15.91

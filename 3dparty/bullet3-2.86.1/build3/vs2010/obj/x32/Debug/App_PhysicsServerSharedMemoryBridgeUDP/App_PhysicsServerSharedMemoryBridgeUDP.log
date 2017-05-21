@@ -1,0 +1,34 @@
+﻿Compilazione avviata 15/04/2017 21.05.53.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\App_PhysicsServerSharedMemoryBridgeUDP.vcxproj" sul nodo 7 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\examples\ThirdPartyLibs\enet\include /I..\..\src /I..\..\examples\SharedMemory /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D WIN32 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\App_PhysicsServerSharedMemoryBridgeUDP\\" /Fd"..\..\bin\App_PhysicsServerSharedMemoryBridgeUDP_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\SharedMemory\udp\main.cpp ..\..\examples\SharedMemory\PhysicsClient.cpp ..\..\examples\SharedMemory\PhysicsDirect.cpp ..\..\examples\SharedMemory\SharedMemoryCommandProcessor.cpp ..\..\examples\SharedMemory\PhysicsClientC_API.cpp ..\..\examples\SharedMemory\Win32SharedMemory.cpp ..\..\examples\SharedMemory\PosixSharedMemory.cpp ..\..\examples\Utils\b3ResourcePath.cpp ..\..\examples\Utils\b3Clock.cpp
+         main.cpp
+         PhysicsClient.cpp
+         PhysicsDirect.cpp
+         SharedMemoryCommandProcessor.cpp
+         PhysicsClientC_API.cpp
+         Win32SharedMemory.cpp
+         PosixSharedMemory.cpp
+         b3ResourcePath.cpp
+         b3Clock.cpp
+     1>..\..\examples\SharedMemory\PhysicsClientC_API.cpp(554): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\src\Bullet3Common/b3CommandLineArgs.h(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\examples\SharedMemory\udp\main.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: vedere la dichiarazione di 'strcpy' (compilazione del file di origine ..\..\examples\SharedMemory\udp\main.cpp)
+     1>..\..\examples\SharedMemory\udp\main.cpp(141): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'void *'
+     1>..\..\examples\SharedMemory\udp\main.cpp(239): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'void *'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\App_PhysicsServerSharedMemoryBridgeUDP_vs2010_debug.exe" /INCREMENTAL /NOLOGO Ws2_32.lib Winmm.lib ..\..\bin\enet_vs2010_debug.lib ..\..\bin\BulletFileLoader_vs2010_debug.lib ..\..\bin\Bullet3Common_vs2010_debug.lib ..\..\bin\LinearMath_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\App_PhysicsServerSharedMemoryBridgeUDP_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\App_PhysicsServerSharedMemoryBridgeUDP_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\App_PhysicsServerSharedMemoryBridgeUDP\main.obj
+         obj\x32\Debug\App_PhysicsServerSharedMemoryBridgeUDP\PhysicsClient.obj
+         obj\x32\Debug\App_PhysicsServerSharedMemoryBridgeUDP\PhysicsDirect.obj
+         obj\x32\Debug\App_PhysicsServerSharedMemoryBridgeUDP\SharedMemoryCommandProcessor.obj
+         obj\x32\Debug\App_PhysicsServerSharedMemoryBridgeUDP\PhysicsClientC_API.obj
+         obj\x32\Debug\App_PhysicsServerSharedMemoryBridgeUDP\Win32SharedMemory.obj
+         obj\x32\Debug\App_PhysicsServerSharedMemoryBridgeUDP\PosixSharedMemory.obj
+         obj\x32\Debug\App_PhysicsServerSharedMemoryBridgeUDP\b3ResourcePath.obj
+         obj\x32\Debug\App_PhysicsServerSharedMemoryBridgeUDP\b3Clock.obj
+         App_PhysicsServerSharedMemoryBridgeUDP.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\App_PhysicsServerSharedMemoryBridgeUDP_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\App_PhysicsServerSharedMemoryBridgeUDP.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:19.26

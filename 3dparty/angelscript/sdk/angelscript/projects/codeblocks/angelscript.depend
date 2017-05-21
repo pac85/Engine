@@ -1,0 +1,321 @@
+# depslib dependency file v1.0
+1395499885 source:c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_atomic.cpp
+	"as_atomic.h"
+	<xtl.h>
+	<windows.h>
+	<libkern/OSAtomic.h>
+
+1359422204 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_atomic.h
+	"as_config.h"
+
+1452911166 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_config.h
+	<stdlib.h>
+	<TargetConditionals.h>
+	<android/log.h>
+	<stdlib.h>
+	<assert.h>
+	"../include/angelscript.h"
+	"as_memory.h"
+
+1466971401 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\include\angelscript.h
+	<stddef.h>
+	<stdint.h>
+	<type_traits>
+
+1407812204 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_memory.h
+	"as_config.h"
+	<new>
+	"as_criticalsection.h"
+	"as_array.h"
+
+1388800382 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_criticalsection.h
+	"as_config.h"
+	<pthread.h>
+	<xtl.h>
+	<windows.h>
+
+1441078469 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_array.h
+	<memory.h>
+	<string.h>
+
+1461036504 source:c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_builder.cpp
+	"as_config.h"
+	"as_builder.h"
+	"as_parser.h"
+	"as_compiler.h"
+	"as_tokendef.h"
+	"as_string_util.h"
+	"as_outputbuffer.h"
+	"as_texts.h"
+	"as_scriptobject.h"
+	"as_debug.h"
+
+1451346672 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_builder.h
+	"as_config.h"
+	"as_symboltable.h"
+	"as_scriptengine.h"
+	"as_module.h"
+	"as_array.h"
+	"as_scriptcode.h"
+	"as_scriptnode.h"
+	"as_datatype.h"
+	"as_property.h"
+
+1424014785 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_symboltable.h
+	"as_config.h"
+	"as_memory.h"
+	"as_string.h"
+	"as_map.h"
+	"as_datatype.h"
+	"as_namespace.h"
+
+1392569895 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_string.h
+	<stdio.h>
+	<string.h>
+
+1388511866 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_map.h
+
+1449968101 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_datatype.h
+	"as_tokendef.h"
+	"as_string.h"
+
+1437234706 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_tokendef.h
+	"as_config.h"
+
+1398531567 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_namespace.h
+	"as_string.h"
+
+1463708445 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_scriptengine.h
+	"as_config.h"
+	"as_atomic.h"
+	"as_scriptfunction.h"
+	"as_array.h"
+	"as_datatype.h"
+	"as_objecttype.h"
+	"as_module.h"
+	"as_callfunc.h"
+	"as_configgroup.h"
+	"as_memory.h"
+	"as_gc.h"
+	"as_tokenizer.h"
+
+1453056239 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_scriptfunction.h
+	"as_config.h"
+	"as_string.h"
+	"as_array.h"
+	"as_datatype.h"
+	"as_atomic.h"
+
+1452302415 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_objecttype.h
+	"as_property.h"
+	"as_array.h"
+	"as_scriptfunction.h"
+	"as_typeinfo.h"
+
+1420501806 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_property.h
+	"as_string.h"
+	"as_datatype.h"
+	"as_atomic.h"
+	"as_scriptfunction.h"
+	"as_symboltable.h"
+
+1456536392 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_typeinfo.h
+	"as_config.h"
+	"as_string.h"
+	"as_atomic.h"
+	"as_datatype.h"
+
+1449620416 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_module.h
+	"as_config.h"
+	"as_symboltable.h"
+	"as_atomic.h"
+	"as_string.h"
+	"as_array.h"
+	"as_datatype.h"
+	"as_scriptfunction.h"
+	"as_property.h"
+
+1441487398 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_callfunc.h
+	"as_array.h"
+
+1449968811 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_configgroup.h
+	"as_config.h"
+	"as_string.h"
+	"as_array.h"
+	"as_objecttype.h"
+
+1447897791 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_gc.h
+	"as_config.h"
+	"as_array.h"
+	"as_map.h"
+	"as_thread.h"
+
+1392859661 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_thread.h
+	"as_config.h"
+	"as_string.h"
+	"as_array.h"
+	"as_map.h"
+	"as_criticalsection.h"
+
+1379175560 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_tokenizer.h
+	"as_config.h"
+	"as_tokendef.h"
+	"as_map.h"
+	"as_string.h"
+
+1356283025 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_scriptcode.h
+	"as_array.h"
+	"as_string.h"
+
+1443895048 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_scriptnode.h
+	"as_config.h"
+	"as_tokendef.h"
+
+1444270315 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_parser.h
+	"as_scriptnode.h"
+	"as_scriptcode.h"
+	"as_builder.h"
+	"as_tokenizer.h"
+
+1465785405 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_compiler.h
+	"as_config.h"
+	"as_builder.h"
+	"as_scriptfunction.h"
+	"as_variablescope.h"
+	"as_bytecode.h"
+	"as_array.h"
+	"as_datatype.h"
+
+1328660245 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_variablescope.h
+	"as_config.h"
+	"as_array.h"
+	"as_string.h"
+	"as_datatype.h"
+
+1441073647 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_bytecode.h
+	"as_config.h"
+	"as_array.h"
+
+1321813157 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_string_util.h
+	"as_config.h"
+
+1329062811 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_outputbuffer.h
+	"as_config.h"
+	"as_string.h"
+	"as_array.h"
+
+1459034688 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_texts.h
+
+1447897791 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_scriptobject.h
+	"as_config.h"
+	"as_atomic.h"
+
+1452912949 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_debug.h
+	"as_config.h"
+	<types.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<direct.h>
+	<mmsystem.h>
+	<direct.h>
+	"as_string.h"
+	"as_map.h"
+	"as_string_util.h"
+
+1460832298 source:c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_bytecode.cpp
+	<stdio.h>
+	"as_config.h"
+	"as_bytecode.h"
+	"as_debug.h"
+	"as_array.h"
+	"as_string.h"
+	"as_scriptengine.h"
+	"as_debug.h"
+
+1462656789 source:c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_callfunc.cpp
+	"as_config.h"
+	"as_callfunc.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_context.h"
+
+1416788818 c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_context.h
+	"as_config.h"
+	"as_atomic.h"
+	"as_array.h"
+	"as_string.h"
+	"as_objecttype.h"
+	"as_callfunc.h"
+
+1447811773 source:c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_callfunc_arm.cpp
+	"as_config.h"
+	"as_callfunc.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_tokendef.h"
+	"as_context.h"
+
+1447296679 source:c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_callfunc_mips.cpp
+	"as_config.h"
+	"as_callfunc.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_tokendef.h"
+	"as_context.h"
+	<stdio.h>
+	<stdlib.h>
+	<regdef.h>
+
+1447811813 source:c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_callfunc_ppc.cpp
+	<stdio.h>
+	"as_config.h"
+	"as_callfunc.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_tokendef.h"
+	"as_context.h"
+	<stdlib.h>
+
+1447811822 source:c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_callfunc_ppc_64.cpp
+	"as_config.h"
+	"as_callfunc.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_tokendef.h"
+	"as_context.h"
+	<stdio.h>
+	<stdlib.h>
+	"ppu_asm_intrinsics.h"
+
+1447811829 source:c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_callfunc_sh4.cpp
+	"as_config.h"
+	"as_callfunc.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_tokendef.h"
+	"as_context.h"
+	<stdio.h>
+	<stdlib.h>
+
+1452128271 source:c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_callfunc_x64_gcc.cpp
+	"as_config.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_context.h"
+
+1447811843 source:c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_callfunc_x64_mingw.cpp
+	<stdio.h>
+	"as_config.h"
+	"as_callfunc.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_context.h"
+
+1447811851 source:c:\users\antonino\desktop\vulkan_engine\3dparty\angelscript\sdk\angelscript\source\as_callfunc_x64_msvc.cpp
+	<stdio.h>
+	"as_config.h"
+	"as_callfunc.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_context.h"
+

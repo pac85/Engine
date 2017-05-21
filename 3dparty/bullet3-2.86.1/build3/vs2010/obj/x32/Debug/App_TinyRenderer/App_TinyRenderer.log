@@ -1,0 +1,28 @@
+﻿Compilazione avviata 15/04/2017 21.06.55.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\App_TinyRenderer.vcxproj" sul nodo 7 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\examples\TinyRenderer /I..\..\src /I..\..\examples /I..\..\examples\ThirdPartyLibs\Glew /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\App_TinyRenderer\\" /Fd"..\..\bin\App_TinyRenderer_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\ThirdPartyLibs\Glew\glew.c
+         glew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\examples\TinyRenderer /I..\..\src /I..\..\examples /I..\..\examples\ThirdPartyLibs\Glew /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\App_TinyRenderer\\" /Fd"..\..\bin\App_TinyRenderer_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\TinyRenderer\geometry.cpp ..\..\examples\TinyRenderer\main.cpp ..\..\examples\TinyRenderer\model.cpp ..\..\examples\TinyRenderer\our_gl.cpp ..\..\examples\TinyRenderer\tgaimage.cpp ..\..\examples\TinyRenderer\TinyRenderer.cpp ..\..\examples\Utils\b3ResourcePath.cpp
+         geometry.cpp
+         main.cpp
+         model.cpp
+         our_gl.cpp
+         tgaimage.cpp
+         TinyRenderer.cpp
+         b3ResourcePath.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\App_TinyRenderer_vs2010_debug.exe" /INCREMENTAL /NOLOGO ..\..\bin\OpenGL_Window_vs2010_debug.lib ..\..\bin\Bullet3Common_vs2010_debug.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\App_TinyRenderer_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\App_TinyRenderer_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\App_TinyRenderer\glew.obj
+         obj\x32\Debug\App_TinyRenderer\geometry.obj
+         obj\x32\Debug\App_TinyRenderer\main.obj
+         obj\x32\Debug\App_TinyRenderer\model.obj
+         obj\x32\Debug\App_TinyRenderer\our_gl.obj
+         obj\x32\Debug\App_TinyRenderer\tgaimage.obj
+         obj\x32\Debug\App_TinyRenderer\TinyRenderer.obj
+         obj\x32\Debug\App_TinyRenderer\b3ResourcePath.obj
+         App_TinyRenderer.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\App_TinyRenderer_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\App_TinyRenderer.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:09.07

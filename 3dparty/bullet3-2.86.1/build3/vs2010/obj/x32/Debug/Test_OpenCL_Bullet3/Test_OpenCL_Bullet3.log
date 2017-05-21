@@ -1,0 +1,119 @@
+﻿Compilazione avviata 15/04/2017 21.07.38.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_OpenCL_Bullet3.vcxproj" sul nodo 5 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\test\TestBullet3OpenCL /I"..\..\test\gtest-1.7.0\include" /I..\..\src /I..\..\examples\ThirdPartyLibs /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _VARIADIC_MAX=10 /D B3_USE_CLEW /D B3_USE_ZLIB /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Test_OpenCL_Bullet3\\" /Fd"..\..\bin\Test_OpenCL_Bullet3_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\src\clew\clew.c ..\..\examples\ThirdPartyLibs\minizip\ioapi.c ..\..\examples\ThirdPartyLibs\minizip\unzip.c ..\..\examples\ThirdPartyLibs\minizip\zip.c ..\..\examples\ThirdPartyLibs\zlib\adler32.c ..\..\examples\ThirdPartyLibs\zlib\compress.c ..\..\examples\ThirdPartyLibs\zlib\crc32.c ..\..\examples\ThirdPartyLibs\zlib\deflate.c ..\..\examples\ThirdPartyLibs\zlib\gzclose.c ..\..\examples\ThirdPartyLibs\zlib\gzlib.c ..\..\examples\ThirdPartyLibs\zlib\gzread.c ..\..\examples\ThirdPartyLibs\zlib\gzwrite.c ..\..\examples\ThirdPartyLibs\zlib\infback.c ..\..\examples\ThirdPartyLibs\zlib\inffast.c ..\..\examples\ThirdPartyLibs\zlib\inflate.c ..\..\examples\ThirdPartyLibs\zlib\inftrees.c ..\..\examples\ThirdPartyLibs\zlib\trees.c ..\..\examples\ThirdPartyLibs\zlib\uncompr.c ..\..\examples\ThirdPartyLibs\zlib\zutil.c
+         clew.c
+         ioapi.c
+         unzip.c
+         zip.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+     1>..\..\examples\ThirdPartyLibs\zlib\gzread.c(30): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+     1>..\..\examples\ThirdPartyLibs\zlib\gzlib.c(193): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_io.h(521): note: vedere la dichiarazione di 'read'
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdlib.h(1008): note: vedere la dichiarazione di 'wcstombs'
+     1>..\..\examples\ThirdPartyLibs\zlib\gzlib.c(208): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdlib.h(1008): note: vedere la dichiarazione di 'wcstombs'
+     1>..\..\examples\ThirdPartyLibs\zlib\gzlib.c(214): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: vedere la dichiarazione di '_snprintf'
+         infback.c
+     1>..\..\examples\ThirdPartyLibs\zlib\gzread.c(36): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(178): note: vedere la dichiarazione di 'strerror'
+     1>..\..\examples\ThirdPartyLibs\zlib\gzlib.c(245): warning C4996: '_wopen': This function or variable may be unsafe. Consider using _wsopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wio.h(257): note: vedere la dichiarazione di '_wopen'
+         inffast.c
+     1>..\..\examples\ThirdPartyLibs\zlib\gzlib.c(245): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_io.h(514): note: vedere la dichiarazione di 'open'
+     1>..\..\examples\ThirdPartyLibs\zlib\gzlib.c(294): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: vedere la dichiarazione di '_snprintf'
+     1>..\..\examples\ThirdPartyLibs\zlib\gzlib.c(608): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1952): note: vedere la dichiarazione di '_snprintf'
+     1>..\..\examples\ThirdPartyLibs\zlib\gzread.c(591): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_io.h(457): note: vedere la dichiarazione di 'close'
+         inflate.c
+     1>..\..\examples\ThirdPartyLibs\zlib\gzwrite.c(84): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_io.h(556): note: vedere la dichiarazione di 'write'
+         inftrees.c
+     1>..\..\examples\ThirdPartyLibs\zlib\gzwrite.c(86): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(178): note: vedere la dichiarazione di 'strerror'
+     1>..\..\examples\ThirdPartyLibs\zlib\gzwrite.c(102): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_io.h(556): note: vedere la dichiarazione di 'write'
+     1>..\..\examples\ThirdPartyLibs\zlib\gzwrite.c(103): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(178): note: vedere la dichiarazione di 'strerror'
+     1>..\..\examples\ThirdPartyLibs\zlib\gzwrite.c(573): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_io.h(457): note: vedere la dichiarazione di 'close'
+         trees.c
+         uncompr.c
+         zutil.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\test\TestBullet3OpenCL /I"..\..\test\gtest-1.7.0\include" /I..\..\src /I..\..\examples\ThirdPartyLibs /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _VARIADIC_MAX=10 /D B3_USE_CLEW /D B3_USE_ZLIB /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\Test_OpenCL_Bullet3\\" /Fd"..\..\bin\Test_OpenCL_Bullet3_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\test\TestBullet3OpenCL\main.cpp ..\..\test\OpenCL\BasicInitialize\testInitOpenCL.cpp ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3BroadphaseKernels.cpp ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3IntegrateUpdateAabbKernels.cpp ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3JacobiContactSolverKernels.cpp ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3NarrowphaseKernels.cpp ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3PgsContactSolverKernels.cpp ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3PgsJointSolverKernels.cpp ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3RaycastKernels.cpp ..\..\test\OpenCL\AllBullet3Kernels\testExecuteBullet3NarrowphaseKernels.cpp
+         main.cpp
+         testInitOpenCL.cpp
+         testCompileBullet3BroadphaseKernels.cpp
+         testCompileBullet3IntegrateUpdateAabbKernels.cpp
+         testCompileBullet3JacobiContactSolverKernels.cpp
+         testCompileBullet3NarrowphaseKernels.cpp
+         testCompileBullet3PgsContactSolverKernels.cpp
+         testCompileBullet3PgsJointSolverKernels.cpp
+     1>C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\src\Bullet3Common/b3CommandLineArgs.h(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3PgsContactSolverKernels.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: vedere la dichiarazione di 'strcpy' (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3PgsContactSolverKernels.cpp)
+     1>C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\src\Bullet3Common/b3CommandLineArgs.h(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3IntegrateUpdateAabbKernels.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: vedere la dichiarazione di 'strcpy' (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3IntegrateUpdateAabbKernels.cpp)
+     1>C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\src\Bullet3Common/b3CommandLineArgs.h(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3NarrowphaseKernels.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: vedere la dichiarazione di 'strcpy' (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3NarrowphaseKernels.cpp)
+     1>C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\src\Bullet3Common/b3CommandLineArgs.h(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3JacobiContactSolverKernels.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: vedere la dichiarazione di 'strcpy' (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3JacobiContactSolverKernels.cpp)
+     1>C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\src\Bullet3Common/b3CommandLineArgs.h(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3PgsJointSolverKernels.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: vedere la dichiarazione di 'strcpy' (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3PgsJointSolverKernels.cpp)
+     1>C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\src\Bullet3Common/b3CommandLineArgs.h(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3BroadphaseKernels.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: vedere la dichiarazione di 'strcpy' (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3BroadphaseKernels.cpp)
+     1>C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\test\gtest-1.7.0\include\gtest/gtest.h(1585): warning C4018: '>': errata corrispondenza tra signed e unsigned (compilazione del file di origine ..\..\test\OpenCL\BasicInitialize\testInitOpenCL.cpp)
+         ..\..\test\OpenCL\BasicInitialize\testInitOpenCL.cpp(96): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+         testCompileBullet3RaycastKernels.cpp
+         testExecuteBullet3NarrowphaseKernels.cpp
+     1>C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\src\Bullet3Common/b3CommandLineArgs.h(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3RaycastKernels.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: vedere la dichiarazione di 'strcpy' (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testCompileBullet3RaycastKernels.cpp)
+     1>C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\src\Bullet3Common/b3CommandLineArgs.h(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testExecuteBullet3NarrowphaseKernels.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: vedere la dichiarazione di 'strcpy' (compilazione del file di origine ..\..\test\OpenCL\AllBullet3Kernels\testExecuteBullet3NarrowphaseKernels.cpp)
+     1>..\..\test\OpenCL\AllBullet3Kernels\testExecuteBullet3NarrowphaseKernels.cpp(410): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Test_OpenCL_Bullet3_vs2010_debug.exe" /INCREMENTAL /NOLOGO ..\..\bin\gtest_vs2010_debug.lib ..\..\bin\Bullet3OpenCL_clew_vs2010_debug.lib ..\..\bin\Bullet3Common_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\Test_OpenCL_Bullet3_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Test_OpenCL_Bullet3_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\Test_OpenCL_Bullet3\clew.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\ioapi.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\unzip.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\zip.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\adler32.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\compress.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\crc32.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\deflate.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\gzclose.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\gzlib.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\gzread.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\gzwrite.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\infback.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\inffast.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\inflate.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\inftrees.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\trees.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\uncompr.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\zutil.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\main.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\testInitOpenCL.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\testCompileBullet3BroadphaseKernels.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\testCompileBullet3IntegrateUpdateAabbKernels.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\testCompileBullet3JacobiContactSolverKernels.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\testCompileBullet3NarrowphaseKernels.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\testCompileBullet3PgsContactSolverKernels.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\testCompileBullet3PgsJointSolverKernels.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\testCompileBullet3RaycastKernels.obj
+         obj\x32\Debug\Test_OpenCL_Bullet3\testExecuteBullet3NarrowphaseKernels.obj
+         Test_OpenCL_Bullet3.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\Test_OpenCL_Bullet3_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\Test_OpenCL_Bullet3.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:33.26

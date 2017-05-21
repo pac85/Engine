@@ -1,0 +1,52 @@
+﻿Compilazione avviata 15/04/2017 21.05.28.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\OpenGL_Window.vcxproj" sul nodo 4 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\examples\ThirdPartyLibs\Glew /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\OpenGL_Window\\" /Fd"..\..\bin\OpenGL_Window_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\ThirdPartyLibs\Glew\glew.c
+         glew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\examples\ThirdPartyLibs\Glew /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\OpenGL_Window\\" /Fd"..\..\bin\OpenGL_Window_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\OpenGLWindow\EGLOpenGLWindow.cpp ..\..\examples\OpenGLWindow\fontstash.cpp ..\..\examples\OpenGLWindow\GLInstancingRenderer.cpp ..\..\examples\OpenGLWindow\GLPrimitiveRenderer.cpp ..\..\examples\OpenGLWindow\GLRenderToTexture.cpp ..\..\examples\OpenGLWindow\LoadShader.cpp ..\..\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp ..\..\examples\OpenGLWindow\OpenSans.cpp ..\..\examples\OpenGLWindow\SimpleCamera.cpp ..\..\examples\OpenGLWindow\SimpleOpenGL2App.cpp ..\..\examples\OpenGLWindow\SimpleOpenGL2Renderer.cpp ..\..\examples\OpenGLWindow\SimpleOpenGL3App.cpp ..\..\examples\OpenGLWindow\TwFonts.cpp ..\..\examples\OpenGLWindow\Win32OpenGLWindow.cpp ..\..\examples\OpenGLWindow\Win32Window.cpp
+         EGLOpenGLWindow.cpp
+         fontstash.cpp
+         GLInstancingRenderer.cpp
+         GLPrimitiveRenderer.cpp
+         GLRenderToTexture.cpp
+         LoadShader.cpp
+         opengl_fontstashcallbacks.cpp
+         OpenSans.cpp
+         SimpleCamera.cpp
+     1>..\..\examples\OpenGLWindow\GLPrimitiveRenderer.cpp(505): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>..\..\examples\OpenGLWindow\GLPrimitiveRenderer.cpp(525): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+         SimpleOpenGL2App.cpp
+     1>c:\users\antonino\desktop\vulkan_engine\bullet3-2.86.1\examples\openglwindow\stb_image_write.h(156): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen' (compilazione del file di origine ..\..\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp)
+         SimpleOpenGL2Renderer.cpp
+     1>c:\users\antonino\desktop\vulkan_engine\bullet3-2.86.1\examples\openglwindow\stb_image_write.h(495): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen' (compilazione del file di origine ..\..\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp)
+         SimpleOpenGL3App.cpp
+         TwFonts.cpp
+         Win32OpenGLWindow.cpp
+     1>..\..\examples\OpenGLWindow\fontstash.cpp(225): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+         Win32Window.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\OpenGL_Window_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\OpenGL_Window\glew.obj
+         obj\x32\Debug\OpenGL_Window\EGLOpenGLWindow.obj
+         obj\x32\Debug\OpenGL_Window\fontstash.obj
+         obj\x32\Debug\OpenGL_Window\GLInstancingRenderer.obj
+         obj\x32\Debug\OpenGL_Window\GLPrimitiveRenderer.obj
+         obj\x32\Debug\OpenGL_Window\GLRenderToTexture.obj
+         obj\x32\Debug\OpenGL_Window\LoadShader.obj
+         obj\x32\Debug\OpenGL_Window\opengl_fontstashcallbacks.obj
+         obj\x32\Debug\OpenGL_Window\OpenSans.obj
+         obj\x32\Debug\OpenGL_Window\SimpleCamera.obj
+         obj\x32\Debug\OpenGL_Window\SimpleOpenGL2App.obj
+         obj\x32\Debug\OpenGL_Window\SimpleOpenGL2Renderer.obj
+         obj\x32\Debug\OpenGL_Window\SimpleOpenGL3App.obj
+         obj\x32\Debug\OpenGL_Window\TwFonts.obj
+         obj\x32\Debug\OpenGL_Window\Win32OpenGLWindow.obj
+         obj\x32\Debug\OpenGL_Window\Win32Window.obj
+         OpenGL_Window.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\OpenGL_Window_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\OpenGL_Window.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:13.05

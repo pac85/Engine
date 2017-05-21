@@ -1,0 +1,407 @@
+﻿Compilazione avviata 15/04/2017 21.06.52.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\App_BulletExampleBrowser.vcxproj" sul nodo 8 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\examples\ThirdPartyLibs\Glew /I..\..\examples\ExampleBrowser /I..\..\src /I..\..\examples\ThirdPartyLibs /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_CLEW /D GLEW_STATIC /D INCLUDE_CLOTH_DEMOS /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\App_BulletExampleBrowser\\" /Fd"..\..\bin\App_BulletExampleBrowser_vs2010_debug.pdb" /Gd /TC /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\src\clew\clew.c ..\..\examples\ThirdPartyLibs\Glew\glew.c
+         clew.c
+         glew.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src\clew /I..\..\examples\ThirdPartyLibs\Glew /I..\..\examples\ExampleBrowser /I..\..\src /I..\..\examples\ThirdPartyLibs /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D B3_USE_CLEW /D GLEW_STATIC /D INCLUDE_CLOTH_DEMOS /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\App_BulletExampleBrowser\\" /Fd"..\..\bin\App_BulletExampleBrowser_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\examples\ExampleBrowser\main.cpp ..\..\examples\ExampleBrowser\ExampleEntries.cpp ..\..\examples\InverseKinematics\InverseKinematicsExample.cpp ..\..\examples\TinyRenderer\geometry.cpp ..\..\examples\TinyRenderer\model.cpp ..\..\examples\TinyRenderer\tgaimage.cpp ..\..\examples\TinyRenderer\our_gl.cpp ..\..\examples\TinyRenderer\TinyRenderer.cpp ..\..\examples\SharedMemory\IKTrajectoryHelper.cpp ..\..\examples\SharedMemory\PhysicsClientC_API.cpp ..\..\examples\SharedMemory\PhysicsServerExample.cpp ..\..\examples\SharedMemory\PhysicsClientExample.cpp ..\..\examples\SharedMemory\PhysicsServer.cpp ..\..\examples\SharedMemory\PhysicsServerSharedMemory.cpp ..\..\examples\SharedMemory\PhysicsClientSharedMemory.cpp ..\..\examples\SharedMemory\PhysicsClientSharedMemory_C_API.cpp ..\..\examples\SharedMemory\PhysicsClientSharedMemory2.cpp ..\..\examples\SharedMemory\PhysicsClientSharedMemory2_C_API.cpp ..\..\examples\SharedMemory\SharedMemoryCommandProcessor.cpp ..\..\examples\SharedMemory\SharedMemoryInProcessPhysicsC_API.cpp ..\..\examples\SharedMemory\PhysicsClient.cpp ..\..\examples\SharedMemory\PosixSharedMemory.cpp ..\..\examples\SharedMemory\Win32SharedMemory.cpp ..\..\examples\SharedMemory\InProcessMemory.cpp ..\..\examples\SharedMemory\PhysicsDirect.cpp ..\..\examples\SharedMemory\PhysicsDirectC_API.cpp ..\..\examples\SharedMemory\PhysicsLoopBack.cpp ..\..\examples\SharedMemory\PhysicsLoopBackC_API.cpp ..\..\examples\SharedMemory\PhysicsServerCommandProcessor.cpp ..\..\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp ..\..\examples\MultiThreading\MultiThreadingExample.cpp ..\..\examples\MultiThreading\b3PosixThreadSupport.cpp ..\..\examples\MultiThreading\b3Win32ThreadSupport.cpp ..\..\examples\MultiThreading\b3ThreadSupportInterface.cpp ..\..\examples\InverseDynamics\InverseDynamicsExample.cpp ..\..\examples\BasicDemo\BasicExample.cpp ..\..\examples\Tutorial\Dof6ConstraintTutorial.cpp ..\..\examples\Tutorial\Tutorial.cpp ..\..\examples\ExtendedTutorials\Bridge.cpp ..\..\examples\ExtendedTutorials\Chain.cpp ..\..\examples\ExtendedTutorials\InclinedPlane.cpp ..\..\examples\ExtendedTutorials\MultiPendulum.cpp ..\..\examples\ExtendedTutorials\MultipleBoxes.cpp ..\..\examples\ExtendedTutorials\NewtonsCradle.cpp ..\..\examples\ExtendedTutorials\NewtonsRopeCradle.cpp ..\..\examples\ExtendedTutorials\RigidBodyFromObj.cpp ..\..\examples\ExtendedTutorials\SimpleBox.cpp ..\..\examples\ExtendedTutorials\SimpleCloth.cpp ..\..\examples\ExtendedTutorials\SimpleJoint.cpp ..\..\examples\Utils\RobotLoggingUtil.cpp ..\..\examples\Evolution\NN3DWalkers.cpp ..\..\examples\Collision\CollisionSdkC_Api.cpp ..\..\examples\Collision\CollisionTutorialBullet2.cpp ..\..\examples\RoboticsLearning\b3RobotSimAPI.cpp ..\..\examples\RoboticsLearning\GripperGraspExample.cpp ..\..\examples\RoboticsLearning\KukaGraspExample.cpp ..\..\examples\RoboticsLearning\R2D2GraspExample.cpp ..\..\examples\Collision\Internal\Bullet2CollisionSdk.cpp ..\..\examples\Collision\Internal\RealTimeBullet3CollisionSdk.cpp ..\..\examples\Benchmarks\BenchmarkDemo.cpp ..\..\examples\MultiThreadedDemo\CommonRigidBodyMTBase.cpp ..\..\examples\MultiThreadedDemo\MultiThreadedDemo.cpp ..\..\examples\ForkLift\ForkLiftDemo.cpp ..\..\examples\Importers\ImportBsp\BspConverter.cpp ..\..\examples\Importers\ImportBsp\BspLoader.cpp ..\..\examples\Importers\ImportBsp\ImportBspExample.cpp ..\..\examples\Importers\ImportBullet\SerializeSetup.cpp ..\..\examples\Importers\ImportColladaDemo\ImportColladaSetup.cpp ..\..\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp ..\..\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp ..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp ..\..\examples\Importers\ImportMJCFDemo\ImportMJCFSetup.cpp ..\..\examples\Importers\ImportObjDemo\ImportObjExample.cpp ..\..\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp ..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp ..\..\examples\Importers\ImportSDFDemo\ImportSDFSetup.cpp ..\..\examples\Importers\ImportSTLDemo\ImportSTLSetup.cpp ..\..\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp ..\..\examples\Importers\ImportURDFDemo\ImportURDFSetup.cpp ..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp ..\..\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp ..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp ..\..\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp ..\..\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp ..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp ..\..\Extras\Serialize\BulletFileLoader\bChunk.cpp ..\..\Extras\Serialize\BulletFileLoader\bDNA.cpp ..\..\Extras\Serialize\BulletFileLoader\bFile.cpp ..\..\Extras\Serialize\BulletFileLoader\btBulletFile.cpp ..\..\examples\Planar2D\Planar2D.cpp ..\..\examples\RenderingExamples\CoordinateSystemDemo.cpp ..\..\examples\RenderingExamples\DynamicTexturedCubeDemo.cpp ..\..\examples\RenderingExamples\RaytracerSetup.cpp ..\..\examples\RenderingExamples\RenderInstancingDemo.cpp ..\..\examples\RenderingExamples\TimeSeriesCanvas.cpp ..\..\examples\RenderingExamples\TimeSeriesExample.cpp ..\..\examples\RenderingExamples\TimeSeriesFontData.cpp ..\..\examples\RenderingExamples\TinyRendererSetup.cpp ..\..\examples\RenderingExamples\TinyVRGui.cpp ..\..\examples\VoronoiFracture\btConvexConvexMprAlgorithm.cpp ..\..\examples\VoronoiFracture\VoronoiFractureDemo.cpp ..\..\examples\SoftDemo\SoftDemo.cpp ..\..\examples\RollingFrictionDemo\RollingFrictionDemo.cpp ..\..\examples\FractureDemo\btFractureBody.cpp ..\..\examples\FractureDemo\btFractureDynamicsWorld.cpp ..\..\examples\FractureDemo\FractureDemo.cpp ..\..\examples\DynamicControlDemo\MotorDemo.cpp ..\..\examples\Constraints\ConstraintDemo.cpp ..\..\examples\Constraints\ConstraintPhysicsSetup.cpp ..\..\examples\Constraints\Dof6Spring2Setup.cpp ..\..\examples\Constraints\TestHingeTorque.cpp ..\..\examples\Vehicles\Hinge2Vehicle.cpp ..\..\examples\Raycast\RaytestDemo.cpp ..\..\examples\MultiBody\MultiDofDemo.cpp ..\..\examples\MultiBody\TestJointTorqueSetup.cpp ..\..\examples\MultiBody\Pendulum.cpp ..\..\examples\MultiBody\MultiBodySoftContact.cpp ..\..\examples\MultiBody\MultiBodyConstraintFeedback.cpp ..\..\examples\MultiBody\InvertedPendulumPDControl.cpp ..\..\examples\RigidBody\RigidBodySoftContact.cpp ..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp ..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinystr.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp ..\..\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp ..\..\examples\ThirdPartyLibs\BussIK\Jacobian.cpp ..\..\examples\ThirdPartyLibs\BussIK\LinearR2.cpp ..\..\examples\ThirdPartyLibs\BussIK\LinearR3.cpp ..\..\examples\ThirdPartyLibs\BussIK\LinearR4.cpp ..\..\examples\ThirdPartyLibs\BussIK\MatrixRmn.cpp ..\..\examples\ThirdPartyLibs\BussIK\Misc.cpp ..\..\examples\ThirdPartyLibs\BussIK\Node.cpp ..\..\examples\ThirdPartyLibs\BussIK\Tree.cpp ..\..\examples\ThirdPartyLibs\BussIK\VectorRn.cpp ..\..\examples\GyroscopicDemo\GyroscopicSetup.cpp ..\..\examples\OpenCL\broadphase\PairBench.cpp ..\..\examples\OpenCL\rigidbody\GpuConvexScene.cpp ..\..\examples\OpenCL\rigidbody\GpuRigidBodyDemo.cpp
+         main.cpp
+         ExampleEntries.cpp
+         InverseKinematicsExample.cpp
+         geometry.cpp
+         model.cpp
+         tgaimage.cpp
+         our_gl.cpp
+         TinyRenderer.cpp
+         IKTrajectoryHelper.cpp
+     1>C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\src\Bullet3Common/b3CommandLineArgs.h(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compilazione del file di origine ..\..\examples\ExampleBrowser\main.cpp)
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: vedere la dichiarazione di 'strcpy' (compilazione del file di origine ..\..\examples\ExampleBrowser\main.cpp)
+         PhysicsClientC_API.cpp
+         PhysicsServerExample.cpp
+         PhysicsClientExample.cpp
+     1>..\..\examples\SharedMemory\PhysicsClientC_API.cpp(554): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+         PhysicsServer.cpp
+         PhysicsServerSharedMemory.cpp
+         PhysicsClientSharedMemory.cpp
+         PhysicsClientSharedMemory_C_API.cpp
+         PhysicsClientSharedMemory2.cpp
+         PhysicsClientSharedMemory2_C_API.cpp
+         SharedMemoryCommandProcessor.cpp
+         SharedMemoryInProcessPhysicsC_API.cpp
+         PhysicsClient.cpp
+         PosixSharedMemory.cpp
+         Win32SharedMemory.cpp
+         InProcessMemory.cpp
+         PhysicsDirect.cpp
+         PhysicsDirectC_API.cpp
+         PhysicsLoopBack.cpp
+         PhysicsLoopBackC_API.cpp
+         PhysicsServerCommandProcessor.cpp
+         TinyRendererVisualShapeConverter.cpp
+         MultiThreadingExample.cpp
+     1>..\..\examples\SharedMemory\PhysicsServerExample.cpp(1949): warning C4316: 'MultiThreadedOpenGLGuiHelper': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\SharedMemory\PhysicsServerExample.cpp(1953): warning C4316: 'PhysicsServerExample': l'oggetto allocato nell'heap può non essere allineato 16
+         b3PosixThreadSupport.cpp
+         b3Win32ThreadSupport.cpp
+         b3ThreadSupportInterface.cpp
+         InverseDynamicsExample.cpp
+         BasicExample.cpp
+         Dof6ConstraintTutorial.cpp
+         Tutorial.cpp
+     1>..\..\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp(122): warning C4316: 'TinyRendererVisualShapeConverterInternalData': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp(613): warning C4316: 'TinyRenderObjectData': l'oggetto allocato nell'heap può non essere allineato 16
+         Bridge.cpp
+         Chain.cpp
+         InclinedPlane.cpp
+     1>..\..\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(882): warning C4316: 'PhysicsServerCommandProcessorInternalData': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(2440): warning C4316: 'btMultiBodyJointFeedback': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\BasicDemo\BasicExample.cpp(143): warning C4316: 'BasicExample': l'oggetto allocato nell'heap può non essere allineato 16
+         MultiPendulum.cpp
+     1>..\..\examples\ExtendedTutorials\Bridge.cpp(146): warning C4316: 'BridgeExample': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Tutorial\Dof6ConstraintTutorial.cpp(533): warning C4316: 'Dof6ConstraintTutorial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\ExtendedTutorials\Chain.cpp(133): warning C4316: 'ChainExample': l'oggetto allocato nell'heap può non essere allineato 16
+         MultipleBoxes.cpp
+     1>..\..\examples\ExtendedTutorials\InclinedPlane.cpp(371): warning C4316: 'InclinedPlaneExample': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\InverseDynamics\InverseDynamicsExample.cpp(365): warning C4316: 'InverseDynamicsExample': l'oggetto allocato nell'heap può non essere allineato 16
+         NewtonsCradle.cpp
+         NewtonsRopeCradle.cpp
+         RigidBodyFromObj.cpp
+         SimpleBox.cpp
+         SimpleCloth.cpp
+     1>..\..\examples\ExtendedTutorials\MultipleBoxes.cpp(116): warning C4316: 'MultipleBoxesExample': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\ExtendedTutorials\MultiPendulum.cpp(424): warning C4316: 'MultiPendulumExample': l'oggetto allocato nell'heap può non essere allineato 16
+         SimpleJoint.cpp
+         RobotLoggingUtil.cpp
+     1>..\..\examples\ExtendedTutorials\SimpleBox.cpp(114): warning C4316: 'SimpleBoxExample': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\ExtendedTutorials\NewtonsCradle.cpp(368): warning C4316: 'NewtonsCradleExample': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\ExtendedTutorials\SimpleCloth.cpp(158): warning C4316: 'SimpleClothExample': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\ExtendedTutorials\RigidBodyFromObj.cpp(161): warning C4316: 'RigidBodyFromObjExample': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\ExtendedTutorials\NewtonsRopeCradle.cpp(374): warning C4316: 'NewtonsRopeCradleExample': l'oggetto allocato nell'heap può non essere allineato 16
+         NN3DWalkers.cpp
+         CollisionSdkC_Api.cpp
+         CollisionTutorialBullet2.cpp
+     1>..\..\examples\ExtendedTutorials\SimpleJoint.cpp(129): warning C4316: 'SimpleJointExample': l'oggetto allocato nell'heap può non essere allineato 16
+         b3RobotSimAPI.cpp
+         GripperGraspExample.cpp
+         KukaGraspExample.cpp
+         R2D2GraspExample.cpp
+         Bullet2CollisionSdk.cpp
+         RealTimeBullet3CollisionSdk.cpp
+         BenchmarkDemo.cpp
+     1>..\..\examples\RoboticsLearning\b3RobotSimAPI.cpp(545): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>..\..\examples\RoboticsLearning\b3RobotSimAPI.cpp(552): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>..\..\examples\RoboticsLearning\b3RobotSimAPI.cpp(936): warning C4800: 'int': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>..\..\examples\RoboticsLearning\KukaGraspExample.cpp(319): warning C4316: 'KukaGraspExample': l'oggetto allocato nell'heap può non essere allineato 16
+         CommonRigidBodyMTBase.cpp
+     1>c:\users\antonino\desktop\vulkan_engine\bullet3-2.86.1\examples\evolution\NN3DWalkersTimeWarpBase.h(792): warning C4018: '>': errata corrispondenza tra signed e unsigned (compilazione del file di origine ..\..\examples\Evolution\NN3DWalkers.cpp)
+     1>c:\users\antonino\desktop\vulkan_engine\bullet3-2.86.1\examples\evolution\NN3DWalkersTimeWarpBase.h(809): warning C4018: '>': errata corrispondenza tra signed e unsigned (compilazione del file di origine ..\..\examples\Evolution\NN3DWalkers.cpp)
+     1>..\..\examples\Evolution\NN3DWalkers.cpp(705): warning C4316: 'NNWalker': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Evolution\NN3DWalkers.cpp(790): warning C4316: 'NN3DWalkersExample': l'oggetto allocato nell'heap può non essere allineato 16
+         MultiThreadedDemo.cpp
+         ForkLiftDemo.cpp
+         BspConverter.cpp
+         BspLoader.cpp
+         ImportBspExample.cpp
+         SerializeSetup.cpp
+         ImportColladaSetup.cpp
+         LoadMeshFromCollada.cpp
+     1>..\..\examples\Benchmarks\BenchmarkDemo.cpp(1317): warning C4316: 'BenchmarkDemo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\ForkLift\ForkLiftDemo.cpp(1213): warning C4316: 'ForkLiftDemo': l'oggetto allocato nell'heap può non essere allineato 16
+         b3ImportMeshUtility.cpp
+     1>..\..\examples\Importers\ImportBullet\SerializeSetup.cpp(113): warning C4316: 'SerializeSetup': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportBsp\ImportBspExample.cpp(290): warning C4316: 'BspDemo': l'oggetto allocato nell'heap può non essere allineato 16
+         BulletMJCFImporter.cpp
+     1>..\..\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp(35): warning C4018: '<': errata corrispondenza tra signed e unsigned
+         ImportMJCFSetup.cpp
+         ImportObjExample.cpp
+         LoadMeshFromObj.cpp
+     1>..\..\examples\Importers\ImportColladaDemo\ImportColladaSetup.cpp(212): warning C4316: 'ImportColladaSetup': l'oggetto allocato nell'heap può non essere allineato 16
+         Wavefront2GLInstanceGraphicsShape.cpp
+         ImportSDFSetup.cpp
+         ImportSTLSetup.cpp
+         BulletUrdfImporter.cpp
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(270): warning C4316: 'UrdfModel': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(280): warning C4316: 'UrdfModel': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(283): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(438): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(793): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp(975): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+         ImportURDFSetup.cpp
+     1>..\..\examples\Importers\ImportObjDemo\ImportObjExample.cpp(115): warning C4316: 'ImportObjSetup': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportMJCFDemo\ImportMJCFSetup.cpp(369): warning C4316: 'ImportMJCFSetup': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(52): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(79): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(104): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\Importers\ImportSDFDemo\ImportSDFSetup.cpp(338): warning C4316: 'ImportSDFSetup': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportSTLDemo\ImportSTLSetup.cpp(102): warning C4316: 'ImportSTLSetup': l'oggetto allocato nell'heap può non essere allineato 16
+         MyMultiBodyCreator.cpp
+         URDF2Bullet.cpp
+         UrdfParser.cpp
+     1>..\..\examples\Importers\ImportURDFDemo\ImportURDFSetup.cpp(408): warning C4316: 'ImportUrdfSetup': l'oggetto allocato nell'heap può non essere allineato 16
+         urdfStringSplit.cpp
+         btBulletWorldImporter.cpp
+         btWorldImporter.cpp
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(65): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(148): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(172): warning C4316: 'GenericConstraintUserInfo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(578): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(612): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1361): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1384): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1432): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1520): warning C4316: 'UrdfModel': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1556): warning C4316: 'UrdfMaterial': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1579): warning C4316: 'UrdfLink': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1627): warning C4316: 'UrdfJoint': l'oggetto allocato nell'heap può non essere allineato 16
+         bChunk.cpp
+         bDNA.cpp
+         bFile.cpp
+         btBulletFile.cpp
+         Planar2D.cpp
+         CoordinateSystemDemo.cpp
+         DynamicTexturedCubeDemo.cpp
+         RaytracerSetup.cpp
+     1>..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1004): warning C4800: 'char': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>..\..\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1324): warning C4800: 'char': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+         RenderInstancingDemo.cpp
+         TimeSeriesCanvas.cpp
+         TimeSeriesExample.cpp
+         TimeSeriesFontData.cpp
+         TinyRendererSetup.cpp
+         TinyVRGui.cpp
+         btConvexConvexMprAlgorithm.cpp
+         VoronoiFractureDemo.cpp
+     1>..\..\examples\RenderingExamples\RaytracerSetup.cpp(125): warning C4316: 'RaytracerInternalData': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Planar2D\Planar2D.cpp(337): warning C4316: 'Planar2D': l'oggetto allocato nell'heap può non essere allineato 16
+         SoftDemo.cpp
+     1>..\..\examples\RenderingExamples\TinyRendererSetup.cpp(151): warning C4316: 'TinyRendererSetupInternalData': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\RenderingExamples\TinyRendererSetup.cpp(195): warning C4316: 'TinyRenderObjectData': l'oggetto allocato nell'heap può non essere allineato 16
+         RollingFrictionDemo.cpp
+         btFractureBody.cpp
+         btFractureDynamicsWorld.cpp
+         FractureDemo.cpp
+         MotorDemo.cpp
+     1>..\..\examples\VoronoiFracture\VoronoiFractureDemo.cpp(829): warning C4316: 'VoronoiFractureDemo': l'oggetto allocato nell'heap può non essere allineato 16
+         ConstraintDemo.cpp
+         ConstraintPhysicsSetup.cpp
+         Dof6Spring2Setup.cpp
+         TestHingeTorque.cpp
+     1>..\..\examples\FractureDemo\FractureDemo.cpp(408): warning C4316: 'FractureDemo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\SoftDemo\SoftDemo.cpp(2354): warning C4316: 'SoftDemo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\DynamicControlDemo\MotorDemo.cpp(449): warning C4316: 'MotorDemo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\RollingFrictionDemo\RollingFrictionDemo.cpp(292): warning C4316: 'RollingFrictionDemo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Constraints\ConstraintDemo.cpp(887): warning C4316: 'AllConstraintDemo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Constraints\ConstraintPhysicsSetup.cpp(160): warning C4316: 'ConstraintPhysicsSetup': l'oggetto allocato nell'heap può non essere allineato 16
+         Hinge2Vehicle.cpp
+         RaytestDemo.cpp
+         MultiDofDemo.cpp
+     1>..\..\examples\Constraints\TestHingeTorque.cpp(240): warning C4316: 'TestHingeTorque': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Constraints\Dof6Spring2Setup.cpp(500): warning C4316: 'Dof6Spring2Setup': l'oggetto allocato nell'heap può non essere allineato 16
+         TestJointTorqueSetup.cpp
+         Pendulum.cpp
+         MultiBodySoftContact.cpp
+         MultiBodyConstraintFeedback.cpp
+         InvertedPendulumPDControl.cpp
+     1>..\..\examples\Vehicles\Hinge2Vehicle.cpp(1177): warning C4316: 'Hinge2Vehicle': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\Raycast\RaytestDemo.cpp(331): warning C4316: 'RaytestDemo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\MultiBody\MultiDofDemo.cpp(448): warning C4316: 'MultiDofDemo': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\MultiBody\Pendulum.cpp(225): warning C4316: 'Pendulum': l'oggetto allocato nell'heap può non essere allineato 16
+         RigidBodySoftContact.cpp
+     1>..\..\examples\MultiBody\TestJointTorqueSetup.cpp(221): warning C4316: 'btMultiBodyJointFeedback': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\MultiBody\TestJointTorqueSetup.cpp(433): warning C4316: 'TestJointTorqueSetup': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\MultiBody\MultiBodyConstraintFeedback.cpp(217): warning C4316: 'btMultiBodyJointFeedback': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\MultiBody\MultiBodyConstraintFeedback.cpp(430): warning C4316: 'MultiBodyConstraintFeedbackSetup': l'oggetto allocato nell'heap può non essere allineato 16
+         stb_image.cpp
+         tiny_obj_loader.cpp
+         tinystr.cpp
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(228): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(290): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(328): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+         tinyxml.cpp
+     1>..\..\examples\ThirdPartyLibs\stb_image\stb_image.cpp(4220): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: vedere la dichiarazione di 'fopen'
+         tinyxmlerror.cpp
+     1>..\..\examples\MultiBody\MultiBodySoftContact.cpp(172): warning C4316: 'MultiBodySoftContact': l'oggetto allocato nell'heap può non essere allineato 16
+         tinyxmlparser.cpp
+         Jacobian.cpp
+         LinearR2.cpp
+         LinearR3.cpp
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(214): warning C4018: '<': errata corrispondenza tra signed e unsigned
+     1>..\..\examples\MultiBody\InvertedPendulumPDControl.cpp(363): warning C4316: 'btMultiBodyJointFeedback': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\MultiBody\InvertedPendulumPDControl.cpp(464): warning C4316: 'InvertedPendulumPDControl': l'oggetto allocato nell'heap può non essere allineato 16
+         LinearR4.cpp
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(391): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(627): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(643): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp(699): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: vedere la dichiarazione di 'sscanf'
+     1>..\..\examples\RigidBody\RigidBodySoftContact.cpp(188): warning C4316: 'RigidBodySoftContact': l'oggetto allocato nell'heap può non essere allineato 16
+         MatrixRmn.cpp
+         Misc.cpp
+         Node.cpp
+         Tree.cpp
+         VectorRn.cpp
+         GyroscopicSetup.cpp
+         PairBench.cpp
+         GpuConvexScene.cpp
+         GpuRigidBodyDemo.cpp
+     1>c:\users\antonino\desktop\vulkan_engine\bullet3-2.86.1\examples\opencl\rigidbody\GpuRigidBodyDemoInternalData.h(20): warning C4099: 'b3DynamicBvhBroadphase': il nome del tipo che in precedenza utilizzava 'struct' ora utilizza 'class' (compilazione del file di origine ..\..\examples\OpenCL\rigidbody\GpuConvexScene.cpp)
+     1>c:\users\antonino\desktop\vulkan_engine\bullet3-2.86.1\examples\opencl\rigidbody\GpuRigidBodyDemoInternalData.h(20): warning C4099: 'b3DynamicBvhBroadphase': il nome del tipo che in precedenza utilizzava 'struct' ora utilizza 'class' (compilazione del file di origine ..\..\examples\OpenCL\rigidbody\GpuRigidBodyDemo.cpp)
+         C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\src\Bullet3OpenCL/RigidBody/b3GpuRigidBodyPipeline.h(35): note: vedere la dichiarazione di 'b3DynamicBvhBroadphase' (compilazione del file di origine ..\..\examples\OpenCL\rigidbody\GpuConvexScene.cpp)
+         C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\src\Bullet3OpenCL/RigidBody/b3GpuRigidBodyPipeline.h(35): note: vedere la dichiarazione di 'b3DynamicBvhBroadphase' (compilazione del file di origine ..\..\examples\OpenCL\rigidbody\GpuRigidBodyDemo.cpp)
+     1>..\..\examples\OpenCL\rigidbody\GpuRigidBodyDemo.cpp(82): warning C4316: 'GpuRigidBodyDemoInternalData': l'oggetto allocato nell'heap può non essere allineato 16
+     1>..\..\examples\GyroscopicDemo\GyroscopicSetup.cpp(137): warning C4316: 'GyroscopicSetup': l'oggetto allocato nell'heap può non essere allineato 16
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\App_BulletExampleBrowser_vs2010_debug.exe" /INCREMENTAL /NOLOGO ..\..\bin\BulletExampleBrowserLib_vs2010_debug.lib ..\..\bin\gwen_vs2010_debug.lib ..\..\bin\OpenGL_Window_vs2010_debug.lib ..\..\bin\BulletSoftBody_vs2010_debug.lib ..\..\bin\BulletInverseDynamicsUtils_vs2010_debug.lib ..\..\bin\BulletInverseDynamics_vs2010_debug.lib ..\..\bin\BulletDynamics_vs2010_debug.lib ..\..\bin\BulletCollision_vs2010_debug.lib ..\..\bin\LinearMath_vs2010_debug.lib ..\..\bin\BussIK_vs2010_debug.lib ..\..\bin\Bullet3Common_vs2010_debug.lib opengl32.lib glu32.lib ..\..\bin\Bullet3OpenCL_clew_vs2010_debug.lib ..\..\bin\Bullet3Dynamics_vs2010_debug.lib ..\..\bin\Bullet3Collision_vs2010_debug.lib ..\..\bin\Bullet3Geometry_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\App_BulletExampleBrowser_vs2010_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\App_BulletExampleBrowser_vs2010_debug.lib" /MACHINE:X86 obj\x32\Debug\App_BulletExampleBrowser\clew.obj
+         obj\x32\Debug\App_BulletExampleBrowser\glew.obj
+         obj\x32\Debug\App_BulletExampleBrowser\main.obj
+         obj\x32\Debug\App_BulletExampleBrowser\ExampleEntries.obj
+         obj\x32\Debug\App_BulletExampleBrowser\InverseKinematicsExample.obj
+         obj\x32\Debug\App_BulletExampleBrowser\geometry.obj
+         obj\x32\Debug\App_BulletExampleBrowser\model.obj
+         obj\x32\Debug\App_BulletExampleBrowser\tgaimage.obj
+         obj\x32\Debug\App_BulletExampleBrowser\our_gl.obj
+         obj\x32\Debug\App_BulletExampleBrowser\TinyRenderer.obj
+         obj\x32\Debug\App_BulletExampleBrowser\IKTrajectoryHelper.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsClientC_API.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsServerExample.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsClientExample.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsServer.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsServerSharedMemory.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsClientSharedMemory.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsClientSharedMemory_C_API.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsClientSharedMemory2.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsClientSharedMemory2_C_API.obj
+         obj\x32\Debug\App_BulletExampleBrowser\SharedMemoryCommandProcessor.obj
+         obj\x32\Debug\App_BulletExampleBrowser\SharedMemoryInProcessPhysicsC_API.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsClient.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PosixSharedMemory.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Win32SharedMemory.obj
+         obj\x32\Debug\App_BulletExampleBrowser\InProcessMemory.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsDirect.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsDirectC_API.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsLoopBack.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsLoopBackC_API.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PhysicsServerCommandProcessor.obj
+         obj\x32\Debug\App_BulletExampleBrowser\TinyRendererVisualShapeConverter.obj
+         obj\x32\Debug\App_BulletExampleBrowser\MultiThreadingExample.obj
+         obj\x32\Debug\App_BulletExampleBrowser\b3PosixThreadSupport.obj
+         obj\x32\Debug\App_BulletExampleBrowser\b3Win32ThreadSupport.obj
+         obj\x32\Debug\App_BulletExampleBrowser\b3ThreadSupportInterface.obj
+         obj\x32\Debug\App_BulletExampleBrowser\InverseDynamicsExample.obj
+         obj\x32\Debug\App_BulletExampleBrowser\BasicExample.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Dof6ConstraintTutorial.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Tutorial.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Bridge.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Chain.obj
+         obj\x32\Debug\App_BulletExampleBrowser\InclinedPlane.obj
+         obj\x32\Debug\App_BulletExampleBrowser\MultiPendulum.obj
+         obj\x32\Debug\App_BulletExampleBrowser\MultipleBoxes.obj
+         obj\x32\Debug\App_BulletExampleBrowser\NewtonsCradle.obj
+         obj\x32\Debug\App_BulletExampleBrowser\NewtonsRopeCradle.obj
+         obj\x32\Debug\App_BulletExampleBrowser\RigidBodyFromObj.obj
+         obj\x32\Debug\App_BulletExampleBrowser\SimpleBox.obj
+         obj\x32\Debug\App_BulletExampleBrowser\SimpleCloth.obj
+         obj\x32\Debug\App_BulletExampleBrowser\SimpleJoint.obj
+         obj\x32\Debug\App_BulletExampleBrowser\RobotLoggingUtil.obj
+         obj\x32\Debug\App_BulletExampleBrowser\NN3DWalkers.obj
+         obj\x32\Debug\App_BulletExampleBrowser\CollisionSdkC_Api.obj
+         obj\x32\Debug\App_BulletExampleBrowser\CollisionTutorialBullet2.obj
+         obj\x32\Debug\App_BulletExampleBrowser\b3RobotSimAPI.obj
+         obj\x32\Debug\App_BulletExampleBrowser\GripperGraspExample.obj
+         obj\x32\Debug\App_BulletExampleBrowser\KukaGraspExample.obj
+         obj\x32\Debug\App_BulletExampleBrowser\R2D2GraspExample.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Bullet2CollisionSdk.obj
+         obj\x32\Debug\App_BulletExampleBrowser\RealTimeBullet3CollisionSdk.obj
+         obj\x32\Debug\App_BulletExampleBrowser\BenchmarkDemo.obj
+         obj\x32\Debug\App_BulletExampleBrowser\CommonRigidBodyMTBase.obj
+         obj\x32\Debug\App_BulletExampleBrowser\MultiThreadedDemo.obj
+         obj\x32\Debug\App_BulletExampleBrowser\ForkLiftDemo.obj
+         obj\x32\Debug\App_BulletExampleBrowser\BspConverter.obj
+         obj\x32\Debug\App_BulletExampleBrowser\BspLoader.obj
+         obj\x32\Debug\App_BulletExampleBrowser\ImportBspExample.obj
+         obj\x32\Debug\App_BulletExampleBrowser\SerializeSetup.obj
+         obj\x32\Debug\App_BulletExampleBrowser\ImportColladaSetup.obj
+         obj\x32\Debug\App_BulletExampleBrowser\LoadMeshFromCollada.obj
+         obj\x32\Debug\App_BulletExampleBrowser\b3ImportMeshUtility.obj
+         obj\x32\Debug\App_BulletExampleBrowser\BulletMJCFImporter.obj
+         obj\x32\Debug\App_BulletExampleBrowser\ImportMJCFSetup.obj
+         obj\x32\Debug\App_BulletExampleBrowser\ImportObjExample.obj
+         obj\x32\Debug\App_BulletExampleBrowser\LoadMeshFromObj.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Wavefront2GLInstanceGraphicsShape.obj
+         obj\x32\Debug\App_BulletExampleBrowser\ImportSDFSetup.obj
+         obj\x32\Debug\App_BulletExampleBrowser\ImportSTLSetup.obj
+         obj\x32\Debug\App_BulletExampleBrowser\BulletUrdfImporter.obj
+         obj\x32\Debug\App_BulletExampleBrowser\ImportURDFSetup.obj
+         obj\x32\Debug\App_BulletExampleBrowser\MyMultiBodyCreator.obj
+         obj\x32\Debug\App_BulletExampleBrowser\URDF2Bullet.obj
+         obj\x32\Debug\App_BulletExampleBrowser\UrdfParser.obj
+         obj\x32\Debug\App_BulletExampleBrowser\urdfStringSplit.obj
+         obj\x32\Debug\App_BulletExampleBrowser\btBulletWorldImporter.obj
+         obj\x32\Debug\App_BulletExampleBrowser\btWorldImporter.obj
+         obj\x32\Debug\App_BulletExampleBrowser\bChunk.obj
+         obj\x32\Debug\App_BulletExampleBrowser\bDNA.obj
+         obj\x32\Debug\App_BulletExampleBrowser\bFile.obj
+         obj\x32\Debug\App_BulletExampleBrowser\btBulletFile.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Planar2D.obj
+         obj\x32\Debug\App_BulletExampleBrowser\CoordinateSystemDemo.obj
+         obj\x32\Debug\App_BulletExampleBrowser\DynamicTexturedCubeDemo.obj
+         obj\x32\Debug\App_BulletExampleBrowser\RaytracerSetup.obj
+         obj\x32\Debug\App_BulletExampleBrowser\RenderInstancingDemo.obj
+         obj\x32\Debug\App_BulletExampleBrowser\TimeSeriesCanvas.obj
+         obj\x32\Debug\App_BulletExampleBrowser\TimeSeriesExample.obj
+         obj\x32\Debug\App_BulletExampleBrowser\TimeSeriesFontData.obj
+         obj\x32\Debug\App_BulletExampleBrowser\TinyRendererSetup.obj
+         obj\x32\Debug\App_BulletExampleBrowser\TinyVRGui.obj
+         obj\x32\Debug\App_BulletExampleBrowser\btConvexConvexMprAlgorithm.obj
+         obj\x32\Debug\App_BulletExampleBrowser\VoronoiFractureDemo.obj
+         obj\x32\Debug\App_BulletExampleBrowser\SoftDemo.obj
+         obj\x32\Debug\App_BulletExampleBrowser\RollingFrictionDemo.obj
+         obj\x32\Debug\App_BulletExampleBrowser\btFractureBody.obj
+         obj\x32\Debug\App_BulletExampleBrowser\btFractureDynamicsWorld.obj
+         obj\x32\Debug\App_BulletExampleBrowser\FractureDemo.obj
+         obj\x32\Debug\App_BulletExampleBrowser\MotorDemo.obj
+         obj\x32\Debug\App_BulletExampleBrowser\ConstraintDemo.obj
+         obj\x32\Debug\App_BulletExampleBrowser\ConstraintPhysicsSetup.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Dof6Spring2Setup.obj
+         obj\x32\Debug\App_BulletExampleBrowser\TestHingeTorque.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Hinge2Vehicle.obj
+         obj\x32\Debug\App_BulletExampleBrowser\RaytestDemo.obj
+         obj\x32\Debug\App_BulletExampleBrowser\MultiDofDemo.obj
+         obj\x32\Debug\App_BulletExampleBrowser\TestJointTorqueSetup.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Pendulum.obj
+         obj\x32\Debug\App_BulletExampleBrowser\MultiBodySoftContact.obj
+         obj\x32\Debug\App_BulletExampleBrowser\MultiBodyConstraintFeedback.obj
+         obj\x32\Debug\App_BulletExampleBrowser\InvertedPendulumPDControl.obj
+         obj\x32\Debug\App_BulletExampleBrowser\RigidBodySoftContact.obj
+         obj\x32\Debug\App_BulletExampleBrowser\stb_image.obj
+         obj\x32\Debug\App_BulletExampleBrowser\tiny_obj_loader.obj
+         obj\x32\Debug\App_BulletExampleBrowser\tinystr.obj
+         obj\x32\Debug\App_BulletExampleBrowser\tinyxml.obj
+         obj\x32\Debug\App_BulletExampleBrowser\tinyxmlerror.obj
+         obj\x32\Debug\App_BulletExampleBrowser\tinyxmlparser.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Jacobian.obj
+         obj\x32\Debug\App_BulletExampleBrowser\LinearR2.obj
+         obj\x32\Debug\App_BulletExampleBrowser\LinearR3.obj
+         obj\x32\Debug\App_BulletExampleBrowser\LinearR4.obj
+         obj\x32\Debug\App_BulletExampleBrowser\MatrixRmn.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Misc.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Node.obj
+         obj\x32\Debug\App_BulletExampleBrowser\Tree.obj
+         obj\x32\Debug\App_BulletExampleBrowser\VectorRn.obj
+         obj\x32\Debug\App_BulletExampleBrowser\GyroscopicSetup.obj
+         obj\x32\Debug\App_BulletExampleBrowser\PairBench.obj
+         obj\x32\Debug\App_BulletExampleBrowser\GpuConvexScene.obj
+         obj\x32\Debug\App_BulletExampleBrowser\GpuRigidBodyDemo.obj
+         App_BulletExampleBrowser.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\App_BulletExampleBrowser_vs2010_debug.exe
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\App_BulletExampleBrowser.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:01:30.16

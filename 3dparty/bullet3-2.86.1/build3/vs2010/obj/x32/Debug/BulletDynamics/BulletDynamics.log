@@ -1,0 +1,83 @@
+﻿Compilazione avviata 15/04/2017 21.05.46.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\BulletDynamics.vcxproj" sul nodo 5 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\BulletDynamics\\" /Fd"..\..\bin\BulletDynamics_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp ..\..\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorldMt.cpp ..\..\src\BulletDynamics\Dynamics\btRigidBody.cpp ..\..\src\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp ..\..\src\BulletDynamics\Dynamics\btSimulationIslandManagerMt.cpp ..\..\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp ..\..\src\BulletDynamics\ConstraintSolver\btContactConstraint.cpp ..\..\src\BulletDynamics\ConstraintSolver\btFixedConstraint.cpp ..\..\src\BulletDynamics\ConstraintSolver\btGearConstraint.cpp ..\..\src\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp ..\..\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.cpp ..\..\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp ..\..\src\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp ..\..\src\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp ..\..\src\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.cpp ..\..\src\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp ..\..\src\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp ..\..\src\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp ..\..\src\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp ..\..\src\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp ..\..\src\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp ..\..\src\BulletDynamics\Featherstone\btMultiBody.cpp ..\..\src\BulletDynamics\Featherstone\btMultiBodyConstraint.cpp ..\..\src\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.cpp ..\..\src\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp ..\..\src\BulletDynamics\Featherstone\btMultiBodyFixedConstraint.cpp ..\..\src\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp ..\..\src\BulletDynamics\Featherstone\btMultiBodyJointMotor.cpp ..\..\src\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp ..\..\src\BulletDynamics\Featherstone\btMultiBodySliderConstraint.cpp ..\..\src\BulletDynamics\MLCPSolvers\btDantzigLCP.cpp ..\..\src\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp ..\..\src\BulletDynamics\MLCPSolvers\btMLCPSolver.cpp ..\..\src\BulletDynamics\Vehicle\btRaycastVehicle.cpp ..\..\src\BulletDynamics\Vehicle\btWheelInfo.cpp ..\..\src\BulletDynamics\Character\btKinematicCharacterController.cpp
+         btDiscreteDynamicsWorld.cpp
+         btDiscreteDynamicsWorldMt.cpp
+         btRigidBody.cpp
+         btSimpleDynamicsWorld.cpp
+         btSimulationIslandManagerMt.cpp
+         btConeTwistConstraint.cpp
+         btContactConstraint.cpp
+         btFixedConstraint.cpp
+         btGearConstraint.cpp
+         btGeneric6DofConstraint.cpp
+         btGeneric6DofSpring2Constraint.cpp
+         btGeneric6DofSpringConstraint.cpp
+         btHinge2Constraint.cpp
+         btHingeConstraint.cpp
+         btNNCGConstraintSolver.cpp
+         btPoint2PointConstraint.cpp
+         btSequentialImpulseConstraintSolver.cpp
+         btSliderConstraint.cpp
+         btSolve2LinearConstraint.cpp
+         btTypedConstraint.cpp
+         btUniversalConstraint.cpp
+         btMultiBody.cpp
+         btMultiBodyConstraint.cpp
+         btMultiBodyConstraintSolver.cpp
+         btMultiBodyDynamicsWorld.cpp
+         btMultiBodyFixedConstraint.cpp
+         btMultiBodyJointLimitConstraint.cpp
+         btMultiBodyJointMotor.cpp
+         btMultiBodyPoint2Point.cpp
+         btMultiBodySliderConstraint.cpp
+         btDantzigLCP.cpp
+         btLemkeAlgorithm.cpp
+         btMLCPSolver.cpp
+         btRaycastVehicle.cpp
+         btWheelInfo.cpp
+         btKinematicCharacterController.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\BulletDynamics_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\BulletDynamics\btDiscreteDynamicsWorld.obj
+         obj\x32\Debug\BulletDynamics\btDiscreteDynamicsWorldMt.obj
+         obj\x32\Debug\BulletDynamics\btRigidBody.obj
+         obj\x32\Debug\BulletDynamics\btSimpleDynamicsWorld.obj
+         obj\x32\Debug\BulletDynamics\btSimulationIslandManagerMt.obj
+         obj\x32\Debug\BulletDynamics\btConeTwistConstraint.obj
+         obj\x32\Debug\BulletDynamics\btContactConstraint.obj
+         obj\x32\Debug\BulletDynamics\btFixedConstraint.obj
+         obj\x32\Debug\BulletDynamics\btGearConstraint.obj
+         obj\x32\Debug\BulletDynamics\btGeneric6DofConstraint.obj
+         obj\x32\Debug\BulletDynamics\btGeneric6DofSpring2Constraint.obj
+         obj\x32\Debug\BulletDynamics\btGeneric6DofSpringConstraint.obj
+         obj\x32\Debug\BulletDynamics\btHinge2Constraint.obj
+         obj\x32\Debug\BulletDynamics\btHingeConstraint.obj
+         obj\x32\Debug\BulletDynamics\btNNCGConstraintSolver.obj
+         obj\x32\Debug\BulletDynamics\btPoint2PointConstraint.obj
+         obj\x32\Debug\BulletDynamics\btSequentialImpulseConstraintSolver.obj
+         obj\x32\Debug\BulletDynamics\btSliderConstraint.obj
+         obj\x32\Debug\BulletDynamics\btSolve2LinearConstraint.obj
+         obj\x32\Debug\BulletDynamics\btTypedConstraint.obj
+         obj\x32\Debug\BulletDynamics\btUniversalConstraint.obj
+         obj\x32\Debug\BulletDynamics\btMultiBody.obj
+         obj\x32\Debug\BulletDynamics\btMultiBodyConstraint.obj
+         obj\x32\Debug\BulletDynamics\btMultiBodyConstraintSolver.obj
+         obj\x32\Debug\BulletDynamics\btMultiBodyDynamicsWorld.obj
+         obj\x32\Debug\BulletDynamics\btMultiBodyFixedConstraint.obj
+         obj\x32\Debug\BulletDynamics\btMultiBodyJointLimitConstraint.obj
+         obj\x32\Debug\BulletDynamics\btMultiBodyJointMotor.obj
+         obj\x32\Debug\BulletDynamics\btMultiBodyPoint2Point.obj
+         obj\x32\Debug\BulletDynamics\btMultiBodySliderConstraint.obj
+         obj\x32\Debug\BulletDynamics\btDantzigLCP.obj
+         obj\x32\Debug\BulletDynamics\btLemkeAlgorithm.obj
+         obj\x32\Debug\BulletDynamics\btMLCPSolver.obj
+         obj\x32\Debug\BulletDynamics\btRaycastVehicle.obj
+         obj\x32\Debug\BulletDynamics\btWheelInfo.obj
+         obj\x32\Debug\BulletDynamics\btKinematicCharacterController.obj
+         BulletDynamics.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\BulletDynamics_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\BulletDynamics.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:13.75

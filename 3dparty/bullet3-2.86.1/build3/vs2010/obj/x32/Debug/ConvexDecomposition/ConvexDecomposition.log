@@ -1,0 +1,39 @@
+﻿Compilazione avviata 15/04/2017 21.07.04.
+     1>Progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\ConvexDecomposition.vcxproj" sul nodo 7 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\Extras\ConvexDecomposition /I..\..\src /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG=1 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\x32\Debug\ConvexDecomposition\\" /Fd"..\..\bin\ConvexDecomposition_vs2010_debug.pdb" /Gd /TP /analyze- /errorReport:prompt /MP /wd4244 /wd4267 ..\..\Extras\ConvexDecomposition\bestfit.cpp ..\..\Extras\ConvexDecomposition\bestfitobb.cpp ..\..\Extras\ConvexDecomposition\cd_hull.cpp ..\..\Extras\ConvexDecomposition\cd_wavefront.cpp ..\..\Extras\ConvexDecomposition\concavity.cpp ..\..\Extras\ConvexDecomposition\ConvexBuilder.cpp ..\..\Extras\ConvexDecomposition\ConvexDecomposition.cpp ..\..\Extras\ConvexDecomposition\fitsphere.cpp ..\..\Extras\ConvexDecomposition\float_math.cpp ..\..\Extras\ConvexDecomposition\meshvolume.cpp ..\..\Extras\ConvexDecomposition\planetri.cpp ..\..\Extras\ConvexDecomposition\raytri.cpp ..\..\Extras\ConvexDecomposition\splitplane.cpp ..\..\Extras\ConvexDecomposition\vlookup.cpp
+         bestfit.cpp
+         bestfitobb.cpp
+         cd_hull.cpp
+         cd_wavefront.cpp
+         concavity.cpp
+         ConvexBuilder.cpp
+         ConvexDecomposition.cpp
+         fitsphere.cpp
+         float_math.cpp
+         meshvolume.cpp
+         planetri.cpp
+         raytri.cpp
+         splitplane.cpp
+         vlookup.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\bin\ConvexDecomposition_vs2010_debug.lib" /NOLOGO /MACHINE:X86 obj\x32\Debug\ConvexDecomposition\bestfit.obj
+         obj\x32\Debug\ConvexDecomposition\bestfitobb.obj
+         obj\x32\Debug\ConvexDecomposition\cd_hull.obj
+         obj\x32\Debug\ConvexDecomposition\cd_wavefront.obj
+         obj\x32\Debug\ConvexDecomposition\concavity.obj
+         obj\x32\Debug\ConvexDecomposition\ConvexBuilder.obj
+         obj\x32\Debug\ConvexDecomposition\ConvexDecomposition.obj
+         obj\x32\Debug\ConvexDecomposition\fitsphere.obj
+         obj\x32\Debug\ConvexDecomposition\float_math.obj
+         obj\x32\Debug\ConvexDecomposition\meshvolume.obj
+         obj\x32\Debug\ConvexDecomposition\planetri.obj
+         obj\x32\Debug\ConvexDecomposition\raytri.obj
+         obj\x32\Debug\ConvexDecomposition\splitplane.obj
+         obj\x32\Debug\ConvexDecomposition\vlookup.obj
+         ConvexDecomposition.vcxproj -> C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\..\..\bin\ConvexDecomposition_vs2010_debug.lib
+     1>Compilazione progetto "C:\Users\antonino\Desktop\vulkan_engine\bullet3-2.86.1\build3\vs2010\ConvexDecomposition.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:02.99
