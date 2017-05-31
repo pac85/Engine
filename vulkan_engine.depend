@@ -1070,12 +1070,13 @@
 
 1493587699 c:\users\antonino\desktop\vulkan_engine\src\render\material.h
 
-1495315179 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.cpp
+1496088082 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.cpp
 	"Actor.h"
 
-1495391699 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.h
+1496088106 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.h
 	"../common.h"
 	"Component.h"
+	"Transform.h"
 	<glm/gtc/quaternion.hpp>
 	<glm/gtx/quaternion.hpp>
 
@@ -1563,11 +1564,11 @@
 	<limits>
 	"../gtc/constants.hpp"
 
-1495390835 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.cpp
+1496241827 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.cpp
 	"World.h"
 	<stack>
 
-1495390458 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.h
+1496241827 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.h
 	"../common.h"
 	"Actor.h"
 	"../render/Camera.h"
@@ -1977,5 +1978,18 @@
 	"vkShaderModule.h"
 	"../common.h"
 
-1495390930 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Component.h
+1496241851 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Component.h
+	<Transform.h>
+
+1496240586 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Component.cpp
+	"Component.h"
+	"Actor.h"
+
+1495396591 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Transform.h
+	"../common.h"
+	<glm/gtc/quaternion.hpp>
+	<glm/gtx/quaternion.hpp>
+
+1495395934 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Transform.cpp
+	"Transform.h"
 

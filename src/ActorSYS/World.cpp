@@ -159,6 +159,12 @@ void world::tickAll(float delta_time)
                 actor_list[i].skip_tick = false;
             }
         }
+
+        //Updates all of the attached components
+        for(auto &component : actor_list[i].component_list)
+        {
+            component.attached_ptr->update(delta_time);
+        }
     }
 }
 

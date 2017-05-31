@@ -1,11 +1,13 @@
 #include "Component.h"
+#include "Actor.h"
 
-Component::Component()
+Component::Component(Actor * parent)
 {
-    //ctor
+    parent_ptr = parent;
 }
 
 Component::~Component()
 {
     //dtor
 }
+

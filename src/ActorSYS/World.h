@@ -21,12 +21,6 @@ class world
 
         Transform offset;
 
-        enum Attached_object_type
-        {
-            actor,
-            SkeletalMesh
-        } attached_object_type;
-
         Actor * parent_ptr;         //A pointer to the pointer to with the actor is attached
         Actor * attached_ptr;       //A pointer to the attached object
 
@@ -36,12 +30,33 @@ class world
         bool skip_update;           //if true an update will be skipped, it will the be set back to false
     };
 
+    struct ComponentAttachment
+    {
+        enum Attach_type
+        {
+            relative,               //Uses the attachment offset has an offset to the position of the actor to witch it is attached
+            absolute                //Uses the attachment offset has an absolute position
+        } attach_type;
+
+        Transform offset;
+
+        Component * attached_ptr;
+
+        string target_socket;
+    };
 
     struct WorldActor
     {
-        Actor * actor_pointer;  //The Actor pointer
-        bool bAllowTick;        //If false tick() will not be called even if bTick is true(set by the engine)
-        bool skip_tick;         //If true tick won't be called but will be set to false again so the next frame it will
+        Actor * actor_pointer;                          //The Actor pointer
+        vector<ComponentAttachment> component_list;    //List of components attached to the actor
+        bool bAllowTick;                                //If false tick() will not be called even if bTick is true(set by the engine)
+        bool skip_tick;                                 //If true tick won't be called but will be set to false again so the next frame it will
+    };
+
+    struct WorldComponent
+    {
+        Component * component;
+
     };
 
     enum Light_type
