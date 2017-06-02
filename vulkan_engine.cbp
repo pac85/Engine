@@ -58,6 +58,8 @@
 		<Unit filename="src/ActorSYS/Actor.h" />
 		<Unit filename="src/ActorSYS/Component.cpp" />
 		<Unit filename="src/ActorSYS/Component.h" />
+		<Unit filename="src/ActorSYS/DummyActor.cpp" />
+		<Unit filename="src/ActorSYS/DummyActor.h" />
 		<Unit filename="src/ActorSYS/Transform.cpp" />
 		<Unit filename="src/ActorSYS/Transform.h">
 			<Option target="&lt;{~None~}&gt;" />

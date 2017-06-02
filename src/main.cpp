@@ -149,7 +149,7 @@ int main(int argc, char *argv[]) {
 
     world test_world;
 
-    for(int i = 0; i < 1;i++)
+    for(int i = 0; i < 100000;i++)
     {
         test_world.add_actor(new DummyActor);
     }

@@ -19,54 +19,26 @@ void world::add_actor(Actor * actor_to_add)
     temp.actor_pointer = actor_to_add;
     //Allows ticking by default
     temp.bAllowTick = true;
-    //actor_list.push_back(temp);
-    //actor_index_map[actor_to_add] = actor_list.size() - 1;
+    actor_list.push_back(temp);
+    Actor_instance_index_map[actor_to_add->get_instance_name()] =
+    actor_index_map[actor_to_add] = actor_list.size() - 1;
 }
 
 void world::remove_actor(Actor* actor_to_remove)
 {
     //erases the actor from actor_list and from actor_index_map
-    //int actor_index = actor_index_map[actor_to_remove];
-    //actor_index_map.erase(actor_to_remove);
-    //actor_list.erase(actor_list.begin()+actor_index);
+    int actor_index = actor_index_map[actor_to_remove];
+    actor_index_map.erase(actor_to_remove);
+    actor_list.erase(actor_list.begin()+actor_index);
 
     //rebuilds the actor_index_map(the actor_list vector has changed so it's necessary to rebuild it)
-    //actor_index_map.clear();
-    //for(unsigned int i = 0;i < actor_list.size();i++)
-    //{
-    //    actor_index_map[actor_list[i].actor_pointer] = i;
-    //}
-}
-
-void world::aa_attachment(attachment _attachment)
-{
-    WorldActorIndex parent_index = actor_index_map[_attachment.parent_ptr],
-                    attached_index = actor_index_map[_attachment.attached_ptr];
-
-    if(parent_index.actor_state != WorldActorIndex::ATTACHED &&
-       attached_index.actor_state != WorldActorIndex::ATTACHED)
+    actor_index_map.clear();
+    Actor_instance_index_map.clear();
+    for(unsigned int i = 0;i < actor_list.size();i++)
     {
-        const vector<WorldActor> & parent_actor_list = get_list(parent_index),      //the vector parent actor belongs to
-                                 & attached_actor_list = get_list(attached_index);  //the vector attached actor belongs to
-
-        //the actors are pushed in the attached actor list in the right order
-        attached_actor_list.push_back(parent_actor_list[parent_index.index]);
-        attached_actor_list.push_back(attached_actor_list[attached_index.index]);
-        //and removed from the list they belongedto
-        parent_actor_list.erase(parent_actor_list.begin()+parent_index.index);
-        attached_actor_list.erase(attached_actor_list.begin()+attached_index.index);
+        Actor_instance_index_map[actor_list[i].actor_pointer->get_instance_name()] =
+        actor_index_map[actor_list[i].actor_pointer] = i;
     }
-    else if(parent_index.actor_state == WorldActorIndex::ATTACHED )
-    {
-        const vector<WorldActor> & attached_actor_list = get_list(attached_index);  //the vector attached actor belongs to
-        attached_actor_list.insert(attached_actor_list.begin()+parent_index.index+1, attached_actor_list[attached_index.index]);
-        attached_actor_list.erase(attached_actor_list.begin()+attached_index.index);
-    }
-}
-
-void world::aa_deteach(attachment _attachment)
-{
-
 }
 
 Actor* world::get_actor_ptr(string instance_name)

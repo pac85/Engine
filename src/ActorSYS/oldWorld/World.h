@@ -59,26 +59,13 @@ class world
 
     };
 
-    struct WorldActorIndex
-    {
-        unsigned int index;
-        enum
-        {
-            ACTIVE,
-            INACTIVE,
-            ATTACHED
-        }actor_state;
-    };
-
     public:
         world();
         virtual ~world();
 
         void add_actor(Actor * actor_to_add);       //adds an actor to the world
-        void remove_actor(Actor* actor_to_remove);  //removes actor from world
 
-        void aa_attachment(attachment _attachment); //adds an actor-actor attachment
-        void aa_deteach(attachment _attachment);    //removes the attachment
+        void remove_actor(Actor* actor_to_remove);  //removes actor from world
 
         Actor* get_actor_ptr(string instance_name); //returns a pointe to the actor, NULL if instance_name isn't in the map
 
@@ -90,29 +77,12 @@ class world
     protected:
 
     private:
-
-        inline vector<WorldActor> get_list(WorldActorIndex wai)
-        {
-            switch(wai.actor_state)
-            {
-                case WorldActorIndex::ACTIVE:
-                    return active_actor_list;
-                    break;
-                case WorldActorIndex::INACTIVE:
-                    return inactive_actor_list;
-                    break;
-                case WorldActorIndex::ATTACHED:
-                    return attached_actor_list;
-                    break;
-            }
-        }
-
         //Lists of actor, lights get special lists because the world class has to render their shadow maps
-        vector<WorldActor> attached_actor_list;
-        //vector<attachment> attachments;
-        vector<WorldActor> active_actor_list;
-        vector<WorldActor> inactive_actor_list;
-        map<Actor*, WorldActorIndex> actor_index_map;
+        vector<WorldActor> actor_list;
+        map<Actor*, int>   actor_index_map;
+        map<string, int>   Actor_instance_index_map;
+        vector<attachment> attachments;                          //A list of attachments
+        map<Actor*, int>   attached_index_map;                   //Maps attached actor to the bounding index
 
 
 
