@@ -48,7 +48,7 @@ class world
     struct WorldActor
     {
         Actor * actor_pointer;                          //The Actor pointer
-        vector<ComponentAttachment> component_list;    //List of components attached to the actor
+        vector<ComponentAttachment> component_list;     //List of components attached to the actor
         bool bAllowTick;                                //If false tick() will not be called even if bTick is true(set by the engine)
         bool skip_tick;                                 //If true tick won't be called but will be set to false again so the next frame it will
     };
@@ -58,34 +58,6 @@ class world
         Component * component;
 
     };
-
-    enum Light_type
-    {
-        Point,
-        Directional,
-        Spot
-    };
-
-    struct WorldLight
-    {
-        //Pointers to the various types of lights(only one of these will be used but all kinds of pointers are needed)
-        union
-        {
-            /*PointLight* PLight_pointer;
-            SpotLight*  SLight_pointer;
-            DirectionalLight* DLight_pointer;*/
-        };
-        //also stores an actor type pointer
-        Actor* ALight_pointer;
-        //Stores the light type (can be either Point, Directional or Spot)
-        Light_type light_type;
-        //Set by the engine based on whether the light can be seen
-        bool bDraw;
-        //Set by the engine
-        bool bDrawShadowMap;
-    };
-
-
 
     public:
         world();
@@ -99,6 +71,7 @@ class world
 
         void load_level(string file_name);          //Loads a level from an xwl file
 
+        void UpdateWorld(float delta);                           //Does all the update stuff
 
 
     protected:
@@ -106,12 +79,8 @@ class world
     private:
         //Lists of actor, lights get special lists because the world class has to render their shadow maps
         vector<WorldActor> actor_list;
-        vector<WorldLight> light_list;
         map<Actor*, int>   actor_index_map;
         map<string, int>   Actor_instance_index_map;
-        map<Actor*, int>   light_index_map;
-        map<string, int>   Light_instance_index_map;
-
         vector<attachment> attachments;                          //A list of attachments
         map<Actor*, int>   attached_index_map;                   //Maps attached actor to the bounding index
 
@@ -122,9 +91,6 @@ class world
         void update_attachments(float delta_time);               //Updates all attachments in the correct order
 
         void update_attachment(float delta_time, int index);     //Updates one attachment
-
-        void UpdateWorld(float delta);                           //the function of the main rendering thread
-
 };
 
 #endif // WORLD_H

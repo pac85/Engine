@@ -14,6 +14,8 @@
 #include "vk/vkShaderModule.h";
 #include "render/StaticMesh.h"
 #include "vk/vkMain.h"
+#include "ActorSYS/World.h"
+#include "ActorSYS/DummyActor.h"
 
 char* work_dir;
 
@@ -145,9 +147,28 @@ int main(int argc, char *argv[]) {
 
     Init("test");
 
-    while (!glfwWindowShouldClose(window)) {
-        glfwPollEvents();
+    world test_world;
+
+    for(int i = 0; i < 1;i++)
+    {
+        test_world.add_actor(new DummyActor);
     }
+    double currentFrame = glfwGetTime();
+    double lastFrame = currentFrame;
+    double deltaTime;
+
+    while (!glfwWindowShouldClose(window))
+    {
+        currentFrame = glfwGetTime();
+        deltaTime = currentFrame - lastFrame;
+        lastFrame = currentFrame;
+
+        glfwPollEvents();
+        test_world.UpdateWorld(deltaTime);
+        cout << "\r" << 1.0 / deltaTime << "       ";
+    }
+
+    cout << endl;
 
    /*Ptr<Base> test;
 

@@ -1070,10 +1070,10 @@
 
 1493587699 c:\users\antonino\desktop\vulkan_engine\src\render\material.h
 
-1496088082 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.cpp
+1496417074 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.cpp
 	"Actor.h"
 
-1496088106 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.h
+1496417075 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.h
 	"../common.h"
 	"Component.h"
 	"Transform.h"
@@ -1564,11 +1564,11 @@
 	<limits>
 	"../gtc/constants.hpp"
 
-1496241827 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.cpp
+1496419472 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.cpp
 	"World.h"
 	<stack>
 
-1496241827 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.h
+1496416571 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.h
 	"../common.h"
 	"Actor.h"
 	"../render/Camera.h"
@@ -1635,7 +1635,7 @@
 1480519132 /home/antonino/Scrivania/vulkan_engine/src/Task.h
 	"Base.h"
 
-1495312674 source:/home/antonino/Scrivania/vulkan_engine/src/main.cpp
+1496420682 source:/home/antonino/Scrivania/vulkan_engine/src/main.cpp
 	<vulkan/vulkan.h>
 	"Ptr.h"
 	"Base.h"
@@ -1651,6 +1651,8 @@
 	"vk/vkShaderModule.h"
 	"render/StaticMesh.h"
 	"vk/vkMain.h"
+	"ActorSYS/World.h"
+	"ActorSYS/DummyActor.h"
 
 1479243972 /home/antonino/Scrivania/vulkan_engine/src/Function.h
 	"common.h"
@@ -1992,4 +1994,10 @@
 
 1495395934 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Transform.cpp
 	"Transform.h"
+
+1496416240 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/DummyActor.cpp
+	"DummyActor.h"
+
+1496419427 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/DummyActor.h
+	"Actor.h"
 

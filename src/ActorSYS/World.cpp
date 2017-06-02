@@ -14,56 +14,6 @@ world::~world()
 
 void world::add_actor(Actor * actor_to_add)
 {
-    /*Lights need to get a special treatment (shadow maps need to be draw and lights must be draw after everything else is on the g_buffer) so...*//*
-
-    //Checks if the actor is a point light
-    if(dynamic_cast<PointLight*>(actor_to_add) != NULL)
-    {
-        //Temporary WorldLight object that will be later added to the list
-        WorldLight temp;
-        temp.PLight_pointer = dynamic_cast<PointLight*>(actor_to_add);
-        temp.ALight_pointer = actor_to_add;
-        temp.light_type = Point;
-
-        light_list.push_back(temp);
-
-        //updates light map
-        Light_instance_index_map[actor_to_add->get_instance_name()] =
-        light_index_map[actor_to_add] = light_list.size() - 1;
-    }
-
-    //Checks if the actor is a spot light
-    if(dynamic_cast<SpotLight*>(actor_to_add)!= NULL)
-    {
-        //Temporary WorldLight object that will be later added to the list
-        WorldLight temp;
-        temp.SLight_pointer = dynamic_cast<SpotLight*>(actor_to_add);
-        temp.ALight_pointer = actor_to_add;
-        temp.light_type = Spot;
-
-        light_list.push_back(temp);
-
-        //updates light map
-        Light_instance_index_map[actor_to_add->get_instance_name()] =
-        light_index_map[actor_to_add] = light_list.size() - 1;
-    }
-
-    //Checks if the actor is a directional light
-    if(dynamic_cast<DirectionalLight*>(actor_to_add)!= NULL)
-    {
-        //Temporary WorldLight object that will be later added to the list
-        WorldLight temp;
-        temp.DLight_pointer = dynamic_cast<DirectionalLight*>(actor_to_add);
-        temp.ALight_pointer = actor_to_add;
-        temp.light_type = Directional;
-
-        light_list.push_back(temp);
-
-        //updates light map
-        Light_instance_index_map[actor_to_add->get_instance_name()] =
-        light_index_map[actor_to_add] = light_list.size() - 1;
-    }*/
-
     //Otherwise is another kind of actor
     WorldActor temp;
     temp.actor_pointer = actor_to_add;
@@ -76,29 +26,6 @@ void world::add_actor(Actor * actor_to_add)
 
 void world::remove_actor(Actor* actor_to_remove)
 {
-    /*Lights need to get a special treatment also when removed*//*
-
-    //Checks if the actor is a  light
-    if((dynamic_cast<PointLight*>(actor_to_remove) != NULL) ||       //Checks if the actor is a point light
-       (dynamic_cast<SpotLight*>(actor_to_remove)!= NULL) ||         //Checks if the actor is a spot light
-       (dynamic_cast<DirectionalLight*>(actor_to_remove)!= NULL) )   //Checks if the actor is a directional light
-    {
-        //erases the light from light_list and from light_index_map
-        int light_index = light_index_map[actor_to_remove];
-        light_index_map.erase(actor_to_remove);
-        light_list.erase(light_list.begin()+light_index);
-
-        //rebuilds the light_index_map(the light_list vector has changed so it's necessary to rebuild it)
-        light_index_map.clear();
-        Light_instance_index_map.clear();
-        for(unsigned int i = 0;i < light_list.size(); i++)
-        {
-            Light_instance_index_map[light_list[i].ALight_pointer->get_instance_name()] =
-            light_index_map[light_list[i].ALight_pointer] = i;
-        }
-
-    }*/
-
     //erases the actor from actor_list and from actor_index_map
     int actor_index = actor_index_map[actor_to_remove];
     actor_index_map.erase(actor_to_remove);

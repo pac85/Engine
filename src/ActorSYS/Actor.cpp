@@ -12,6 +12,7 @@ Actor::~Actor()
 
 string Actor::get_instance_name()
 {
+    return string("test");
     return instance_name;
 }
 
