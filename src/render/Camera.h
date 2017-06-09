@@ -1,10 +1,10 @@
 #ifndef CAMERA_H
 #define CAMERA_H
 
-#include"../ActorSYS/Actor.h"
+#include"../ActorSYS/BaseActor.h"
 
 
-class Camera : public Actor
+class Camera : public BaseActor
 {
     public:
         Camera();

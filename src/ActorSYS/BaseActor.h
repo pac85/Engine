@@ -1,5 +1,5 @@
-#ifndef ACTOR_H
-#define ACTOR_H
+#ifndef BaseActor_H
+#define BaseActor_H
 #include "../common.h"
 #include "Component.h"
 #include "Transform.h"
@@ -11,17 +11,17 @@ using namespace glm;
 #include <glm/gtx/quaternion.hpp>
 
 #define REGISTER_DEC_TYPE(NAME) \
-    static ActorRegister<NAME> reg
+    static BaseActorRegister<NAME> reg
 
 #define REGISTER_DEF_TYPE(NAME) \
-    ActorRegister<NAME> NAME::reg(#NAME)
+    BaseActorRegister<NAME> NAME::reg(#NAME)
 
-class Actor
+class BaseActor
 {
     public:
 
-        Actor();
-        virtual ~Actor();
+        BaseActor();
+        virtual ~BaseActor();
 
         string get_instance_name();
         void set_instance_name(string _instance_name);
@@ -35,7 +35,6 @@ class Actor
         Transform get_absolute_socket_transform(string);*/
 
         //events
-        virtual void update() = 0;                   //called every frame, before tick
         virtual void tick(float delta) = 0;      //called every frame, after update
         virtual void GameStart() = 0;            //called when the game starts
 
@@ -55,32 +54,32 @@ class Actor
  *http://stackoverflow.com/questions/582331/is-there-a-way-to-instantiate-objects-from-a-string-holding-their-class-name
 */
 
-template<typename T> Actor * createT()
+template<typename T> BaseActor * createT()
 {
     return new T;
 }
 
-struct ActorFactory
+struct BaseActorFBaseActory
 {
-    typedef map<std::string, Actor*(*)()> Actor_map_type;
+    typedef map<std::string, BaseActor*(*)()> BaseActor_map_type;
 
     public:
-        static Actor* createInstance(string const& s,    //Creates an instance of the actor the witch name is s
+        static BaseActor* createInstance(string const& s,    //Creates an instance of the Actor the witch name is s
                                       string instance_name);
-                                                        //returns 0 if there is no actor named s.
+                                                        //returns 0 if there is no Actor named s.
 
     protected:
 
-        static Actor_map_type * getMap();               //returns the map witch associates names with actors
+        static BaseActor_map_type * getMap();               //returns the map witch associates names with Actors
 
     private:
-        static Actor_map_type * actor_name_map;         //the map witch associates names with actors
+        static BaseActor_map_type * BaseActor_name_map;         //the map witch associates names with Actors
 };
 
 template<typename T>
-struct ActorRegister : ActorFactory                     //Every actor derived class must have a static member of
+struct BaseActorRegister : BaseActorFBaseActory                     //Every Actor derived class must have a static member of
 {                                                       //this type and the constructor's argument is the name
-    ActorRegister(string const& s)                      //that will be used  when the class is referenced by string.
+    BaseActorRegister(string const& s)                      //that will be used  when the class is referenced by string.
     {
         getMap()->insert(make_pair(s, &createT<T>));
     }
@@ -89,4 +88,4 @@ struct ActorRegister : ActorFactory                     //Every actor derived cl
 
 
 
-#endif // ACTOR_H
+#endif // BaseActor_H

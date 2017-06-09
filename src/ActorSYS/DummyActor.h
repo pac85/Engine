@@ -1,9 +1,9 @@
 #ifndef DUMMYACTOR_H
 #define DUMMYACTOR_H
 
-#include "Actor.h"
+#include "BaseActor.h"
 
-class DummyActor : public Actor
+class DummyActor : public BaseActor
 {
     public:
         DummyActor();

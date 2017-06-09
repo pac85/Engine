@@ -11,7 +11,7 @@
 #include "vk/vkPhysicalDevice.h"
 #include "vk/vkDevice.h"
 #include "vk/vkSwapChain.h"
-#include "vk/vkShaderModule.h";
+#include "vk/vkShaderModule.h"
 #include "render/StaticMesh.h"
 #include "vk/vkMain.h"
 #include "ActorSYS/World.h"
@@ -149,7 +149,7 @@ int main(int argc, char *argv[]) {
 
     world test_world;
 
-    for(int i = 0; i < 100000;i++)
+    for(int i = 0; i < 1000000;i++)
     {
         test_world.add_actor(new DummyActor);
     }

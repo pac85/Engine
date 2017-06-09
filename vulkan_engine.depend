@@ -1073,7 +1073,7 @@
 1496417074 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.cpp
 	"Actor.h"
 
-1496417075 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.h
+1496951417 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.h
 	"../common.h"
 	"Component.h"
 	"Transform.h"
@@ -1564,19 +1564,19 @@
 	<limits>
 	"../gtc/constants.hpp"
 
-1496419472 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.cpp
+1497022645 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.cpp
 	"World.h"
 	<stack>
 
-1496441129 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.h
+1497022224 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.h
 	"../common.h"
-	"Actor.h"
+	"BaseActor.h"
 	"../render/Camera.h"
 	"SpotLight.h"
 	"DirectionalLight.h"
 
-1477052685 /home/antonino/Scrivania/vulkan_engine/src/render/Camera.h
-	"../ActorSYS/Actor.h"
+1497022094 /home/antonino/Scrivania/vulkan_engine/src/render/Camera.h
+	"../ActorSYS/BaseActor.h"
 
 1478798582 source:/home/antonino/Scrivania/vulkan_engine/src/Base.cpp
 	"Base.h"
@@ -1635,7 +1635,7 @@
 1480519132 /home/antonino/Scrivania/vulkan_engine/src/Task.h
 	"Base.h"
 
-1496435825 source:/home/antonino/Scrivania/vulkan_engine/src/main.cpp
+1497022443 source:/home/antonino/Scrivania/vulkan_engine/src/main.cpp
 	<vulkan/vulkan.h>
 	"Ptr.h"
 	"Base.h"
@@ -1998,6 +1998,16 @@
 1496416240 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/DummyActor.cpp
 	"DummyActor.h"
 
-1496419427 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/DummyActor.h
-	"Actor.h"
+1497022113 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/DummyActor.h
+	"BaseActor.h"
+
+1497022075 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/BaseActor.h
+	"../common.h"
+	"Component.h"
+	"Transform.h"
+	<glm/gtc/quaternion.hpp>
+	<glm/gtx/quaternion.hpp>
+
+1497022004 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/BaseActor.cpp
+	"BaseActor.h"
 

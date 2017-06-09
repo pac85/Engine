@@ -1,7 +1,7 @@
 #ifndef WORLD_H
 #define WORLD_H
 #include"../common.h"
-#include"Actor.h"
+#include"BaseActor.h"
 #include"../render/Camera.h"
 /*#include"PointLight.h"
 #include"SpotLight.h"
@@ -10,31 +10,11 @@
 
 class world
 {
-
-    struct attachment
-    {
-        enum Attach_type
-        {
-            relative,               //Uses the attachment offset has an offset to the position of the actor to witch it is attached
-            absolute                //Uses the attachment offset has an absolute position
-        } attach_type;
-
-        Transform offset;
-
-        Actor * parent_ptr;         //A pointer to the pointer to with the actor is attached
-        Actor * attached_ptr;       //A pointer to the attached object
-
-        string target_socket;
-
-        bool updated;
-        bool skip_update;           //if true an update will be skipped, it will the be set back to false
-    };
-
     struct ComponentAttachment
     {
         enum Attach_type
         {
-            relative,               //Uses the attachment offset has an offset to the position of the actor to witch it is attached
+            relative,               //Uses the attachment offset has an offset to the position of the BaseActor to witch it is attached
             absolute                //Uses the attachment offset has an absolute position
         } attach_type;
 
@@ -45,12 +25,17 @@ class world
         string target_socket;
     };
 
-    struct WorldActor
+    struct WorldBaseActor
     {
-        Actor * actor_pointer;                          //The Actor pointer
-        vector<ComponentAttachment> component_list;     //List of components attached to the actor
-        bool bAllowTick;                                //If false tick() will not be called even if bTick is true(set by the engine)
-        bool skip_tick;                                 //If true tick won't be called but will be set to false again so the next frame it will
+        BaseActor * BaseActor_pointer;                          //The BaseActor pointer
+        vector<ComponentAttachment> component_list;     //List of components attached to the BaseActor
+        /*bool bAllowTick;                                //If false tick() will not be called even if bTick is true(set by the engine)
+        bool skip_tick;                                 //If true tick won't be called but will be set to false again so the next frame it will*/
+
+        inline WorldBaseActor(BaseActor * _BaseActor_pointer)
+        {
+            BaseActor_pointer = _BaseActor_pointer;
+        }
     };
 
     struct WorldComponent
@@ -59,28 +44,71 @@ class world
 
     };
 
-    struct WorldActorIndex
+    struct WorldBaseActorIndex
     {
         unsigned int index;
-        enum
+
+        enum state
         {
             ACTIVE,
             INACTIVE,
             ATTACHED
-        }actor_state;
+        }BaseActor_state;
+
+        WorldBaseActorIndex()
+        {
+
+        }
+
+        WorldBaseActorIndex(unsigned int _index, state _state)
+        {
+            index = _index, BaseActor_state = _state;
+        }
+
+        inline bool operator== (WorldBaseActorIndex &b)
+        {
+            return b.index == index;
+        }
+
+        inline bool operator!= (WorldBaseActorIndex &b)
+        {
+            return b.index != index;
+        }
+    };
+
+    struct attachment
+    {
+        enum e_attach_type
+        {
+            RELATIVE,               //Uses the attachment offset has an offset to the position of the BaseActor to witch it is attached
+            ABSOLUTE                //Uses the attachment offset has an absolute position
+        }attach_type;
+
+        Transform offset;
+
+        WorldBaseActorIndex parent_index,       //An index to the pointer to with the BaseActor is attached
+                        attached_index;     //An index to the attached object
+
+        string target_socket;
+
+        bool updated;
+        bool skip_update;           //if true an update will be skipped, it will the be set back to false
+
+        inline bool operator == (attachment &b)
+        {
+            return b.parent_index == parent_index && b.attached_index == attached_index;
+        }
     };
 
     public:
         world();
         virtual ~world();
 
-        void add_actor(Actor * actor_to_add);       //adds an actor to the world
-        void remove_actor(Actor* actor_to_remove);  //removes actor from world
+        void add_actor(BaseActor * BaseActor_to_add);       //adds an BaseActor to the world
+        void remove_actor(BaseActor* BaseActor_to_remove);  //removes BaseActor from world
 
-        void aa_attachment(attachment _attachment); //adds an actor-actor attachment
+        void aa_attachment(attachment _attachment); //adds an BaseActor-BaseActor attachment
         void aa_deteach(attachment _attachment);    //removes the attachment
-
-        Actor* get_actor_ptr(string instance_name); //returns a pointe to the actor, NULL if instance_name isn't in the map
 
         void load_level(string file_name);          //Loads a level from an xwl file
 
@@ -91,28 +119,29 @@ class world
 
     private:
 
-        inline vector<WorldActor> get_list(WorldActorIndex wai)
+        inline vector<WorldBaseActor>& get_list(WorldBaseActorIndex wai)
         {
-            switch(wai.actor_state)
+            switch(wai.BaseActor_state)
             {
-                case WorldActorIndex::ACTIVE:
-                    return active_actor_list;
+                case WorldBaseActorIndex::ACTIVE:
+                    return active_BaseActor_list;
                     break;
-                case WorldActorIndex::INACTIVE:
-                    return inactive_actor_list;
+                case WorldBaseActorIndex::INACTIVE:
+                    return inactive_BaseActor_list;
                     break;
-                case WorldActorIndex::ATTACHED:
-                    return attached_actor_list;
+                case WorldBaseActorIndex::ATTACHED:
+                    return attached_BaseActor_list;
                     break;
             }
         }
 
-        //Lists of actor, lights get special lists because the world class has to render their shadow maps
-        vector<WorldActor> attached_actor_list;
+        //Lists of BaseActor, lights get special lists because the world class has to render their shadow maps
+        vector<WorldBaseActor> attached_BaseActor_list;
+        vector<attachment> attachment_list;
         //vector<attachment> attachments;
-        vector<WorldActor> active_actor_list;
-        vector<WorldActor> inactive_actor_list;
-        map<Actor*, WorldActorIndex> actor_index_map;
+        vector<WorldBaseActor> active_BaseActor_list;
+        vector<WorldBaseActor> inactive_BaseActor_list;
+        map<BaseActor*, WorldBaseActorIndex> BaseActor_index_map;
 
 
 
@@ -120,7 +149,7 @@ class world
 
         void update_attachments(float delta_time);               //Updates all attachments in the correct order
 
-        void update_attachment(float delta_time, int index);     //Updates one attachment
+        //void update_attachment(float delta_time, int index);     //Updates one attachment
 };
 
 #endif // WORLD_H
