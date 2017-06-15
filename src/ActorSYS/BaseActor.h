@@ -1,7 +1,6 @@
 #ifndef BaseActor_H
 #define BaseActor_H
 #include "../common.h"
-#include "Component.h"
 #include "Transform.h"
 
 using namespace glm;

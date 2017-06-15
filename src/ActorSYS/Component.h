@@ -1,17 +1,15 @@
 #ifndef COMPONENT_H
 #define COMPONENT_H
 
-#include<Transform.h>
-
-class Actor;
+#include "BaseActor.h"
 
 class Component
 {
     public:
-        Component(Actor * parent);
+        Component(BaseActor * parent);
         virtual ~Component();
 
-        Actor * parent_ptr;
+        BaseActor * parent_ptr;
 
         virtual void update(float delta_time) = 0;
 

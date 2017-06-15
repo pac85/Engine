@@ -54,8 +54,8 @@
 		<Linker>
 			<Add option="-L$(VULKAN_SDK_PATH)/lib `pkg-config --static --libs glfw3` -lvulkan" />
 		</Linker>
-		<Unit filename="src/ActorSYS/Actor.cpp" />
-		<Unit filename="src/ActorSYS/Actor.h" />
+		<Unit filename="src/ActorSYS/BaseActor.cpp" />
+		<Unit filename="src/ActorSYS/BaseActor.h" />
 		<Unit filename="src/ActorSYS/Component.cpp" />
 		<Unit filename="src/ActorSYS/Component.h" />
 		<Unit filename="src/ActorSYS/DummyActor.cpp" />

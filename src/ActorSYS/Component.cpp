@@ -1,7 +1,6 @@
 #include "Component.h"
-#include "Actor.h"
 
-Component::Component(Actor * parent)
+Component::Component(BaseActor * parent)
 {
     parent_ptr = parent;
 }

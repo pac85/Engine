@@ -4,7 +4,7 @@
 #include"../ActorSYS/BaseActor.h"
 
 
-class Camera : public BaseActor
+class Camera
 {
     public:
         Camera();

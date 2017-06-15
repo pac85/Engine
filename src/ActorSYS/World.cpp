@@ -12,90 +12,94 @@ world::~world()
 }
 
 
-void world::add_actor(BaseActor * BaseActor_to_add)
+void world::add_actor(BaseActor * actor_to_add)
 {
-    if(BaseActor_to_add->bTick)
+    if(actor_to_add->bTick)
     {
-        active_BaseActor_list.push_back(WorldBaseActor(BaseActor_to_add));
-        BaseActor_index_map[BaseActor_to_add] = WorldBaseActorIndex(active_BaseActor_list.size()-1, WorldBaseActorIndex::ACTIVE);
+        active_actor_list.push_back(WorldActor(actor_to_add));
+        actor_index_map[actor_to_add] = WorldActorIndex(active_actor_list.size()-1, WorldActorIndex::ACTIVE);
     }
     else
     {
-        inactive_BaseActor_list.push_back(WorldBaseActor(BaseActor_to_add));
-        BaseActor_index_map[BaseActor_to_add] = WorldBaseActorIndex(inactive_BaseActor_list.size()-1, WorldBaseActorIndex::INACTIVE);
+        inactive_actor_list.push_back(WorldActor(actor_to_add));
+        actor_index_map[actor_to_add] = WorldActorIndex(inactive_actor_list.size()-1, WorldActorIndex::INACTIVE);
     }
 }
 
-void world::remove_actor(BaseActor* BaseActor_to_remove)
+void world::remove_actor(BaseActor* actor_to_remove)
 {
-    WorldBaseActorIndex &BaseActor_index = BaseActor_index_map[BaseActor_to_remove];
-    switch(BaseActor_index.BaseActor_state)
+    WorldActorIndex &actor_index = actor_index_map[actor_to_remove];
+    switch(actor_index.actor_state)
     {
-        case WorldBaseActorIndex::ACTIVE:
-            active_BaseActor_list.erase(active_BaseActor_list.begin()+BaseActor_index.index);
-            BaseActor_index_map.erase(BaseActor_to_remove);
+        case WorldActorIndex::ACTIVE:
+            active_actor_list.erase(active_actor_list.begin()+actor_index.index);
+            actor_index_map.erase(actor_to_remove);
             break;
 
-        case WorldBaseActorIndex::INACTIVE:
-            inactive_BaseActor_list.erase(inactive_BaseActor_list.begin()+BaseActor_index.index);
-            BaseActor_index_map.erase(BaseActor_to_remove);
+        case WorldActorIndex::INACTIVE:
+            inactive_actor_list.erase(inactive_actor_list.begin()+actor_index.index);
+            actor_index_map.erase(actor_to_remove);
             break;
 
-        case WorldBaseActorIndex::ATTACHED:
+        case WorldActorIndex::ATTACHED:
             for(unsigned int i = 0;i < attachment_list.size();i++)
             {
-                if(BaseActor_index == attachment_list[i].parent_index || BaseActor_index == attachment_list[i].attached_index)
+                if(actor_index == attachment_list[i].parent_index || actor_index == attachment_list[i].attached_index)
                 {
                     aa_deteach(attachment_list[i]);
-                    BaseActor_index = BaseActor_index_map[BaseActor_to_remove];
+                    actor_index = actor_index_map[actor_to_remove];
                 }
             }
-            BaseActor_index_map.erase(BaseActor_to_remove);
+            actor_index_map.erase(actor_to_remove);
             break;
     }
 }
 
-void world::aa_attachment(attachment _attachment)
+void world::aa_attach(attachment _attachment)
 {
-    WorldBaseActorIndex &parent_index = _attachment.parent_index,
+    WorldActorIndex &parent_index = _attachment.parent_index,
                     &attached_index = _attachment.attached_index;
 
-    if(parent_index.BaseActor_state != WorldBaseActorIndex::ATTACHED &&
-       attached_index.BaseActor_state != WorldBaseActorIndex::ATTACHED)
+    if(parent_index.actor_state != WorldActorIndex::ATTACHED &&
+       attached_index.actor_state != WorldActorIndex::ATTACHED)
     {
-        vector<WorldBaseActor> & parent_list = get_list(parent_index),      //the vector parent BaseActor belongs to
+        vector<WorldActor> & parent_list = get_list(parent_index),      //the vector parent BaseActor belongs to
                            & attached_list = get_list(attached_index);  //the vector attached BaseActor belongs to
 
         //the BaseActors are pushed in the attached BaseActor list in the right order
-        attached_BaseActor_list.push_back(parent_list[parent_index.index]);
-        BaseActor_index_map[attached_BaseActor_list[attached_BaseActor_list.size()-1].BaseActor_pointer] = WorldBaseActorIndex(attached_BaseActor_list.size()-1, WorldBaseActorIndex::ATTACHED);
+        attached_actor_list.push_back(parent_list[parent_index.index]);
+        actor_index_map[attached_actor_list[attached_actor_list.size()-1].actor_pointer] = WorldActorIndex(attached_actor_list.size()-1, WorldActorIndex::ATTACHED);
+        _attachment.parent_index = WorldActorIndex(attached_actor_list.size()-1, WorldActorIndex::ATTACHED);
 
-        attached_BaseActor_list.push_back(attached_list[attached_index.index]);
-        BaseActor_index_map[attached_BaseActor_list[attached_BaseActor_list.size()-1].BaseActor_pointer] = WorldBaseActorIndex(attached_BaseActor_list.size()-1, WorldBaseActorIndex::ATTACHED);
+        attached_actor_list.push_back(attached_list[attached_index.index]);
+        actor_index_map[attached_actor_list[attached_actor_list.size()-1].actor_pointer] = WorldActorIndex(attached_actor_list.size()-1, WorldActorIndex::ATTACHED);
+        _attachment.attached_index = WorldActorIndex(attached_actor_list.size()-1, WorldActorIndex::ATTACHED);
 
         //and removed from the list they belonged to
         parent_list.erase(parent_list.begin()+parent_index.index);
         attached_list.erase(attached_list.begin()+attached_index.index);
     }
-    else if(parent_index.BaseActor_state == WorldBaseActorIndex::ATTACHED )
+    else if(parent_index.actor_state == WorldActorIndex::ATTACHED )
     {
-        vector<WorldBaseActor> & attached_list = get_list(attached_index);  //the vector attached BaseActor belongs to
-        attached_BaseActor_list.insert(attached_BaseActor_list.begin()+parent_index.index+1, attached_list[attached_index.index]);
-        BaseActor_index_map[attached_BaseActor_list[parent_index.index+1].BaseActor_pointer] = WorldBaseActorIndex(parent_index.index+1, WorldBaseActorIndex::ATTACHED);
+        vector<WorldActor> & attached_list = get_list(attached_index);  //the vector attached BaseActor belongs to
+        attached_actor_list.insert(attached_actor_list.begin()+parent_index.index+1, attached_list[attached_index.index]);
+        actor_index_map[attached_actor_list[parent_index.index+1].actor_pointer] = WorldActorIndex(parent_index.index+1, WorldActorIndex::ATTACHED);
+        _attachment.attached_index = WorldActorIndex(parent_index.index, WorldActorIndex::ATTACHED);
         attached_list.erase(attached_list.begin()+attached_index.index);
     }
-    else if(attached_index.BaseActor_state == WorldBaseActorIndex::ATTACHED )
+    else if(attached_index.actor_state == WorldActorIndex::ATTACHED )
     {
-        vector<WorldBaseActor> & parent_list = get_list(parent_index);  //the vector the attached BaseActor belongs to
-        attached_BaseActor_list.insert(attached_BaseActor_list.begin()+attached_index.index, parent_list[parent_index.index]);
-        BaseActor_index_map[attached_BaseActor_list[attached_index.index].BaseActor_pointer] = WorldBaseActorIndex(attached_index.index, WorldBaseActorIndex::ATTACHED);
+        vector<WorldActor> & parent_list = get_list(parent_index);  //the vector the attached BaseActor belongs to
+        attached_actor_list.insert(attached_actor_list.begin()+attached_index.index, parent_list[parent_index.index]);
+        actor_index_map[attached_actor_list[attached_index.index].actor_pointer] = WorldActorIndex(attached_index.index, WorldActorIndex::ATTACHED);
+        _attachment.parent_index = WorldActorIndex(attached_index.index, WorldActorIndex::ATTACHED);
         parent_list.erase(parent_list.begin()+parent_index.index);
     }
     //otherwise both are already in the list and therefore already attached(that should never appen)
 
     //Updates the state of the attachment
-    parent_index.BaseActor_state = WorldBaseActorIndex::ATTACHED;
-    attached_index.BaseActor_state = WorldBaseActorIndex::ATTACHED;
+    parent_index.actor_state = WorldActorIndex::ATTACHED;
+    attached_index.actor_state = WorldActorIndex::ATTACHED;
 
     //and inserts it in the right place inside attachment_list
     for(unsigned int i = 0;;i++)
@@ -116,12 +120,12 @@ void world::aa_attachment(attachment _attachment)
 
 void world::aa_deteach(attachment _attachment)
 {
-    WorldBaseActorIndex parent_index = _attachment.parent_index,
+    WorldActorIndex parent_index = _attachment.parent_index,
                     attached_index = _attachment.attached_index;
 
     //if the BaseActors are not attached there is nothing to do
-    if(parent_index.BaseActor_state != WorldBaseActorIndex::ATTACHED ||
-       attached_index.BaseActor_state != WorldBaseActorIndex::ATTACHED)
+    if(parent_index.actor_state != WorldActorIndex::ATTACHED ||
+       attached_index.actor_state != WorldActorIndex::ATTACHED)
     {
         return;
     }
@@ -141,7 +145,7 @@ void world::aa_deteach(attachment _attachment)
         }
     }
 
-    vector<WorldBaseActor> & parent_list = get_list(parent_index),      //the vector parent BaseActor belongs to
+    vector<WorldActor> & parent_list = get_list(parent_index),      //the vector parent BaseActor belongs to
                        & attached_list = get_list(attached_index);  //the vector attached BaseActor belongs to
 
     //if there arent any other attached BaseActor to the parent it is moved to active list
@@ -149,8 +153,8 @@ void world::aa_deteach(attachment _attachment)
     {
         if(i >= attachment_list.size())
         {
-            active_BaseActor_list.push_back(parent_list[parent_index.index]);
-            BaseActor_index_map[active_BaseActor_list[active_BaseActor_list.size()-1].BaseActor_pointer] = WorldBaseActorIndex(active_BaseActor_list.size()-1, WorldBaseActorIndex::ACTIVE);
+            active_actor_list.push_back(parent_list[parent_index.index]);
+            actor_index_map[active_actor_list[active_actor_list.size()-1].actor_pointer] = WorldActorIndex(active_actor_list.size()-1, WorldActorIndex::ACTIVE);
             parent_list.erase(parent_list.begin()+parent_index.index);
             break;
         }
@@ -164,8 +168,8 @@ void world::aa_deteach(attachment _attachment)
     {
         if(i >= attachment_list.size())
         {
-            active_BaseActor_list.push_back(attached_list[attached_index.index]);
-            BaseActor_index_map[active_BaseActor_list[active_BaseActor_list.size()-1].BaseActor_pointer] = WorldBaseActorIndex(active_BaseActor_list.size()-1, WorldBaseActorIndex::ACTIVE);
+            active_actor_list.push_back(attached_list[attached_index.index]);
+            actor_index_map[active_actor_list[active_actor_list.size()-1].actor_pointer] = WorldActorIndex(active_actor_list.size()-1, WorldActorIndex::ACTIVE);
             attached_list.erase(attached_list.begin()+attached_index.index);
             break;
         }
@@ -186,15 +190,9 @@ void world::load_level(string file_name)
 void world::tickAll(float delta_time)
 {
     //Calls tick on every active BaseActor
-    for(WorldBaseActor &BaseActor:active_BaseActor_list)
+    for(WorldActor &Actor:active_actor_list)
     {
-        BaseActor.BaseActor_pointer->tick(delta_time);
-
-        //Updates all of the attached components
-        for(auto &component : BaseActor.component_list)
-        {
-            component.attached_ptr->update(delta_time);
-        }
+        Actor.actor_pointer->tick(delta_time);
     }
 }
 
@@ -204,28 +202,28 @@ void world::update_attachments(float delta_time)
     if(attachment_list.size()<=0)
         return;
 
-    WorldBaseActorIndex last_updated_attached = attachment_list[0].attached_index;
-    attached_BaseActor_list[attachment_list[0].parent_index.index].BaseActor_pointer->tick(delta_time);
+    WorldActorIndex last_updated_attached = attachment_list[0].attached_index;
+    attached_actor_list[attachment_list[0].parent_index.index].actor_pointer->tick(delta_time);
 
-    for(unsigned int i = 1;attachment_list.size();i++)
+    for(unsigned int i = 1;i < attachment_list.size();i++)
     {
         if(last_updated_attached != attachment_list[i].parent_index)
-            attached_BaseActor_list[attachment_list[i].parent_index.index].BaseActor_pointer->tick(delta_time);
+            attached_actor_list[attachment_list[i].parent_index.index].actor_pointer->tick(delta_time);
 
         if(attachment_list[i].attach_type == attachment::ABSOLUTE)
         {
             //just sets the attached BaseActor's transform to be equal to offset
-            attached_BaseActor_list[attachment_list[i].attached_index.index].BaseActor_pointer->set_transform(attachment_list[i].offset);
+            attached_actor_list[attachment_list[i].attached_index.index].actor_pointer->set_transform(attachment_list[i].offset);
         }
         else if(attachment_list[i].attach_type == attachment::RELATIVE)
         {
             //calculates the sums the parent transform with offset
             Transform temp_transform;
-            temp_transform = attached_BaseActor_list[attachment_list[i].parent_index.index].BaseActor_pointer->get_transform() + attachment_list[i].offset;
-            attached_BaseActor_list[attachment_list[i].attached_index.index].BaseActor_pointer->set_transform(temp_transform);
+            temp_transform = attached_actor_list[attachment_list[i].parent_index.index].actor_pointer->get_transform() + attachment_list[i].offset;
+            attached_actor_list[attachment_list[i].attached_index.index].actor_pointer->set_transform(temp_transform);
         }
 
-        attached_BaseActor_list[attachment_list[i].attached_index.index].BaseActor_pointer->tick(delta_time);
+        attached_actor_list[attachment_list[i].attached_index.index].actor_pointer->tick(delta_time);
 
         last_updated_attached = attachment_list[i].attached_index;
     }
@@ -237,7 +235,7 @@ void world::update_attachments(float delta_time)
     attachments[index].attached_ptr->update();
     attachments[index].attached_ptr->tick(delta_time);
     //sets skip_tick to avoid that tick is called again
-    BaseActor_list[BaseActor_index_map[attachments[index].attached_ptr]].skip_tick = true;
+    BaseActor_list[actor_index_map[attachments[index].attached_ptr]].skip_tick = true;
     //Sets updated to true, this is important for the next piece of code to work
     attachments[index].updated = true;
 
@@ -281,7 +279,7 @@ void world::update_attachments(float delta_time)
                 //calls tick
                 attachments[i].parent_ptr->tick(delta_time);
                 //sets skip_tick to avoid that tick is called again in the tickall function
-                BaseActor_list[BaseActor_index_map[attachments[top_i].parent_ptr]].skip_tick = true;
+                BaseActor_list[actor_index_map[attachments[top_i].parent_ptr]].skip_tick = true;
                 //updates attached BaseActor
                 update_attachment(delta_time, top_i);
                 update_stack.pop();

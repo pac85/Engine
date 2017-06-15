@@ -149,13 +149,22 @@ int main(int argc, char *argv[]) {
 
     world test_world;
 
+    DummyActor* da1;
+
     for(int i = 0; i < 1000000;i++)
     {
-        test_world.add_actor(new DummyActor);
+        da1 = new DummyActor;
+        test_world.add_actor(da1);
     }
+
+    DummyActor* da2 = new DummyActor;
+    test_world.add_actor(da2);
+
     double currentFrame = glfwGetTime();
     double lastFrame = currentFrame;
     double deltaTime;
+
+    test_world.aa_attach(test_world.create_attachment(da1, da2));
 
     while (!glfwWindowShouldClose(window))
     {

@@ -1564,18 +1564,18 @@
 	<limits>
 	"../gtc/constants.hpp"
 
-1497022645 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.cpp
+1497566571 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.cpp
 	"World.h"
 	<stack>
 
-1497022224 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.h
+1497567667 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.h
 	"../common.h"
 	"BaseActor.h"
 	"../render/Camera.h"
 	"SpotLight.h"
 	"DirectionalLight.h"
 
-1497022094 /home/antonino/Scrivania/vulkan_engine/src/render/Camera.h
+1497567551 /home/antonino/Scrivania/vulkan_engine/src/render/Camera.h
 	"../ActorSYS/BaseActor.h"
 
 1478798582 source:/home/antonino/Scrivania/vulkan_engine/src/Base.cpp
@@ -1597,7 +1597,7 @@
 1478208986 source:/home/antonino/Scrivania/vulkan_engine/src/Game.cpp
 	"Game.h"
 
-1478208338 /home/antonino/Scrivania/vulkan_engine/src/Game.h
+1497567680 /home/antonino/Scrivania/vulkan_engine/src/Game.h
 	"../common.h"
 	"render/Camera.h"
 	"game/GameMain.h"
@@ -1635,7 +1635,7 @@
 1480519132 /home/antonino/Scrivania/vulkan_engine/src/Task.h
 	"Base.h"
 
-1497022443 source:/home/antonino/Scrivania/vulkan_engine/src/main.cpp
+1497562492 source:/home/antonino/Scrivania/vulkan_engine/src/main.cpp
 	<vulkan/vulkan.h>
 	"Ptr.h"
 	"Base.h"
@@ -1980,12 +1980,11 @@
 	"vkShaderModule.h"
 	"../common.h"
 
-1496241851 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Component.h
-	<Transform.h>
+1497567624 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Component.h
+	"BaseActor.h"
 
-1496240586 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Component.cpp
+1497567619 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Component.cpp
 	"Component.h"
-	"Actor.h"
 
 1495396591 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Transform.h
 	"../common.h"
@@ -1995,15 +1994,14 @@
 1495395934 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Transform.cpp
 	"Transform.h"
 
-1496416240 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/DummyActor.cpp
+1497023266 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/DummyActor.cpp
 	"DummyActor.h"
 
 1497022113 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/DummyActor.h
 	"BaseActor.h"
 
-1497022075 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/BaseActor.h
+1497567597 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/BaseActor.h
 	"../common.h"
-	"Component.h"
 	"Transform.h"
 	<glm/gtc/quaternion.hpp>
 	<glm/gtx/quaternion.hpp>

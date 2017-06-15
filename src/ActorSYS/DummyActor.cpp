@@ -2,7 +2,7 @@
 
 DummyActor::DummyActor()
 {
-    //ctor
+    bTick = true;
 }
 
 DummyActor::~DummyActor()

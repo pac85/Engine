@@ -43,7 +43,7 @@ class Game
 
         GameMain game;
         Camera * current_camera;
-        Actor * current_player;
+        BaseActor * current_player;
 };
 
 #endif // GAME_H

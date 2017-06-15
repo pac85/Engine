@@ -10,7 +10,7 @@
 
 class world
 {
-    struct ComponentAttachment
+    /*struct ComponentAttachment
     {
         enum Attach_type
         {
@@ -23,28 +23,21 @@ class world
         Component * attached_ptr;
 
         string target_socket;
-    };
+    };*/
 
-    struct WorldBaseActor
+    struct WorldActor
     {
-        BaseActor * BaseActor_pointer;                          //The BaseActor pointer
-        vector<ComponentAttachment> component_list;     //List of components attached to the BaseActor
+        BaseActor * actor_pointer;                          //The BaseActor pointer
         /*bool bAllowTick;                                //If false tick() will not be called even if bTick is true(set by the engine)
         bool skip_tick;                                 //If true tick won't be called but will be set to false again so the next frame it will*/
 
-        inline WorldBaseActor(BaseActor * _BaseActor_pointer)
+        inline WorldActor(BaseActor * _actor_pointer)
         {
-            BaseActor_pointer = _BaseActor_pointer;
+            actor_pointer = _actor_pointer;
         }
     };
 
-    struct WorldComponent
-    {
-        Component * component;
-
-    };
-
-    struct WorldBaseActorIndex
+    struct WorldActorIndex
     {
         unsigned int index;
 
@@ -53,24 +46,24 @@ class world
             ACTIVE,
             INACTIVE,
             ATTACHED
-        }BaseActor_state;
+        }actor_state;
 
-        WorldBaseActorIndex()
+        WorldActorIndex()
         {
 
         }
 
-        WorldBaseActorIndex(unsigned int _index, state _state)
+        WorldActorIndex(unsigned int _index, state _state)
         {
-            index = _index, BaseActor_state = _state;
+            index = _index, actor_state = _state;
         }
 
-        inline bool operator== (WorldBaseActorIndex &b)
+        inline bool operator== (WorldActorIndex &b)
         {
             return b.index == index;
         }
 
-        inline bool operator!= (WorldBaseActorIndex &b)
+        inline bool operator!= (WorldActorIndex &b)
         {
             return b.index != index;
         }
@@ -86,13 +79,18 @@ class world
 
         Transform offset;
 
-        WorldBaseActorIndex parent_index,       //An index to the pointer to with the BaseActor is attached
+        WorldActorIndex parent_index,       //An index to the pointer to with the BaseActor is attached
                         attached_index;     //An index to the attached object
 
         string target_socket;
 
         bool updated;
         bool skip_update;           //if true an update will be skipped, it will the be set back to false
+
+        inline attachment(WorldActorIndex _parent_index, WorldActorIndex _attached_index)
+        {
+            parent_index = _parent_index, attached_index = _attached_index;
+        }
 
         inline bool operator == (attachment &b)
         {
@@ -104,10 +102,19 @@ class world
         world();
         virtual ~world();
 
-        void add_actor(BaseActor * BaseActor_to_add);       //adds an BaseActor to the world
-        void remove_actor(BaseActor* BaseActor_to_remove);  //removes BaseActor from world
+        void add_actor(BaseActor * actor_to_add);       //adds an BaseActor to the world
+        void remove_actor(BaseActor* actor_to_remove);  //removes BaseActor from world
 
-        void aa_attachment(attachment _attachment); //adds an BaseActor-BaseActor attachment
+
+        inline attachment create_attachment(BaseActor* _parent_actor, BaseActor* _attached_actor)
+        {
+            if(actor_index_map.find(_parent_actor) == actor_index_map.end() || actor_index_map.find(_attached_actor) == actor_index_map.end())
+                return ;
+
+            return attachment(actor_index_map[_parent_actor], actor_index_map[_attached_actor]);
+        }
+
+        void aa_attach(attachment _attachment); //adds an BaseActor-BaseActor attachment
         void aa_deteach(attachment _attachment);    //removes the attachment
 
         void load_level(string file_name);          //Loads a level from an xwl file
@@ -119,29 +126,29 @@ class world
 
     private:
 
-        inline vector<WorldBaseActor>& get_list(WorldBaseActorIndex wai)
+        inline vector<WorldActor>& get_list(WorldActorIndex wai)
         {
-            switch(wai.BaseActor_state)
+            switch(wai.actor_state)
             {
-                case WorldBaseActorIndex::ACTIVE:
-                    return active_BaseActor_list;
+                case WorldActorIndex::ACTIVE:
+                    return active_actor_list;
                     break;
-                case WorldBaseActorIndex::INACTIVE:
-                    return inactive_BaseActor_list;
+                case WorldActorIndex::INACTIVE:
+                    return inactive_actor_list;
                     break;
-                case WorldBaseActorIndex::ATTACHED:
-                    return attached_BaseActor_list;
+                case WorldActorIndex::ATTACHED:
+                    return attached_actor_list;
                     break;
             }
         }
 
         //Lists of BaseActor, lights get special lists because the world class has to render their shadow maps
-        vector<WorldBaseActor> attached_BaseActor_list;
+        vector<WorldActor> attached_actor_list;
         vector<attachment> attachment_list;
         //vector<attachment> attachments;
-        vector<WorldBaseActor> active_BaseActor_list;
-        vector<WorldBaseActor> inactive_BaseActor_list;
-        map<BaseActor*, WorldBaseActorIndex> BaseActor_index_map;
+        vector<WorldActor> active_actor_list;
+        vector<WorldActor> inactive_actor_list;
+        map<BaseActor*, WorldActorIndex> actor_index_map;
 
 
 
