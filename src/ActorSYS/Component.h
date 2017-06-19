@@ -11,8 +11,6 @@ class Component
 
         BaseActor * parent_ptr;
 
-        virtual void update(float delta_time) = 0;
-
     protected:
 
     private:

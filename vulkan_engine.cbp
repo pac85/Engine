@@ -54,6 +54,8 @@
 		<Linker>
 			<Add option="-L$(VULKAN_SDK_PATH)/lib `pkg-config --static --libs glfw3` -lvulkan" />
 		</Linker>
+		<Unit filename="src/ActorSYS/Actor.cpp" />
+		<Unit filename="src/ActorSYS/Actor.h" />
 		<Unit filename="src/ActorSYS/BaseActor.cpp" />
 		<Unit filename="src/ActorSYS/BaseActor.h" />
 		<Unit filename="src/ActorSYS/Component.cpp" />
@@ -99,8 +101,14 @@
 		<Unit filename="src/render/Camera.h" />
 		<Unit filename="src/render/Material.cpp" />
 		<Unit filename="src/render/Material.h" />
+		<Unit filename="src/render/PointLightComponent.cpp" />
+		<Unit filename="src/render/PointLightComponent.h" />
 		<Unit filename="src/render/StaticMesh.cpp" />
 		<Unit filename="src/render/StaticMesh.h" />
+		<Unit filename="src/render/StaticModelComponent.cpp" />
+		<Unit filename="src/render/StaticModelComponent.h" />
+		<Unit filename="src/render/render.cpp" />
+		<Unit filename="src/render/render.h" />
 		<Unit filename="src/render/scene.cpp" />
 		<Unit filename="src/render/scene.h" />
 		<Unit filename="src/settings.cpp" />

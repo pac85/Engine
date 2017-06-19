@@ -1,3 +1,5 @@
+//note: by "StaticMesh" I mean a non-animated mesh , it can still be moved and retated around
+
 #ifndef MODEL_H
 #define MODEL_H
 
