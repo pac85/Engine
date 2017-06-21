@@ -101,12 +101,12 @@
 		<Unit filename="src/render/Camera.h" />
 		<Unit filename="src/render/Material.cpp" />
 		<Unit filename="src/render/Material.h" />
+		<Unit filename="src/render/ModelComponent.cpp" />
+		<Unit filename="src/render/ModelComponent.h" />
 		<Unit filename="src/render/PointLightComponent.cpp" />
 		<Unit filename="src/render/PointLightComponent.h" />
 		<Unit filename="src/render/StaticMesh.cpp" />
 		<Unit filename="src/render/StaticMesh.h" />
-		<Unit filename="src/render/StaticModelComponent.cpp" />
-		<Unit filename="src/render/StaticModelComponent.h" />
 		<Unit filename="src/render/render.cpp" />
 		<Unit filename="src/render/render.h" />
 		<Unit filename="src/render/scene.cpp" />

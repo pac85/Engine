@@ -2,7 +2,8 @@
 #define RENDER_H
 
 #include"../common.h"
-#include"StaticModelComponent.h"
+#include"ModelComponent.h"
+#include"../ActorSYS/Actor.h"
 
 
 class render
@@ -11,11 +12,14 @@ class render
         render();
         virtual ~render();
 
+        unsigned int add_model(Actor * parent);
+        void remove_model(unsigned int index);
+
     protected:
 
     private:
 
-        vector<StaticModelComponent> StaticModelsList;
+        vector<ModelComponent> model_list;
 };
 
 #endif // RENDER_H

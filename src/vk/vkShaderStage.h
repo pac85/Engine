@@ -6,7 +6,7 @@
 class vkShaderStage
 {
     public:
-        vkShaderStage(vkShaderModule vertex_shader, vkShaderModule fragment_shader);
+        vkShaderStage(vkShaderModule shader_module, VkShaderStageFlagBits stage, string mf_name = "main");
         virtual ~vkShaderStage();
 
     protected:

@@ -11,6 +11,11 @@ class vkShaderModule
         vkShaderModule(vkDevice &device, vector<char> &code);
         virtual ~vkShaderModule();
 
+        inline VkShaderModule get_shader_module()
+        {
+            return shader_module;
+        }
+
     protected:
 
     private:

@@ -1073,7 +1073,7 @@
 1497809746 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.cpp
 	"Actor.h"
 
-1497809773 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.h
+1498065592 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.h
 	"World.h"
 
 1494430105 /home/antonino/Scrivania/vulkan_engine/src/common.h
@@ -1714,7 +1714,7 @@
 	"vkDeleter.hpp"
 	"vkSurface.h"
 
-1492282106 /home/antonino/Scrivania/vulkan_engine/src/vk/vkShaderModule.h
+1498066835 /home/antonino/Scrivania/vulkan_engine/src/vk/vkShaderModule.h
 	"../common.h"
 	"vkDevice.h"
 
@@ -1897,10 +1897,11 @@
 1497883935 source:/home/antonino/Scrivania/vulkan_engine/src/render/Camera.cpp
 	"Camera.h"
 
-1493584099 source:/home/antonino/Scrivania/vulkan_engine/src/render/Material.cpp
+1498067158 source:/home/antonino/Scrivania/vulkan_engine/src/render/Material.cpp
 	"Material.h"
 
-1493584099 /home/antonino/Scrivania/vulkan_engine/src/render/Material.h
+1498067177 /home/antonino/Scrivania/vulkan_engine/src/render/Material.h
+	"../vk/vkShaderModule.h"
 
 1492535932 source:/home/antonino/Scrivania/vulkan_engine/src/render/scene.cpp
 	"scene.h"
@@ -1938,7 +1939,7 @@
 1491247753 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkQueues.cpp
 	"vkQueues.h"
 
-1492282161 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkShaderModule.cpp
+1497995093 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkShaderModule.cpp
 	"vkShaderModule.h"
 
 1492020914 source:/home/antonino/Scrivania/vulkan_engine/src/vk/VkSurface.cpp
@@ -2018,17 +2019,25 @@
 
 1497886141 /home/antonino/Scrivania/vulkan_engine/src/render/PointLightComponent.h
 
-1497886049 source:/home/antonino/Scrivania/vulkan_engine/src/render/render.cpp
+1498066401 source:/home/antonino/Scrivania/vulkan_engine/src/render/render.cpp
 	"render.h"
 
-1497887237 /home/antonino/Scrivania/vulkan_engine/src/render/render.h
+1498066700 /home/antonino/Scrivania/vulkan_engine/src/render/render.h
 	"../common.h"
-	"StaticModelComponent.h"
+	"ModelComponent.h"
+	"../ActorSYS/Actor.h"
 
 1497886541 source:/home/antonino/Scrivania/vulkan_engine/src/render/StaticModelComponent.cpp
 	"StaticModelComponent.h"
 
-1497887237 /home/antonino/Scrivania/vulkan_engine/src/render/StaticModelComponent.h
+1497994634 /home/antonino/Scrivania/vulkan_engine/src/render/StaticModelComponent.h
+	"../ActorSYS/Component.h"
+	"StaticMesh.h"
+
+1498065462 source:/home/antonino/Scrivania/vulkan_engine/src/render/ModelComponent.cpp
+	"ModelComponent.h"
+
+1498065323 /home/antonino/Scrivania/vulkan_engine/src/render/ModelComponent.h
 	"../ActorSYS/Component.h"
 	"StaticMesh.h"
 

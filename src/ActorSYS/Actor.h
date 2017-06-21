@@ -4,7 +4,7 @@
 #include "World.h"
 
 
-class Actor : BaseActor
+class Actor : public BaseActor
 {
     public:
         Actor();
