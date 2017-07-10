@@ -1070,13 +1070,13 @@
 
 1493587699 c:\users\antonino\desktop\vulkan_engine\src\render\material.h
 
-1497809746 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.cpp
+1499696205 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.cpp
 	"Actor.h"
 
-1498065592 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.h
+1499696216 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Actor.h
 	"World.h"
 
-1494430105 /home/antonino/Scrivania/vulkan_engine/src/common.h
+1499696462 /home/antonino/Scrivania/vulkan_engine/src/common.h
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
 	<glm/gtc/matrix_transform.hpp>
@@ -1094,7 +1094,7 @@
 	<set>
 	<cstring>
 
-1471521160 /home/antonino/Scrivania/vulkan_engine/3dparty/include/GLFW/glfw3.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/GLFW/glfw3.h
 	<stddef.h>
 	<stdint.h>
 	<OpenGL/gl3.h>
@@ -1115,7 +1115,7 @@
 	<GL/glext.h>
 	<GL/glu.h>
 
-1459075006 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/glm.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/glm.hpp
 	"detail/_fixes.hpp"
 	<cmath>
 	<climits>
@@ -1144,21 +1144,21 @@
 	"vector_relational.hpp"
 	"integer.hpp"
 
-1459074998 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/_fixes.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/_fixes.hpp
 	<cmath>
 
-1459075004 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/fwd.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/fwd.hpp
 	"detail/type_int.hpp"
 	"detail/type_float.hpp"
 	"detail/type_vec.hpp"
 	"detail/type_mat.hpp"
 
-1459074962 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_int.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_int.hpp
 	"setup.hpp"
 	<type_traits>
 	<cstdint>
 
-1459074956 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/setup.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/setup.hpp
 	<cassert>
 	<cstddef>
 	<cuda.h>
@@ -1170,50 +1170,50 @@
 	<emmintrin.h>
 	<__config>
 
-1459074958 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_float.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_float.hpp
 	"setup.hpp"
 
-1459074982 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec.hpp
 	"precision.hpp"
 	"type_int.hpp"
 
-1459074956 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/precision.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/precision.hpp
 
-1459074963 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat.hpp
 	"precision.hpp"
 
-1459075151 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/vec2.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/vec2.hpp
 	"detail/type_vec2.hpp"
 
-1459074986 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec2.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec2.hpp
 	"type_vec.hpp"
 	"_swizzle.hpp"
 	"_swizzle_func.hpp"
 	<cstddef>
 	"type_vec2.inl"
 
-1459075000 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/_swizzle.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/_swizzle.hpp
 
-1459075001 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/_swizzle_func.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/_swizzle_func.hpp
 
-1459074987 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec2.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec2.inl
 
-1459075152 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/vec3.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/vec3.hpp
 	"detail/type_vec3.hpp"
 
-1459074989 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec3.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec3.hpp
 	"type_vec.hpp"
 	"_swizzle.hpp"
 	"_swizzle_func.hpp"
 	<cstddef>
 	"type_vec3.inl"
 
-1459074991 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec3.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec3.inl
 
-1459075153 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/vec4.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/vec4.hpp
 	"detail/type_vec4.hpp"
 
-1459074992 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec4.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec4.hpp
 	"setup.hpp"
 	"type_vec.hpp"
 	"_swizzle.hpp"
@@ -1221,21 +1221,21 @@
 	<cstddef>
 	"type_vec4.inl"
 
-1459074994 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec4.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec4.inl
 	"type_vec4_sse2.inl"
 	"type_vec4_avx.inl"
 	"type_vec4_avx2.inl"
 
-1459074997 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec4_sse2.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec4_sse2.inl
 
-1459074995 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec4_avx.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec4_avx.inl
 
-1459074996 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec4_avx2.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec4_avx2.inl
 
-1459075142 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat2x2.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat2x2.hpp
 	"detail/type_mat2x2.hpp"
 
-1459074966 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat2x2.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat2x2.hpp
 	"../fwd.hpp"
 	"type_vec2.hpp"
 	"type_mat.hpp"
@@ -1243,12 +1243,12 @@
 	<cstddef>
 	"type_mat2x2.inl"
 
-1459074967 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat2x2.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat2x2.inl
 
-1459075143 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat2x3.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat2x3.hpp
 	"detail/type_mat2x3.hpp"
 
-1459074968 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat2x3.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat2x3.hpp
 	"../fwd.hpp"
 	"type_vec2.hpp"
 	"type_vec3.hpp"
@@ -1257,12 +1257,12 @@
 	<cstddef>
 	"type_mat2x3.inl"
 
-1459074969 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat2x3.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat2x3.inl
 
-1459075144 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat2x4.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat2x4.hpp
 	"detail/type_mat2x4.hpp"
 
-1459074969 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat2x4.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat2x4.hpp
 	"../fwd.hpp"
 	"type_vec2.hpp"
 	"type_vec4.hpp"
@@ -1271,12 +1271,12 @@
 	<cstddef>
 	"type_mat2x4.inl"
 
-1459074970 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat2x4.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat2x4.inl
 
-1459075145 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat3x2.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat3x2.hpp
 	"detail/type_mat3x2.hpp"
 
-1459074971 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat3x2.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat3x2.hpp
 	"../fwd.hpp"
 	"type_vec2.hpp"
 	"type_vec3.hpp"
@@ -1285,12 +1285,12 @@
 	<cstddef>
 	"type_mat3x2.inl"
 
-1459074972 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat3x2.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat3x2.inl
 
-1459075146 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat3x3.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat3x3.hpp
 	"detail/type_mat3x3.hpp"
 
-1459074972 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat3x3.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat3x3.hpp
 	"../fwd.hpp"
 	"type_vec3.hpp"
 	"type_mat.hpp"
@@ -1298,12 +1298,12 @@
 	<cstddef>
 	"type_mat3x3.inl"
 
-1459074973 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat3x3.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat3x3.inl
 
-1459075146 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat3x4.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat3x4.hpp
 	"detail/type_mat3x4.hpp"
 
-1459074975 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat3x4.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat3x4.hpp
 	"../fwd.hpp"
 	"type_vec3.hpp"
 	"type_vec4.hpp"
@@ -1312,12 +1312,12 @@
 	<cstddef>
 	"type_mat3x4.inl"
 
-1459074976 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat3x4.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat3x4.inl
 
-1459075147 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat4x2.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat4x2.hpp
 	"detail/type_mat4x2.hpp"
 
-1459074977 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat4x2.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat4x2.hpp
 	"../fwd.hpp"
 	"type_vec2.hpp"
 	"type_vec4.hpp"
@@ -1326,12 +1326,12 @@
 	<cstddef>
 	"type_mat4x2.inl"
 
-1459074978 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat4x2.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat4x2.inl
 
-1459075148 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat4x3.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat4x3.hpp
 	"detail/type_mat4x3.hpp"
 
-1459074978 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat4x3.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat4x3.hpp
 	"../fwd.hpp"
 	"type_vec3.hpp"
 	"type_vec4.hpp"
@@ -1340,12 +1340,12 @@
 	<cstddef>
 	"type_mat4x3.inl"
 
-1459074979 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat4x3.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat4x3.inl
 
-1459075149 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat4x4.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/mat4x4.hpp
 	"detail/type_mat4x4.hpp"
 
-1459074980 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat4x4.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat4x4.hpp
 	"../fwd.hpp"
 	"type_vec4.hpp"
 	"type_mat.hpp"
@@ -1353,28 +1353,28 @@
 	<cstddef>
 	"type_mat4x4.inl"
 
-1459074981 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat4x4.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_mat4x4.inl
 
-1459075151 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/trigonometric.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/trigonometric.hpp
 	"detail/func_trigonometric.hpp"
 
-1459074941 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_trigonometric.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_trigonometric.hpp
 	"setup.hpp"
 	"precision.hpp"
 	"func_trigonometric.inl"
 
-1459074942 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_trigonometric.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_trigonometric.inl
 	"_vectorize.hpp"
 	<cmath>
 	<limits>
 
-1459075002 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/_vectorize.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/_vectorize.hpp
 	"type_vec1.hpp"
 	"type_vec2.hpp"
 	"type_vec3.hpp"
 	"type_vec4.hpp"
 
-1459074984 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec1.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec1.hpp
 	"../fwd.hpp"
 	"type_vec.hpp"
 	"_swizzle.hpp"
@@ -1382,12 +1382,12 @@
 	<cstddef>
 	"type_vec1.inl"
 
-1459074984 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec1.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_vec1.inl
 
-1459075003 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/exponential.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/exponential.hpp
 	"detail/func_exponential.hpp"
 
-1459074933 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_exponential.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_exponential.hpp
 	"type_vec1.hpp"
 	"type_vec2.hpp"
 	"type_vec3.hpp"
@@ -1395,32 +1395,32 @@
 	<cmath>
 	"func_exponential.inl"
 
-1459074934 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_exponential.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_exponential.inl
 	"func_vector_relational.hpp"
 	"_vectorize.hpp"
 	<limits>
 	<cmath>
 	<cassert>
 
-1459074942 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_vector_relational.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_vector_relational.hpp
 	"precision.hpp"
 	"setup.hpp"
 	"func_vector_relational.inl"
 
-1459074943 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_vector_relational.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_vector_relational.inl
 	<limits>
 
-1459074929 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/common.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/common.hpp
 	"detail/func_common.hpp"
 
-1459074932 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_common.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_common.hpp
 	"setup.hpp"
 	"precision.hpp"
 	"type_int.hpp"
 	"_fixes.hpp"
 	"func_common.inl"
 
-1459074932 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_common.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_common.inl
 	"func_vector_relational.hpp"
 	"type_vec2.hpp"
 	"type_vec3.hpp"
@@ -1428,43 +1428,43 @@
 	"_vectorize.hpp"
 	<limits>
 
-1459075150 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/packing.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/packing.hpp
 	"detail/func_packing.hpp"
 
-1459074940 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_packing.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_packing.hpp
 	"type_vec2.hpp"
 	"type_vec4.hpp"
 	"func_packing.inl"
 
-1459074941 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_packing.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_packing.inl
 	"func_common.hpp"
 	"type_half.hpp"
 	"../fwd.hpp"
 
-1459074961 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_half.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_half.hpp
 	"setup.hpp"
 	"type_half.inl"
 
-1459074962 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_half.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/type_half.inl
 
-1459075005 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/geometric.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/geometric.hpp
 	"detail/func_geometric.hpp"
 
-1459074935 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_geometric.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_geometric.hpp
 	"type_vec3.hpp"
 	"func_geometric.inl"
 
-1459074935 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_geometric.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_geometric.inl
 	"func_exponential.hpp"
 	"func_common.hpp"
 	"type_vec2.hpp"
 	"type_vec4.hpp"
 	"type_float.hpp"
 
-1459075150 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/matrix.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/matrix.hpp
 	"detail/func_matrix.hpp"
 
-1459074939 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_matrix.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_matrix.hpp
 	"../detail/precision.hpp"
 	"../detail/setup.hpp"
 	"../detail/type_mat.hpp"
@@ -1482,24 +1482,24 @@
 	"../mat4x4.hpp"
 	"func_matrix.inl"
 
-1459074939 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_matrix.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_matrix.inl
 	"../geometric.hpp"
 	<limits>
 
-1459075153 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/vector_relational.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/vector_relational.hpp
 	"detail/func_vector_relational.hpp"
 
-1459075141 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/integer.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/integer.hpp
 	"detail/func_integer.hpp"
 
-1459074936 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_integer.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_integer.hpp
 	"setup.hpp"
 	"precision.hpp"
 	"func_common.hpp"
 	"func_vector_relational.hpp"
 	"func_integer.inl"
 
-1459074937 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_integer.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/detail/func_integer.inl
 	"type_vec2.hpp"
 	"type_vec3.hpp"
 	"type_vec4.hpp"
@@ -1508,7 +1508,7 @@
 	<intrin.h>
 	<limits>
 
-1459075019 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtc/matrix_transform.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtc/matrix_transform.hpp
 	"../mat4x4.hpp"
 	"../vec2.hpp"
 	"../vec3.hpp"
@@ -1516,19 +1516,19 @@
 	"../gtc/constants.hpp"
 	"matrix_transform.inl"
 
-1459075010 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtc/constants.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtc/constants.hpp
 	"../detail/setup.hpp"
 	"constants.inl"
 
-1459075011 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtc/constants.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtc/constants.inl
 	<limits>
 
-1459075020 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtc/matrix_transform.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtc/matrix_transform.inl
 	"../geometric.hpp"
 	"../trigonometric.hpp"
 	"../matrix.hpp"
 
-1459075024 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtc/quaternion.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtc/quaternion.hpp
 	"../mat3x3.hpp"
 	"../mat4x4.hpp"
 	"../vec3.hpp"
@@ -1536,104 +1536,103 @@
 	"../gtc/constants.hpp"
 	"quaternion.inl"
 
-1459075025 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtc/quaternion.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtc/quaternion.inl
 	"../trigonometric.hpp"
 	"../geometric.hpp"
 	"../exponential.hpp"
 	<limits>
 
-1459075104 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtx/quaternion.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtx/quaternion.hpp
 	"../glm.hpp"
 	"../gtc/constants.hpp"
 	"../gtc/quaternion.hpp"
 	"../gtx/norm.hpp"
 	"quaternion.inl"
 
-1459075088 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtx/norm.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtx/norm.hpp
 	"../glm.hpp"
 	"../gtx/quaternion.hpp"
 	"norm.inl"
 
-1459075089 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtx/norm.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtx/norm.inl
 
-1459075105 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtx/quaternion.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/glm/gtx/quaternion.inl
 	<limits>
 	"../gtc/constants.hpp"
 
-1497566571 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.cpp
-	"World.h"
+1499696482 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.cpp
 	<stack>
 
-1497567667 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.h
+1499696256 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/World.h
 	"../common.h"
 	"BaseActor.h"
 	"../render/Camera.h"
 	"SpotLight.h"
 	"DirectionalLight.h"
 
-1497883935 /home/antonino/Scrivania/vulkan_engine/src/render/Camera.h
+1499696324 /home/antonino/Scrivania/vulkan_engine/src/render/Camera.h
 	"../common.h"
 	<glm/gtc/matrix_transform.hpp>
 	"../ActorSYS/BaseActor.h"
 
-1478798582 source:/home/antonino/Scrivania/vulkan_engine/src/Base.cpp
+1499696501 source:/home/antonino/Scrivania/vulkan_engine/src/Base.cpp
 	"Base.h"
 
-1478798582 /home/antonino/Scrivania/vulkan_engine/src/Base.h
+1499696530 /home/antonino/Scrivania/vulkan_engine/src/Base.h
 	"common.h"
 
-1492005699 source:/home/antonino/Scrivania/vulkan_engine/src/engine_settings.cpp
+1499696582 source:/home/antonino/Scrivania/vulkan_engine/src/engine_settings.cpp
 	"engine_settings.h"
 
-1492005699 /home/antonino/Scrivania/vulkan_engine/src/engine_settings.h
+1499696640 /home/antonino/Scrivania/vulkan_engine/src/engine_settings.h
 	"common.h"
 	"settings.h"
 
-1494429874 /home/antonino/Scrivania/vulkan_engine/src/settings.h
+1499696640 /home/antonino/Scrivania/vulkan_engine/src/settings.h
 	"common.h"
 
-1478208986 source:/home/antonino/Scrivania/vulkan_engine/src/Game.cpp
+1499696743 source:/home/antonino/Scrivania/vulkan_engine/src/Game.cpp
 	"Game.h"
 
-1497567680 /home/antonino/Scrivania/vulkan_engine/src/Game.h
+1499696782 /home/antonino/Scrivania/vulkan_engine/src/Game.h
 	"../common.h"
 	"render/Camera.h"
 	"game/GameMain.h"
 
-1478210846 /home/antonino/Scrivania/vulkan_engine/src/game/GameMain.h
+1499696812 /home/antonino/Scrivania/vulkan_engine/src/game/GameMain.h
 	"../common.h"
 
-1477052719 source:/home/antonino/Scrivania/vulkan_engine/src/game/GameMain.cpp
+1499696879 source:/home/antonino/Scrivania/vulkan_engine/src/game/GameMain.cpp
 	"GameMain.h"
 
-1494878333 source:/home/antonino/Scrivania/vulkan_engine/src/InputSYS/engineIn.cpp
+1499696879 source:/home/antonino/Scrivania/vulkan_engine/src/InputSYS/engineIn.cpp
 	"engineIn.h"
 
-1494877080 /home/antonino/Scrivania/vulkan_engine/src/InputSYS/engineIn.h
+1499696916 /home/antonino/Scrivania/vulkan_engine/src/InputSYS/engineIn.h
 	"../common.h"
 
-1491505055 source:/home/antonino/Scrivania/vulkan_engine/src/logger.cpp
+1499696969 source:/home/antonino/Scrivania/vulkan_engine/src/logger.cpp
 	"logger.h"
 
-1491504395 /home/antonino/Scrivania/vulkan_engine/src/logger.h
+1499696712 /home/antonino/Scrivania/vulkan_engine/src/logger.h
 	"common.h"
 
-1481238740 source:/home/antonino/Scrivania/vulkan_engine/src/Loop.cpp
+1499697009 source:/home/antonino/Scrivania/vulkan_engine/src/Loop.cpp
 	"Loop.h"
 
-1481239034 /home/antonino/Scrivania/vulkan_engine/src/Loop.h
+1499697054 /home/antonino/Scrivania/vulkan_engine/src/Loop.h
 	"common.h"
 	"Ptr.h"
 	"Task.h"
 
-1488320655 /home/antonino/Scrivania/vulkan_engine/src/Ptr.h
+1499697054 /home/antonino/Scrivania/vulkan_engine/src/Ptr.h
 	"common.h"
 	"Base.h"
 
-1480519132 /home/antonino/Scrivania/vulkan_engine/src/Task.h
+1499697065 /home/antonino/Scrivania/vulkan_engine/src/Task.h
 	"Base.h"
 
-1497562492 source:/home/antonino/Scrivania/vulkan_engine/src/main.cpp
+1499697114 source:/home/antonino/Scrivania/vulkan_engine/src/main.cpp
 	<vulkan/vulkan.h>
 	"Ptr.h"
 	"Base.h"
@@ -1652,73 +1651,73 @@
 	"ActorSYS/World.h"
 	"ActorSYS/DummyActor.h"
 
-1479243972 /home/antonino/Scrivania/vulkan_engine/src/Function.h
+1499697169 /home/antonino/Scrivania/vulkan_engine/src/Function.h
 	"common.h"
 	"Base.h"
 
-1492023590 /home/antonino/Scrivania/vulkan_engine/src/vk/vkInstance.h
+1499697169 /home/antonino/Scrivania/vulkan_engine/src/vk/vkInstance.h
 	"../common.h"
 	"vkDeleter.hpp"
 
-1492017201 /home/antonino/Scrivania/vulkan_engine/src/vk/vkDeleter.hpp
+1499697198 /home/antonino/Scrivania/vulkan_engine/src/vk/vkDeleter.hpp
 	<../common.h>
 
-1492020308 /home/antonino/Scrivania/vulkan_engine/src/vk/vkSurface.h
+1499697221 /home/antonino/Scrivania/vulkan_engine/src/vk/vkSurface.h
 	"../common.h"
 	"vkDeleter.hpp"
 	"vkInstance.h"
 
-1492023903 /home/antonino/Scrivania/vulkan_engine/src/vk/vkPhysicalDevice.h
+1499697236 /home/antonino/Scrivania/vulkan_engine/src/vk/vkPhysicalDevice.h
 	"../common.h"
 	"vkDeleter.hpp"
 	"vkInstance.h"
 	"vkQueueFamilies.h"
 	"vkSurface.h"
 
-1493386791 /home/antonino/Scrivania/vulkan_engine/src/vk/vkQueueFamilies.h
+1499697256 /home/antonino/Scrivania/vulkan_engine/src/vk/vkQueueFamilies.h
 
-1493321666 /home/antonino/Scrivania/vulkan_engine/src/vk/vkDevice.h
+1499697281 /home/antonino/Scrivania/vulkan_engine/src/vk/vkDevice.h
 	"../common.h"
 	"vkDeleter.hpp"
 	"vkPhysicalDevice.h"
 	"vkQueues.h"
 
-1493393453 /home/antonino/Scrivania/vulkan_engine/src/vk/vkQueues.h
+1499697438 /home/antonino/Scrivania/vulkan_engine/src/vk/vkQueues.h
 	"../common.h"
 	"vkGraphicsQueue.h"
 	"vkPresentQueue.h"
 	"vkTransferQueue.h"
 
-1491248560 /home/antonino/Scrivania/vulkan_engine/src/vk/vkGraphicsQueue.h
+1499697438 /home/antonino/Scrivania/vulkan_engine/src/vk/vkGraphicsQueue.h
 	"vkQueue.h"
 
-1491248160 /home/antonino/Scrivania/vulkan_engine/src/vk/vkQueue.h
+1499697438 /home/antonino/Scrivania/vulkan_engine/src/vk/vkQueue.h
 	"../common.h"
 	"vkDeleter.hpp"
 
-1491248560 /home/antonino/Scrivania/vulkan_engine/src/vk/vkPresentQueue.h
+1499697438 /home/antonino/Scrivania/vulkan_engine/src/vk/vkPresentQueue.h
 	"vkQueue.h"
 
-1493393617 /home/antonino/Scrivania/vulkan_engine/src/vk/vkTransferQueue.h
+1499697489 /home/antonino/Scrivania/vulkan_engine/src/vk/vkTransferQueue.h
 	"vkQueue.h"
 
-1495225477 /home/antonino/Scrivania/vulkan_engine/src/vk/vkSwapChain.h
+1499697489 /home/antonino/Scrivania/vulkan_engine/src/vk/vkSwapChain.h
 	"../common.h"
 	"vkDeleter.hpp"
 	"vkDevice.h"
 	"vkSurfaceInfo.h"
 	"vkSurface.h"
 
-1492024249 /home/antonino/Scrivania/vulkan_engine/src/vk/vkSurfaceInfo.h
+1499697489 /home/antonino/Scrivania/vulkan_engine/src/vk/vkSurfaceInfo.h
 	"../common.h"
 	"vkDeleter.hpp"
 	"vkSurface.h"
 
-1498066835 /home/antonino/Scrivania/vulkan_engine/src/vk/vkShaderModule.h
+1499697489 /home/antonino/Scrivania/vulkan_engine/src/vk/vkShaderModule.h
 	"../common.h"
 	"vkDevice.h"
 
-1497812564 /home/antonino/Scrivania/vulkan_engine/src/render/StaticMesh.h
+1499697507 /home/antonino/Scrivania/vulkan_engine/src/render/StaticMesh.h
 	"../common.h"
 	"vk/vkUtils.h"
 	"vk/vkDeleter.hpp"
@@ -1728,16 +1727,16 @@
 	<assimp/scene.h>
 	<assimp/postprocess.h>
 
-1494430105 /home/antonino/Scrivania/vulkan_engine/src/vk/vkUtils.h
+1499697489 /home/antonino/Scrivania/vulkan_engine/src/vk/vkUtils.h
 	"../common.h"
 	"vkPhysicalDevice.h"
 	"vkDevice.h"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/Importer.hpp
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/Importer.hpp
 	"types.h"
 	"config.h"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/types.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/types.h
 	<sys/types.h>
 	<math.h>
 	<stddef.h>
@@ -1762,62 +1761,62 @@
 	"matrix3x3.inl"
 	"matrix4x4.inl"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/defs.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/defs.h
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/vector3.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/vector3.h
 	<cmath>
 	<math.h>
 	"./Compiler/pushpack1.h"
 	"./Compiler/poppack1.h"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/Compiler/pushpack1.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/Compiler/pushpack1.h
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/Compiler/poppack1.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/Compiler/poppack1.h
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/vector2.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/vector2.h
 	<cmath>
 	<math.h>
 	"./Compiler/pushpack1.h"
 	"./Compiler/poppack1.h"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/color4.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/color4.h
 	"./Compiler/pushpack1.h"
 	"./Compiler/poppack1.h"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/matrix3x3.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/matrix3x3.h
 	"./Compiler/pushpack1.h"
 	"./Compiler/poppack1.h"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/matrix4x4.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/matrix4x4.h
 	"vector3.h"
 	"./Compiler/pushpack1.h"
 	"./Compiler/poppack1.h"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/quaternion.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/quaternion.h
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/vector2.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/vector2.inl
 	"vector2.h"
 	<cmath>
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/vector3.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/vector3.inl
 	"vector3.h"
 	<cmath>
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/color4.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/color4.inl
 	"color4.h"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/quaternion.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/quaternion.inl
 	"quaternion.h"
 	<cmath>
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/matrix3x3.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/matrix3x3.inl
 	"matrix3x3.h"
 	"matrix4x4.h"
 	<algorithm>
 	<cmath>
 	<limits>
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/matrix4x4.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/matrix4x4.inl
 	"matrix4x4.h"
 	"matrix3x3.h"
 	"quaternion.h"
@@ -1825,9 +1824,9 @@
 	<limits>
 	<cmath>
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/config.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/config.h
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/scene.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/scene.h
 	"types.h"
 	"texture.h"
 	"mesh.h"
@@ -1837,40 +1836,40 @@
 	"anim.h"
 	"metadata.h"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/texture.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/texture.h
 	"types.h"
 	"./Compiler/pushpack1.h"
 	"./Compiler/poppack1.h"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/mesh.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/mesh.h
 	"types.h"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/light.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/light.h
 	"types.h"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/camera.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/camera.h
 	"types.h"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/material.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/material.h
 	"types.h"
 	"./Compiler/pushpack1.h"
 	"./Compiler/poppack1.h"
 	"material.inl"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/material.inl
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/material.inl
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/anim.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/anim.h
 	"types.h"
 	"quaternion.h"
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/metadata.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/metadata.h
 	<assert.h>
 	"Compiler/pstdint.h"
 	<limits.h>
 	<stdint.h>
 	<string>
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/Compiler/pstdint.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/Compiler/pstdint.h
 	<stddef.h>
 	<limits.h>
 	<signal.h>
@@ -1881,96 +1880,96 @@
 	<stdio.h>
 	<string.h>
 
-1467966590 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/postprocess.h
+1498067465 /home/antonino/Scrivania/vulkan_engine/3dparty/include/assimp/postprocess.h
 	"types.h"
 
-1481902064 source:/home/antonino/Scrivania/vulkan_engine/src/Profiler.cpp
+1499697835 source:/home/antonino/Scrivania/vulkan_engine/src/Profiler.cpp
 	"Profiler.h"
 
-1479080280 /home/antonino/Scrivania/vulkan_engine/src/Profiler.h
+1499698002 /home/antonino/Scrivania/vulkan_engine/src/Profiler.h
 	"common.h"
 
-1478780493 source:/home/antonino/Scrivania/vulkan_engine/src/Ptr.cpp
+1499697835 source:/home/antonino/Scrivania/vulkan_engine/src/Ptr.cpp
 	"Ptr.h"
 	"Base.h"
 
-1497883935 source:/home/antonino/Scrivania/vulkan_engine/src/render/Camera.cpp
+1499697734 source:/home/antonino/Scrivania/vulkan_engine/src/render/Camera.cpp
 	"Camera.h"
 
-1498067158 source:/home/antonino/Scrivania/vulkan_engine/src/render/Material.cpp
+1499697734 source:/home/antonino/Scrivania/vulkan_engine/src/render/Material.cpp
 	"Material.h"
 
-1498067177 /home/antonino/Scrivania/vulkan_engine/src/render/Material.h
-	"../vk/vkShaderModule.h"
+1499697924 /home/antonino/Scrivania/vulkan_engine/src/render/Material.h
+	"../vk/vkMain.h"
 
-1492535932 source:/home/antonino/Scrivania/vulkan_engine/src/render/scene.cpp
+1499697734 source:/home/antonino/Scrivania/vulkan_engine/src/render/scene.cpp
 	"scene.h"
 
-1492535931 /home/antonino/Scrivania/vulkan_engine/src/render/scene.h
+1499697958 /home/antonino/Scrivania/vulkan_engine/src/render/scene.h
 
-1493583974 source:/home/antonino/Scrivania/vulkan_engine/src/render/StaticMesh.cpp
+1499697734 source:/home/antonino/Scrivania/vulkan_engine/src/render/StaticMesh.cpp
 	"StaticMesh.h"
 
-1491763300 source:/home/antonino/Scrivania/vulkan_engine/src/settings.cpp
+1499697835 source:/home/antonino/Scrivania/vulkan_engine/src/settings.cpp
 	"settings.h"
 
-1493393565 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkDevice.cpp
+1499697347 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkDevice.cpp
 	"vkDevice.h"
 
-1491502133 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkGraphicsQueue.cpp
+1499697678 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkGraphicsQueue.cpp
 	"vkGraphicsQueue.h"
 
-1494443463 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkInstance.cpp
+1499697678 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkInstance.cpp
 	"vkInstance.h"
 
-1493386819 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkPhysicalDevice.cpp
+1499697679 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkPhysicalDevice.cpp
 	"vkPhysicalDevice.h"
 	"vkSurfaceInfo.h"
 
-1486753439 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkPresentQueue.cpp
+1499697679 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkPresentQueue.cpp
 	"vkPresentQueue.h"
 
-1491246809 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkQueue.cpp
+1499697679 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkQueue.cpp
 	"vkQueue.h"
 
-1491147196 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkQueueFamilies.cpp
+1499697679 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkQueueFamilies.cpp
 	"vkQueueFamilies.h"
 
-1491247753 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkQueues.cpp
+1499697679 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkQueues.cpp
 	"vkQueues.h"
 
-1497995093 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkShaderModule.cpp
+1499697679 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkShaderModule.cpp
 	"vkShaderModule.h"
 
-1492020914 source:/home/antonino/Scrivania/vulkan_engine/src/vk/VkSurface.cpp
+1499697679 source:/home/antonino/Scrivania/vulkan_engine/src/vk/VkSurface.cpp
 	"vkSurface.h"
 	"../settings.h"
 
-1495313133 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkSwapChain.cpp
+1499697679 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkSwapChain.cpp
 	"vkSwapChain.h"
 	"vkExceptions.h"
 
-1492009509 /home/antonino/Scrivania/vulkan_engine/src/vk/vkExceptions.h
+1499697438 /home/antonino/Scrivania/vulkan_engine/src/vk/vkExceptions.h
 	"../common.h"
 	<exception>
 
-1493393399 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkTransferQueue.cpp
+1499697679 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkTransferQueue.cpp
 	"vkTransferQueue.h"
 
-1493574047 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkUtils.cpp
+1499697679 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkUtils.cpp
 	"vkUtils.h"
 
-1494878321 source:/home/antonino/Scrivania/vulkan_engine/src/EngineMain.cpp
+1499696640 source:/home/antonino/Scrivania/vulkan_engine/src/EngineMain.cpp
 	"EngineMain.h"
 
-1494878767 /home/antonino/Scrivania/vulkan_engine/src/EngineMain.h
+1499696712 /home/antonino/Scrivania/vulkan_engine/src/EngineMain.h
 	"common.h"
 	"logger.h"
 
-1495313142 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkMain.cpp
+1499697678 source:/home/antonino/Scrivania/vulkan_engine/src/vk/vkMain.cpp
 	"vkMain.h"
 
-1495299656 /home/antonino/Scrivania/vulkan_engine/src/vk/vkMain.h
+1499697438 /home/antonino/Scrivania/vulkan_engine/src/vk/vkMain.h
 	"vkInstance.h"
 	"vkSurface.h"
 	"vkPhysicalDevice.h"
@@ -1979,33 +1978,33 @@
 	"vkShaderModule.h"
 	"../common.h"
 
-1497886621 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Component.h
+1499696400 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Component.h
 	"BaseActor.h"
 
-1497567619 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Component.cpp
+1499697769 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Component.cpp
 	"Component.h"
 
-1495396591 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Transform.h
+1499696530 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Transform.h
 	"../common.h"
 	<glm/gtc/quaternion.hpp>
 	<glm/gtx/quaternion.hpp>
 
-1495395934 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Transform.cpp
+1499696462 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/Transform.cpp
 	"Transform.h"
 
-1497023266 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/DummyActor.cpp
+1499696462 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/DummyActor.cpp
 	"DummyActor.h"
 
-1497022113 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/DummyActor.h
+1499696462 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/DummyActor.h
 	"BaseActor.h"
 
-1497567597 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/BaseActor.h
+1499696279 /home/antonino/Scrivania/vulkan_engine/src/ActorSYS/BaseActor.h
 	"../common.h"
 	"Transform.h"
 	<glm/gtc/quaternion.hpp>
 	<glm/gtx/quaternion.hpp>
 
-1497022004 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/BaseActor.cpp
+1499696365 source:/home/antonino/Scrivania/vulkan_engine/src/ActorSYS/BaseActor.cpp
 	"BaseActor.h"
 
 1497809746 source:/home/antonino/Scrivania/vulkan_engine/src/Actor.cpp
@@ -2014,16 +2013,17 @@
 1497809773 /home/antonino/Scrivania/vulkan_engine/src/Actor.h
 	"World.h"
 
-1497886141 source:/home/antonino/Scrivania/vulkan_engine/src/render/PointLightComponent.cpp
+1499697734 source:/home/antonino/Scrivania/vulkan_engine/src/render/PointLightComponent.cpp
 	"PointLightComponent.h"
 
-1497886141 /home/antonino/Scrivania/vulkan_engine/src/render/PointLightComponent.h
+1499697958 /home/antonino/Scrivania/vulkan_engine/src/render/PointLightComponent.h
 
-1498066401 source:/home/antonino/Scrivania/vulkan_engine/src/render/render.cpp
+1499697734 source:/home/antonino/Scrivania/vulkan_engine/src/render/render.cpp
 	"render.h"
 
-1498066700 /home/antonino/Scrivania/vulkan_engine/src/render/render.h
+1499697958 /home/antonino/Scrivania/vulkan_engine/src/render/render.h
 	"../common.h"
+	"../vk/vkMain.h"
 	"ModelComponent.h"
 	"../ActorSYS/Actor.h"
 
@@ -2034,10 +2034,11 @@
 	"../ActorSYS/Component.h"
 	"StaticMesh.h"
 
-1498065462 source:/home/antonino/Scrivania/vulkan_engine/src/render/ModelComponent.cpp
+1499697734 source:/home/antonino/Scrivania/vulkan_engine/src/render/ModelComponent.cpp
 	"ModelComponent.h"
 
-1498065323 /home/antonino/Scrivania/vulkan_engine/src/render/ModelComponent.h
+1499697958 /home/antonino/Scrivania/vulkan_engine/src/render/ModelComponent.h
 	"../ActorSYS/Component.h"
 	"StaticMesh.h"
+	"Material.h"
 
