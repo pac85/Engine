@@ -19,6 +19,8 @@
 
 */
 /**************************************************************************/
+//I want to give credit to vulkan-tutorial.com which originally written the code of this file,
+//however it as been scrapped by it's original author so you won't find it in his website anymore
 #ifndef VK_DELETER_H_INCLUDED
 #define VK_DELETER_H_INCLUDED
 #include <../common.h>
